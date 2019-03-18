@@ -1,0 +1,19 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	security-protocol.com. admin.security-protocol.com. (
+			      5		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+; name servers
+	IN	NS	ns01.security-protocol.com.
+	IN	NS	ns02.security-protocol.com.
+
+; PTR records
+36.98	IN	PTR	ns01.security-protocol.com. 	; 172.31.36.98
+36.98	IN	PTR	ns02.security-protocol.com.	; 172.31.36.98
+0.2	IN	PTR	host.security-protocol.com.	; 172.31.0.2

@@ -1,0 +1,5 @@
+invalid-signature.security-protocol.com
+missing-signature.security-protocol.com
+different-cert.security-protocol.com
+no-cert-starttls.security-protocol.com
+dane-diff-usage.security-protocol.com

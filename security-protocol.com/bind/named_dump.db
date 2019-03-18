@@ -1,0 +1,149 @@
+;
+; Start view _default
+;
+;
+; Cache dump of view '_default' (cache _default)
+;
+$DATE 20190224054246
+; secure
+.			66703	IN NS	a.root-servers.net.
+			66703	IN NS	b.root-servers.net.
+			66703	IN NS	c.root-servers.net.
+			66703	IN NS	d.root-servers.net.
+			66703	IN NS	e.root-servers.net.
+			66703	IN NS	f.root-servers.net.
+			66703	IN NS	g.root-servers.net.
+			66703	IN NS	h.root-servers.net.
+			66703	IN NS	i.root-servers.net.
+			66703	IN NS	j.root-servers.net.
+			66703	IN NS	k.root-servers.net.
+			66703	IN NS	l.root-servers.net.
+			66703	IN NS	m.root-servers.net.
+; secure
+			66703	RRSIG	NS 8 0 518400 (
+					20190306190000 20190221180000 16749 .
+					gKVEm9q+rOziudKwvQyhGJuw93Srx3lC7c4a
+					p9Swq9pXz0/Wcee8HS4n+t9s/q7Il0Wwjpie
+					R4MevEtDz3jmOY98hlcZ9myg28XLKYMw/ofs
+					yqCzRm/JdVU+sdX9NZRFDC3sV3tDUb+mQwn+
+					/0EUNOAjWcegy+YKcIvam++3hV+O8d34RBf2
+					KsKBNEG6Gg7Qb86aqc7VsnD2aE+c/tf0eTw5
+					HC/UBmXMRQfKRHaIvtSa2xnrvgwhXI4ieqCZ
+					v4f7vr/hXZFzurdGQwV/ksxUv/s7ttWFNuwd
+					co0g5fa/x2ENvIdp25/ozIkKZsy9gp0XFTdp
+					XcNxtxaZGNCMSPaTyA== )
+; secure
+			152875	DNSKEY	256 3 8 (
+					AwEAAcH+axCdUOsTc9o+jmyVq5rsGTh1Ecat
+					SumPqEfsPBT+whyj0/UhD7cWeixV9Wqzj/cn
+					qs8iWELqhdzGX41ZtaNQUfWNfOriASnWmX2D
+					9m/EunplHu8nMSlDnDcT7+llE9tjk5HI1Sr7
+					d9N16ZTIrbVALf65VB2ABbBG39dyAb7tz21P
+					ICJbSp2cd77UF7NFqEVkqohl/LkDw+7Apalm
+					p0qAQT1Mgwi2cVxZMKUiciA6EqS+KNajf0A6
+					olO2oEhZnGGY6b1LTg34/YfHdiIIZQqAfqbi
+					eruCGHRiSscC2ZE7iNreL/76f4JyIEUNkt6b
+					QA29JsegxorLzQkpF7NKqZc=
+					) ; ZSK; alg = RSASHA256 ; key id = 16749
+			152875	DNSKEY	257 3 8 (
+					AwEAAaz/tAm8yTn4Mfeh5eyI96WSVexTBAvk
+					MgJzkKTOiW1vkIbzxeF3+/4RgWOq7HrxRixH
+					lFlExOLAJr5emLvN7SWXgnLh4+B5xQlNVz8O
+					g8kvArMtNROxVQuCaSnIDdD5LKyWbRd2n9WG
+					e2R8PzgCmr3EgVLrjyBxWezF0jLHwVN8efS3
+					rCj/EWgvIWgb9tarpVUDK/b58Da+sqqls3eN
+					buv7pr+eoZG+SrDK6nWeL3c6H5Apxz7LjVc1
+					uTIdsIXxuOLYA4/ilBmSVIzuDWfdRUfhHdY6
+					+cn8HFRm+2hM8AnXGXws9555KrUB5qihylGa
+					8subX2Nn6UwNR1AkUTV74bU=
+					) ; KSK; alg = RSASHA256 ; key id = 20326
+			152875	DNSKEY	385 3 8 (
+					AwEAAagAIKlVZrpC6Ia7gEzahOR+9W29euxh
+					JhVVLOyQbSEW0O8gcCjFFVQUTf6v58fLjwBd
+					0YI0EzrAcQqBGCzh/RStIoO8g0NfnfL2MTJR
+					kxoXbfDaUeVPQuYEhg37NZWAJQ9VnMVDxP/V
+					HL496M/QZxkjf5/Efucp2gaDX6RS6CXpoY68
+					LsvPVjR0ZSwzz1apAzvN9dlzEheX7ICJBBtu
+					A6G3LQpzW5hOA2hzCTMjJPJ8LbqF6dsV6DoB
+					Qzgul0sGIcGOYl7OyQdXfZ57relSQageu+ip
+					AdTTJ25AsRTAoub8ONGcLmqrAmRLKBP1dfwh
+					YB4N7knNnulqQxA+Uk1ihz0=
+					) ; revoked KSK; alg = RSASHA256 ; key id = 19164
+; secure
+			152875	RRSIG	DNSKEY 8 0 172800 (
+					20190313000000 20190220000000 19164 .
+					eyvOQiC637051ggBwNwq0Kle0vatTO4Hrfxg
+					LlRcVDWGZeYVoDRGkqPiCyC1K1HvUrRQHB8v
+					bXfdhrVfXJpjh9e1+Uf403++n6J94wMi2UlA
+					mUkNwo6ROE9JcT4QFpQrUj1TPqY9DpdRrRUY
+					gAPl/PNCvKwIvbwSt4I070PLGGPeumOIPCeZ
+					r7YMt8ewiCS3uwOUJB6bk8qUo4tQeL5pkPpm
+					Fgozw2v7JT/8nTZfbu6T0+9GmqRDxvizFVZ8
+					lQRKZZif+Ilyb+Lz7j2XHiI0JszLEQ5vQKLK
+					EtBtyHwcL7ZPgbN/mpN9ik8h/Jx0H1hjhaS+
+					jSCBBulq+hde8GFH0A== )
+			152875	RRSIG	DNSKEY 8 0 172800 (
+					20190313000000 20190220000000 20326 .
+					bKvs4iBtsS7x4UItBsNxJnGzKUowmON76AJt
+					6DQlUjcDXdmNUGW0DNfwz91UCnfonlNeG09m
+					CbRFzhfrgNiE2Niu0Qxh+EcygOjuy1uObcPg
+					FBUsKp201u0WFQwrUl4O0NQfPY5Fa01e44v1
+					u+L/yj2WK4gW2BKfW+5d9GIJhWRAPYWphOiG
+					0+G1MUlWQ45cS07wu2X90+UDREw0prI0c4yJ
+					9OiI6OnSvUvDhoyIgf5oHHYPieU7qu/aaiY8
+					MdyJgfIelmFA65VzLDsTAHGoaagxJEolJehW
+					SJl6AhY0mIs6lF2WXVCtEQbdLocsuCXln3w/
+					n8jO2oJBotQ7S6E4bQ== )
+;
+; Address database dump
+;
+; [edns success/4096 timeout/1432 timeout/1232 timeout/512 timeout]
+; [plain success/timeout]
+;
+;
+; Unassociated entries
+;
+;	193.0.14.129 [srtt 14] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1794]
+;	8.8.8.8 [srtt 13260] [flags 00004000] [edns 2/0/0/0/0] [plain 0/0] [udpsize 512] [ttl 1794]
+;	199.7.83.42 [srtt 7] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1794]
+;	192.203.230.10 [srtt 28] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1794]
+;	192.228.79.201 [srtt 18] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1794]
+;	192.58.128.30 [srtt 19] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1794]
+;	192.36.148.17 [srtt 0] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1794]
+;	198.97.190.53 [srtt 19] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1794]
+;	198.41.0.4 [srtt 16] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1794]
+;	192.33.4.12 [srtt 0] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1794]
+;	192.112.36.4 [srtt 16] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1794]
+;	202.12.27.33 [srtt 8] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1794]
+;	192.5.5.241 [srtt 2] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1794]
+;	8.8.4.4 [srtt 14] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1794]
+;	199.7.91.13 [srtt 26] [flags 00000000] [edns 0/0/0/0/0] [plain 0/0] [ttl 1794]
+;
+; Bad cache
+;
+;
+; SERVFAIL cache
+;
+;
+; Start view _bind
+;
+;
+; Cache dump of view '_bind' (cache _bind)
+;
+$DATE 20190224054246
+;
+; Address database dump
+;
+; [edns success/4096 timeout/1432 timeout/1232 timeout/512 timeout]
+; [plain success/timeout]
+;
+;
+; Unassociated entries
+;
+;
+; Bad cache
+;
+;
+; SERVFAIL cache
+;
+; Dump complete

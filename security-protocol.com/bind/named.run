@@ -1,0 +1,2060 @@
+19-Feb-2019 15:11:34.318 debug level is now 1
+19-Feb-2019 15:11:37.535 client @0x7fd5c00a9fb0 172.31.36.98#51379 (security-protocol.com): query: security-protocol.com IN A + (172.31.36.98)
+19-Feb-2019 15:11:37.536 client @0x7fd5c00a9fb0 172.31.36.98#51379 (security-protocol.com): query: security-protocol.com IN AAAA + (172.31.36.98)
+19-Feb-2019 15:11:37.543 received control channel command 'trace 10'
+19-Feb-2019 15:11:37.543 debug level is now 10
+19-Feb-2019 15:11:43.077 client @0x7fd5c00a9fb0 172.31.36.98#50705: UDP request
+19-Feb-2019 15:11:43.077 client @0x7fd5c00a9fb0 172.31.36.98#50705: using view '_default'
+19-Feb-2019 15:11:43.077 client @0x7fd5c00a9fb0 172.31.36.98#50705: request is not signed
+19-Feb-2019 15:11:43.077 client @0x7fd5c00a9fb0 172.31.36.98#50705: recursion available
+19-Feb-2019 15:11:43.077 client @0x7fd5c00a9fb0 172.31.36.98#50705: query
+19-Feb-2019 15:11:43.077 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): query: security-protocol.com IN A + (172.31.36.98)
+19-Feb-2019 15:11:43.077 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): ns_client_attach: ref = 1
+19-Feb-2019 15:11:43.077 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): query 'security-protocol.com/A/IN' approved
+19-Feb-2019 15:11:43.077 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): send
+19-Feb-2019 15:11:43.077 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): sendto
+19-Feb-2019 15:11:43.077 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): senddone
+19-Feb-2019 15:11:43.077 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): next
+19-Feb-2019 15:11:43.077 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): ns_client_detach: ref = 0
+19-Feb-2019 15:11:43.077 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): endrequest
+19-Feb-2019 15:11:43.077 client @0x7fd5c00a9fb0 (no-peer): udprecv
+19-Feb-2019 15:11:43.078 client @0x7fd5c00a9fb0 172.31.36.98#50705: UDP request
+19-Feb-2019 15:11:43.078 client @0x7fd5c00a9fb0 172.31.36.98#50705: using view '_default'
+19-Feb-2019 15:11:43.078 client @0x7fd5c00a9fb0 172.31.36.98#50705: request is not signed
+19-Feb-2019 15:11:43.078 client @0x7fd5c00a9fb0 172.31.36.98#50705: recursion available
+19-Feb-2019 15:11:43.078 client @0x7fd5c00a9fb0 172.31.36.98#50705: query
+19-Feb-2019 15:11:43.078 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): query: security-protocol.com IN AAAA + (172.31.36.98)
+19-Feb-2019 15:11:43.078 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): ns_client_attach: ref = 1
+19-Feb-2019 15:11:43.078 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): query 'security-protocol.com/AAAA/IN' approved
+19-Feb-2019 15:11:43.078 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): send
+19-Feb-2019 15:11:43.078 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): sendto
+19-Feb-2019 15:11:43.078 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): senddone
+19-Feb-2019 15:11:43.078 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): next
+19-Feb-2019 15:11:43.078 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): ns_client_detach: ref = 0
+19-Feb-2019 15:11:43.078 client @0x7fd5c00a9fb0 172.31.36.98#50705 (security-protocol.com): endrequest
+19-Feb-2019 15:11:43.078 client @0x7fd5c00a9fb0 (no-peer): udprecv
+19-Feb-2019 15:11:43.085 received control channel command 'trace 5'
+19-Feb-2019 15:11:43.085 debug level is now 5
+19-Feb-2019 15:13:13.176 client @0x7fd5c00a9fb0 172.31.36.98#34058: UDP request
+19-Feb-2019 15:13:13.176 client @0x7fd5c00a9fb0 172.31.36.98#34058: using view '_default'
+19-Feb-2019 15:13:13.176 client @0x7fd5c00a9fb0 172.31.36.98#34058: request is not signed
+19-Feb-2019 15:13:13.176 client @0x7fd5c00a9fb0 172.31.36.98#34058: recursion available
+19-Feb-2019 15:13:13.176 client @0x7fd5c00a9fb0 172.31.36.98#34058: query
+19-Feb-2019 15:13:13.176 client @0x7fd5c00a9fb0 172.31.36.98#34058 (security-protocol.com): query: security-protocol.com IN A + (172.31.36.98)
+19-Feb-2019 15:13:13.176 client @0x7fd5c00a9fb0 172.31.36.98#34058 (security-protocol.com): query 'security-protocol.com/A/IN' approved
+19-Feb-2019 15:13:13.176 client @0x7fd5c00a9fb0 172.31.36.98#34058 (security-protocol.com): send
+19-Feb-2019 15:13:13.176 client @0x7fd5c00a9fb0 172.31.36.98#34058 (security-protocol.com): sendto
+19-Feb-2019 15:13:13.176 client @0x7fd5c00a9fb0 172.31.36.98#34058 (security-protocol.com): senddone
+19-Feb-2019 15:13:13.176 client @0x7fd5c00a9fb0 172.31.36.98#34058 (security-protocol.com): next
+19-Feb-2019 15:13:13.176 client @0x7fd5c00a9fb0 172.31.36.98#34058 (security-protocol.com): endrequest
+19-Feb-2019 15:13:13.176 client @0x7fd5c00a9fb0 (no-peer): udprecv
+19-Feb-2019 15:13:13.177 client @0x7fd5c00a9fb0 172.31.36.98#34058: UDP request
+19-Feb-2019 15:13:13.177 client @0x7fd5c00a9fb0 172.31.36.98#34058: using view '_default'
+19-Feb-2019 15:13:13.177 client @0x7fd5c00a9fb0 172.31.36.98#34058: request is not signed
+19-Feb-2019 15:13:13.177 client @0x7fd5c00a9fb0 172.31.36.98#34058: recursion available
+19-Feb-2019 15:13:13.177 client @0x7fd5c00a9fb0 172.31.36.98#34058: query
+19-Feb-2019 15:13:13.177 client @0x7fd5c00a9fb0 172.31.36.98#34058 (security-protocol.com): query: security-protocol.com IN AAAA + (172.31.36.98)
+19-Feb-2019 15:13:13.177 client @0x7fd5c00a9fb0 172.31.36.98#34058 (security-protocol.com): query 'security-protocol.com/AAAA/IN' approved
+19-Feb-2019 15:13:13.177 client @0x7fd5c00a9fb0 172.31.36.98#34058 (security-protocol.com): send
+19-Feb-2019 15:13:13.177 client @0x7fd5c00a9fb0 172.31.36.98#34058 (security-protocol.com): sendto
+19-Feb-2019 15:13:13.177 client @0x7fd5c00a9fb0 172.31.36.98#34058 (security-protocol.com): senddone
+19-Feb-2019 15:13:13.177 client @0x7fd5c00a9fb0 172.31.36.98#34058 (security-protocol.com): next
+19-Feb-2019 15:13:13.177 client @0x7fd5c00a9fb0 172.31.36.98#34058 (security-protocol.com): endrequest
+19-Feb-2019 15:13:13.177 client @0x7fd5c00a9fb0 (no-peer): udprecv
+19-Feb-2019 15:13:13.184 received control channel command 'reload'
+19-Feb-2019 15:13:13.184 loading configuration from '/etc/bind/named.conf'
+19-Feb-2019 15:13:13.184 reading built-in trust anchors from file '/etc/bind/bind.keys'
+19-Feb-2019 15:13:13.185 set maximum stack size to 18446744073709551615: success
+19-Feb-2019 15:13:13.185 set maximum data size to 18446744073709551615: success
+19-Feb-2019 15:13:13.185 set maximum core size to 18446744073709551615: success
+19-Feb-2019 15:13:13.185 set maximum open files to 18446744073709551615: success
+19-Feb-2019 15:13:13.185 initializing GeoIP Country (IPv4) (type 1) DB
+19-Feb-2019 15:13:13.186 GEO-106FREE 20180315 Build
+19-Feb-2019 15:13:13.186 initializing GeoIP Country (IPv6) (type 12) DB
+19-Feb-2019 15:13:13.186 GEO-106FREE 20180315 Build
+19-Feb-2019 15:13:13.187 GeoIP City (IPv4) (type 2) DB not available
+19-Feb-2019 15:13:13.187 GeoIP City (IPv4) (type 6) DB not available
+19-Feb-2019 15:13:13.187 GeoIP City (IPv6) (type 30) DB not available
+19-Feb-2019 15:13:13.187 GeoIP City (IPv6) (type 31) DB not available
+19-Feb-2019 15:13:13.187 GeoIP Region (type 3) DB not available
+19-Feb-2019 15:13:13.187 GeoIP Region (type 7) DB not available
+19-Feb-2019 15:13:13.187 GeoIP ISP (type 4) DB not available
+19-Feb-2019 15:13:13.187 GeoIP Org (type 5) DB not available
+19-Feb-2019 15:13:13.187 GeoIP AS (type 9) DB not available
+19-Feb-2019 15:13:13.187 GeoIP Domain (type 11) DB not available
+19-Feb-2019 15:13:13.187 GeoIP NetSpeed (type 10) DB not available
+19-Feb-2019 15:13:13.187 using default UDP/IPv4 port range: [32768, 60999]
+19-Feb-2019 15:13:13.188 sizing zone task pool based on 7 zones
+19-Feb-2019 15:13:13.189 zone_settimer: zone security-protocol.com/IN: enter
+19-Feb-2019 15:13:13.189 zone_settimer: zone 31.172.in-addr.arpa/IN: enter
+19-Feb-2019 15:13:13.190 zone_settimer: zone localhost/IN: enter
+19-Feb-2019 15:13:13.190 zone_settimer: zone 127.in-addr.arpa/IN: enter
+19-Feb-2019 15:13:13.190 zone_settimer: zone 0.in-addr.arpa/IN: enter
+19-Feb-2019 15:13:13.190 zone_settimer: zone 255.in-addr.arpa/IN: enter
+19-Feb-2019 15:13:13.190 none:103: 'max-cache-size 90%' - setting to 885MB (out of 983MB)
+19-Feb-2019 15:13:13.190 reusing existing cache
+19-Feb-2019 15:13:13.191 dns_requestmgr_create
+19-Feb-2019 15:13:13.191 dns_requestmgr_create: 0x7fd5ce9bf1c8
+19-Feb-2019 15:13:13.191 dns_requestmgr_whenshutdown
+19-Feb-2019 15:13:13.191 obtaining root key for view _default from '/etc/bind/bind.keys'
+19-Feb-2019 15:13:13.191 managed-keys-zone: synchronizing trusted keys
+19-Feb-2019 15:13:13.191 set_refreshkeytimer: managed-keys-zone : enter
+19-Feb-2019 15:13:13.191 managed-keys-zone: next key refresh: 19-Feb-2019 15:13:13.191
+19-Feb-2019 15:13:13.191 zone_settimer: managed-keys-zone : enter
+19-Feb-2019 15:13:13.191 automatic empty zone: 10.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.191 automatic empty zone: 16.172.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.191 automatic empty zone: 17.172.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.191 automatic empty zone: 18.172.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 19.172.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 20.172.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 21.172.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 22.172.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 23.172.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 24.172.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 25.172.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 26.172.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 27.172.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 28.172.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 29.172.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 30.172.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 168.192.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 64.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 65.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 66.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 67.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 68.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 69.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 70.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 71.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 72.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 73.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 74.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 75.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 76.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 77.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 78.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 79.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 80.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 81.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 82.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 83.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 84.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 85.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 86.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 87.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 88.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 89.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 90.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 91.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 92.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 93.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 94.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 95.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 96.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 97.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 98.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 99.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 100.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 101.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 102.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 103.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 104.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 105.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 106.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 107.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 108.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 109.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 110.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 111.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 112.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 113.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 114.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 115.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 116.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 117.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.192 automatic empty zone: 118.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 119.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 120.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 121.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 122.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 123.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 124.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 125.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 126.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 127.100.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 254.169.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: D.F.IP6.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 8.E.F.IP6.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 9.E.F.IP6.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: A.E.F.IP6.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: B.E.F.IP6.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+19-Feb-2019 15:13:13.193 automatic empty zone: EMPTY.AS112.ARPA
+19-Feb-2019 15:13:13.193 zone_settimer: zone version.bind/CH: enter
+19-Feb-2019 15:13:13.193 zone_settimer: zone hostname.bind/CH: enter
+19-Feb-2019 15:13:13.193 zone_settimer: zone authors.bind/CH: enter
+19-Feb-2019 15:13:13.193 zone_settimer: zone id.server/CH: enter
+19-Feb-2019 15:13:13.193 none:103: 'max-cache-size 90%' - setting to 885MB (out of 983MB)
+19-Feb-2019 15:13:13.193 reusing existing cache
+19-Feb-2019 15:13:13.198 dns_requestmgr_create
+19-Feb-2019 15:13:13.198 dns_requestmgr_create: 0x7fd5ce9bf380
+19-Feb-2019 15:13:13.198 dns_requestmgr_whenshutdown
+19-Feb-2019 15:13:13.199 configuring command channel from '/etc/bind/rndc.key'
+19-Feb-2019 15:13:13.199 now using logging configuration from config file
+19-Feb-2019 15:13:13.199 dns_requestmgr_shutdown: 0x7fd5ce9bf8a8
+19-Feb-2019 15:13:13.199 send_shutdown_events: 0x7fd5ce9bf8a8
+19-Feb-2019 15:13:13.199 dns_requestmgr_shutdown: 0x7fd5ce9bfa60
+19-Feb-2019 15:13:13.199 send_shutdown_events: 0x7fd5ce9bfa60
+19-Feb-2019 15:13:13.199 load_configuration: success
+19-Feb-2019 15:13:13.199 reloading configuration succeeded
+19-Feb-2019 15:13:13.199 reloading zones succeeded
+19-Feb-2019 15:13:13.204 zone_timer: managed-keys-zone : enter
+19-Feb-2019 15:13:13.204 zone_maintenance: managed-keys-zone : enter
+19-Feb-2019 15:13:13.204 zone_refreshkeys: managed-keys-zone : enter
+19-Feb-2019 15:13:13.204 managed-keys-zone: Creating key fetch in zone_refreshkeys() for '.'
+19-Feb-2019 15:13:13.204 fetch: ./DNSKEY
+19-Feb-2019 15:13:13.204 zone_settimer: managed-keys-zone : enter
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c096a480
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c096a0f0
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c096ee90
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c096aba0
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c095f480
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c095e940
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c096aa70
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c095f810
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c095fba0
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c095efc0
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c095e220
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c096f810
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c0969e90
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c096f5b0
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c095e810
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c095f220
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c096a220
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c096efc0
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c095f0f0
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c096a940
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c095e5b0
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c095f940
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c095ee90
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c096f0f0
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c0969fc0
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c096f6e0
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c095fcd0
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c096f220
+19-Feb-2019 15:13:13.204 killing name 0x7fd5c095e0f0
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c095f350
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c096f480
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c096f350
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c095e6e0
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c095ecd0
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c095f5b0
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c095e480
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c095de90
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c095fa70
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c095ea70
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c096acd0
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c095f6e0
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c095dfc0
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c096a350
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c095e350
+19-Feb-2019 15:13:13.205 killing name 0x7fd5c095eba0
+19-Feb-2019 15:13:13.205 zone EMPTY.AS112.ARPA/IN: starting load
+19-Feb-2019 15:13:13.205 zone EMPTY.AS112.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.205 zone EMPTY.AS112.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.205 zone EMPTY.AS112.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.205 zone_settimer: zone EMPTY.AS112.ARPA/IN: enter
+19-Feb-2019 15:13:13.205 zone 103.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.205 zone 103.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.205 zone 103.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.205 zone 103.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.205 zone_settimer: zone 103.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.205 zone 0.in-addr.arpa/IN: skipping load: master file older than last load
+19-Feb-2019 15:13:13.205 zone 106.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.205 zone 106.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.205 zone 106.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.205 zone 106.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.205 zone_settimer: zone 106.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.205 zone 10.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.205 zone 10.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.205 zone 10.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.205 zone 10.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.205 zone_settimer: zone 10.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.205 zone 120.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.205 zone 120.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.205 zone 120.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.205 zone 120.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.205 zone_settimer: zone 120.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.208 zone 100.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.208 zone 100.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.208 zone 100.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.208 zone 100.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.208 zone_settimer: zone 100.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.208 zone 111.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.208 zone 111.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.208 zone 111.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.208 zone 111.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.208 zone_settimer: zone 111.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.208 zone 101.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.208 zone 101.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.208 zone 101.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.208 zone 101.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.208 zone_settimer: zone 101.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.209 zone 126.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.209 zone 126.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.209 zone 126.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.209 zone 126.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.209 zone_settimer: zone 126.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.209 zone 102.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.209 zone 102.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.209 zone 102.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.209 zone 102.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.209 zone_settimer: zone 102.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.209 zone 113.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.209 zone 113.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.209 zone 113.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.209 zone 113.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.209 zone_settimer: zone 113.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.209 zone 104.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.209 zone 104.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.209 zone 104.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.209 zone 104.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.209 zone_settimer: zone 104.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.209 zone 107.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.209 zone 107.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.209 zone 107.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.209 zone 107.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.209 zone_settimer: zone 107.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.209 zone 105.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.209 zone 105.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.209 zone 105.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.209 zone 105.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.209 zone_settimer: zone 105.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.209 zone 109.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.209 zone 109.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.209 zone 109.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.209 zone 109.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.209 zone_settimer: zone 109.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.209 zone 108.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.209 zone 108.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.209 zone 108.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.209 zone 108.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.209 zone_settimer: zone 108.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.209 zone 110.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.209 zone 110.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.209 zone 110.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.209 zone 110.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.209 zone_settimer: zone 110.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.209 zone 115.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.209 zone 115.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.209 zone 115.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.209 zone 115.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.209 zone_settimer: zone 115.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.210 zone 116.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.210 zone 116.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.210 zone 116.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.210 zone 116.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.210 zone_settimer: zone 116.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.211 fetch: ./NS
+19-Feb-2019 15:13:13.211 dns_adb_createfind: found A for name a.root-servers.net (0x7fd5c10bf740) in db
+19-Feb-2019 15:13:13.211 dns_adb_createfind: found A for name b.root-servers.net (0x7fd5c10bf610) in db
+19-Feb-2019 15:13:13.211 dns_adb_createfind: found A for name c.root-servers.net (0x7fd5c10bf4e0) in db
+19-Feb-2019 15:13:13.211 dns_adb_createfind: found A for name d.root-servers.net (0x7fd5c10bf320) in db
+19-Feb-2019 15:13:13.211 dns_adb_createfind: found A for name e.root-servers.net (0x7fd5c10bf1f0) in db
+19-Feb-2019 15:13:13.211 dns_adb_createfind: found A for name f.root-servers.net (0x7fd5c10bf0c0) in db
+19-Feb-2019 15:13:13.212 dns_adb_createfind: found A for name g.root-servers.net (0x7fd5c10bef90) in db
+19-Feb-2019 15:13:13.212 dns_adb_createfind: found A for name h.root-servers.net (0x7fd5c10bee60) in db
+19-Feb-2019 15:13:13.212 dns_adb_createfind: found A for name i.root-servers.net (0x7fd5c10bed30) in db
+19-Feb-2019 15:13:13.212 dns_adb_createfind: found A for name j.root-servers.net (0x7fd5c10bec00) in db
+19-Feb-2019 15:13:13.212 dns_adb_createfind: found A for name k.root-servers.net (0x7fd5c10bead0) in db
+19-Feb-2019 15:13:13.212 dns_adb_createfind: found A for name l.root-servers.net (0x7fd5c10be9a0) in db
+19-Feb-2019 15:13:13.212 dns_adb_createfind: found A for name m.root-servers.net (0x7fd5c10be870) in db
+19-Feb-2019 15:13:13.212 dns_requestmgr_detach: 0x7fd5ce9bf8a8: eref 0 iref 0
+19-Feb-2019 15:13:13.212 mgr_destroy
+19-Feb-2019 15:13:13.212 calling free_rbtdb(.)
+19-Feb-2019 15:13:13.212 done free_rbtdb(.)
+19-Feb-2019 15:13:13.212 dns_requestmgr_detach: 0x7fd5ce9bfa60: eref 0 iref 0
+19-Feb-2019 15:13:13.212 mgr_destroy
+19-Feb-2019 15:13:13.212 zone_timer: zone EMPTY.AS112.ARPA/IN: enter
+19-Feb-2019 15:13:13.212 zone_maintenance: zone EMPTY.AS112.ARPA/IN: enter
+19-Feb-2019 15:13:13.212 zone_settimer: zone EMPTY.AS112.ARPA/IN: enter
+19-Feb-2019 15:13:13.212 zone_timer: zone 103.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.212 zone_maintenance: zone 103.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.212 zone_settimer: zone 103.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.212 zone_timer: zone 100.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.212 zone_maintenance: zone 100.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.212 zone_settimer: zone 100.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.212 zone 68.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.212 zone 68.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.212 zone 68.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.212 zone 68.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.212 zone_settimer: zone 68.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.213 zone 69.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.213 zone 69.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.213 zone 69.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.213 zone 69.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.213 zone_settimer: zone 69.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.213 zone_timer: zone 106.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.213 zone_maintenance: zone 106.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.213 zone_settimer: zone 106.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.213 zone_timer: zone 107.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.213 zone_maintenance: zone 107.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.213 zone_settimer: zone 107.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone 65.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.214 zone 65.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.214 zone 65.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.214 zone 65.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.214 zone_settimer: zone 65.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone 71.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.214 zone 71.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.214 zone 71.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.214 zone 71.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.214 zone_settimer: zone 71.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_timer: zone 10.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_maintenance: zone 10.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_settimer: zone 10.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_timer: zone 109.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_maintenance: zone 109.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_settimer: zone 109.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_timer: zone 120.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_maintenance: zone 120.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_settimer: zone 120.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_timer: zone 101.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_maintenance: zone 101.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_settimer: zone 101.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone 67.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.214 zone 67.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.214 zone 67.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.214 zone 67.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.214 zone_settimer: zone 67.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone 90.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.214 zone 90.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.214 zone 90.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.214 zone 90.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.214 zone_settimer: zone 90.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_timer: zone 111.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_maintenance: zone 111.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_settimer: zone 111.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_timer: zone 104.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_maintenance: zone 104.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_settimer: zone 104.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone 112.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.214 zone 112.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.214 zone 112.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.214 zone 112.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.214 zone_settimer: zone 112.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone 117.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.214 zone 117.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.214 zone 117.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.214 zone 117.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.214 zone_settimer: zone 117.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_timer: zone 126.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_maintenance: zone 126.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_settimer: zone 126.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_timer: zone 67.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_maintenance: zone 67.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_settimer: zone 67.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone 70.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.214 zone 70.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.214 zone 70.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.214 zone 70.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.214 zone_settimer: zone 70.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone 73.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.214 zone 73.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.214 zone 73.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.214 zone 73.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.214 zone_settimer: zone 73.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_timer: zone 102.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_maintenance: zone 102.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_settimer: zone 102.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_timer: zone 113.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_maintenance: zone 113.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone_settimer: zone 113.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone 118.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.214 zone 118.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.214 zone 118.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.214 zone 118.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.214 zone_settimer: zone 118.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone 119.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.214 zone 119.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.214 zone 119.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.214 zone 119.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.214 zone_settimer: zone 119.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.214 zone 122.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.214 zone 122.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.215 zone 122.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.215 zone 122.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.215 zone_settimer: zone 122.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone 123.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.215 zone 123.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.215 zone 123.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.215 zone 123.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.215 zone_settimer: zone 123.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone_timer: zone 105.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone_maintenance: zone 105.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone_settimer: zone 105.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone 114.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.215 zone 114.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.215 zone 114.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.215 zone 114.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.215 zone_settimer: zone 114.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone 66.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.215 zone 66.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.215 zone 66.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.215 zone 66.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.215 zone_settimer: zone 66.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone 127.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.215 zone 127.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.215 zone 127.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.215 zone 127.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.215 zone_settimer: zone 127.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone 91.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.215 zone 91.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.215 zone 91.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.215 zone 91.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.215 zone_settimer: zone 91.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone 121.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.215 zone 121.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.215 zone 121.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.215 zone 121.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.215 zone_settimer: zone 121.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone 76.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.215 zone 76.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.215 zone 76.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.215 zone 76.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.215 zone_settimer: zone 76.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone_timer: zone 116.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone_maintenance: zone 116.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone_settimer: zone 116.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone_timer: zone 119.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone_maintenance: zone 119.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone_settimer: zone 119.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone_timer: zone 68.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone_maintenance: zone 68.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone_settimer: zone 68.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone_timer: zone 90.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone_maintenance: zone 90.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone_settimer: zone 90.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone 79.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.215 zone 79.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.215 zone 79.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.215 zone 79.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.215 zone_settimer: zone 79.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.215 zone 83.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.215 zone 83.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.216 zone 83.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.216 zone 83.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.216 zone_settimer: zone 83.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_timer: zone 110.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_maintenance: zone 110.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_settimer: zone 110.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_timer: zone 127.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_maintenance: zone 127.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_settimer: zone 127.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_timer: zone 71.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_maintenance: zone 71.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_settimer: zone 71.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone 80.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.216 zone 80.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.216 zone 80.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.216 zone 80.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.216 zone_settimer: zone 80.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone 85.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.216 zone 85.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.216 zone 85.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.216 zone 85.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.216 zone_settimer: zone 85.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_timer: zone 115.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_maintenance: zone 115.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_settimer: zone 115.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_timer: zone 69.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_maintenance: zone 69.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_settimer: zone 69.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_timer: zone 108.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_maintenance: zone 108.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_settimer: zone 108.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_timer: zone 122.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_maintenance: zone 122.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_settimer: zone 122.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone 21.172.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.216 zone 21.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.216 zone 21.172.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.216 zone 21.172.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.216 zone_settimer: zone 21.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone 24.172.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.216 zone 24.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.216 zone 24.172.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.216 zone 24.172.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.216 zone_settimer: zone 24.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone 75.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.216 zone 75.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.216 zone 75.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.216 zone 75.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.216 zone_settimer: zone 75.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone 22.172.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.216 zone 22.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.216 zone 22.172.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.216 zone 22.172.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.216 zone_settimer: zone 22.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_timer: zone 112.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_maintenance: zone 112.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_settimer: zone 112.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_timer: zone 73.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_maintenance: zone 73.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_settimer: zone 73.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone 78.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.216 zone 78.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.216 zone 78.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.216 zone 78.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.216 zone_settimer: zone 78.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone 81.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.216 zone 81.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.216 zone 81.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.216 zone 81.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.216 zone_settimer: zone 81.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_timer: zone 117.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_maintenance: zone 117.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_settimer: zone 117.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_timer: zone 70.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_maintenance: zone 70.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone_settimer: zone 70.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone 64.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.216 zone 64.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.216 zone 64.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.216 zone 64.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.216 zone_settimer: zone 64.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone 72.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.216 zone 72.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.216 zone 72.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.216 zone 72.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.216 zone_settimer: zone 72.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.216 zone 124.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.216 zone 124.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.216 zone 124.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.217 zone 124.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.217 zone_settimer: zone 124.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone 125.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.217 zone 125.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.217 zone 125.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.217 zone 125.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.217 zone_settimer: zone 125.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_timer: zone 66.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_maintenance: zone 66.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_settimer: zone 66.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_timer: zone 72.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_maintenance: zone 72.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_settimer: zone 72.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone 74.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.217 zone 74.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.217 zone 74.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.217 zone 74.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.217 zone_settimer: zone 74.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone 77.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.217 zone 77.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.217 zone 77.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.217 zone 77.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.217 zone_settimer: zone 77.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_timer: zone 91.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_maintenance: zone 91.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_settimer: zone 91.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_timer: zone 83.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_maintenance: zone 83.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_settimer: zone 83.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone 98.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.217 zone 98.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.217 zone 98.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.217 zone 98.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.217 zone_settimer: zone 98.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: starting load
+19-Feb-2019 15:13:13.217 zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.217 zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.217 zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.217 zone_settimer: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone 86.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.217 zone 86.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.217 zone 86.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.217 zone 86.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.217 zone_settimer: zone 86.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone 127.in-addr.arpa/IN: skipping load: master file older than last load
+19-Feb-2019 15:13:13.217 zone_timer: zone 114.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_maintenance: zone 114.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_settimer: zone 114.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_timer: zone 121.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_maintenance: zone 121.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_settimer: zone 121.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone 84.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.217 zone 84.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.217 zone 84.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.217 zone 84.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.217 zone_settimer: zone 84.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone 96.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.217 zone 96.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.217 zone 96.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.217 zone 96.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.217 zone_settimer: zone 96.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_timer: zone 79.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_maintenance: zone 79.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_settimer: zone 79.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_timer: zone 86.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.217 zone_maintenance: zone 86.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_settimer: zone 86.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone 94.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.218 zone 94.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.218 zone 94.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.218 zone 94.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.218 zone_settimer: zone 94.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone 23.172.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.218 zone 23.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.218 zone 23.172.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.218 zone 23.172.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.218 zone_settimer: zone 23.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_timer: zone 65.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_maintenance: zone 65.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_settimer: zone 65.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_timer: zone 21.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_maintenance: zone 21.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_settimer: zone 21.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_timer: zone 123.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_maintenance: zone 123.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_settimer: zone 123.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_timer: zone 78.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_maintenance: zone 78.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_settimer: zone 78.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone 2.0.192.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.218 zone 2.0.192.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.218 zone 2.0.192.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.218 zone 2.0.192.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.218 zone_settimer: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone 255.in-addr.arpa/IN: skipping load: master file older than last load
+19-Feb-2019 15:13:13.218 zone_timer: zone 75.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_maintenance: zone 75.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_settimer: zone 75.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone 30.172.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.218 zone 30.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.218 zone 30.172.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.218 zone 30.172.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.218 zone_settimer: zone 30.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone 87.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.218 zone 87.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.218 zone 87.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.218 zone 87.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.218 zone_settimer: zone 87.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone 88.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.218 zone 88.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.218 zone 88.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.218 zone 88.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.218 zone_settimer: zone 88.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_timer: zone 118.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_maintenance: zone 118.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_settimer: zone 118.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_timer: zone 84.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_maintenance: zone 84.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_settimer: zone 84.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone 93.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.218 zone 93.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.218 zone 93.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.218 zone 93.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.218 zone_settimer: zone 93.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone 99.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.218 zone 99.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.218 zone 99.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.218 zone 99.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.218 zone_settimer: zone 99.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_timer: zone 125.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_maintenance: zone 125.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_settimer: zone 125.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_timer: zone 87.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_maintenance: zone 87.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_settimer: zone 87.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone 82.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.218 zone 82.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.218 zone 82.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.218 zone 82.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.218 zone_settimer: zone 82.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone 95.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.218 zone 95.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.218 zone 95.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.218 zone 95.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.218 zone_settimer: zone 95.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_timer: zone 124.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_maintenance: zone 124.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_settimer: zone 124.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_timer: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_maintenance: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_settimer: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_timer: zone 74.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_maintenance: zone 74.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone_settimer: zone 74.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.218 zone 89.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.219 zone 89.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.219 zone 89.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.219 zone 89.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.219 zone_settimer: zone 89.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone 97.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.219 zone 97.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.219 zone 97.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.219 zone 97.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.219 zone_settimer: zone 97.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_timer: zone 80.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_maintenance: zone 80.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_settimer: zone 80.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_timer: zone 22.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_maintenance: zone 22.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_settimer: zone 22.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: starting load
+19-Feb-2019 15:13:13.219 zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.219 zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.219 zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.219 zone_settimer: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone 16.172.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.219 zone 16.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.219 zone 16.172.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.219 zone 16.172.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.219 zone_settimer: zone 16.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_timer: zone 76.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_maintenance: zone 76.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_settimer: zone 76.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_timer: zone 85.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_maintenance: zone 85.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_settimer: zone 85.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone 20.172.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.219 zone 20.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.219 zone 20.172.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.219 zone 20.172.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.219 zone_settimer: zone 20.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone 31.172.in-addr.arpa/IN: skipping load: master file older than last load
+19-Feb-2019 15:13:13.219 zone_timer: zone 96.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_maintenance: zone 96.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_settimer: zone 96.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_timer: zone 88.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_maintenance: zone 88.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_settimer: zone 88.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone 25.172.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.219 zone 25.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.219 zone 25.172.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.219 zone 25.172.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.219 zone_settimer: zone 25.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone 26.172.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.219 zone 26.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.219 zone 26.172.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.219 zone 26.172.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.219 zone_settimer: zone 26.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_timer: zone 24.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_maintenance: zone 24.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_settimer: zone 24.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_timer: zone 77.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_maintenance: zone 77.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_settimer: zone 77.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_timer: zone 98.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_maintenance: zone 98.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_settimer: zone 98.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone 8.E.F.IP6.ARPA/IN: starting load
+19-Feb-2019 15:13:13.219 zone 8.E.F.IP6.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.219 zone 8.E.F.IP6.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.219 zone 8.E.F.IP6.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.219 zone_settimer: zone 8.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone A.E.F.IP6.ARPA/IN: starting load
+19-Feb-2019 15:13:13.219 zone A.E.F.IP6.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.219 zone A.E.F.IP6.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.219 zone A.E.F.IP6.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.219 zone_settimer: zone A.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone 92.100.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.219 zone 92.100.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.219 zone 92.100.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.219 zone 92.100.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.219 zone_settimer: zone 92.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone 254.169.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.219 zone 254.169.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.219 zone 254.169.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.219 zone 254.169.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.219 zone_settimer: zone 254.169.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_timer: zone 30.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_maintenance: zone 30.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone_settimer: zone 30.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.219 zone 18.172.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.220 zone 18.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.220 zone 18.172.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.220 zone 18.172.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.220 zone_settimer: zone 18.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone 28.172.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.220 zone 28.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.220 zone 28.172.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.220 zone 28.172.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.220 zone_settimer: zone 28.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone 19.172.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.220 zone 19.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.220 zone 19.172.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.220 zone 19.172.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.220 zone_settimer: zone 19.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone 168.192.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.220 zone 168.192.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.220 zone 168.192.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.220 zone 168.192.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.220 zone_settimer: zone 168.192.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_timer: zone 94.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_maintenance: zone 94.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_settimer: zone 94.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_timer: zone 23.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_maintenance: zone 23.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_settimer: zone 23.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_timer: zone 89.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_maintenance: zone 89.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_settimer: zone 89.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_timer: zone 97.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_maintenance: zone 97.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_settimer: zone 97.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone 17.172.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.220 zone 17.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.220 zone 17.172.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.220 zone 17.172.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.220 zone_settimer: zone 17.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone B.E.F.IP6.ARPA/IN: starting load
+19-Feb-2019 15:13:13.220 zone B.E.F.IP6.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.220 zone B.E.F.IP6.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.220 zone B.E.F.IP6.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.220 zone_settimer: zone B.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_timer: zone 81.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_maintenance: zone 81.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_settimer: zone 81.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_timer: zone 93.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_maintenance: zone 93.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_settimer: zone 93.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_timer: zone 64.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_maintenance: zone 64.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_settimer: zone 64.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_timer: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_maintenance: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_settimer: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone 9.E.F.IP6.ARPA/IN: starting load
+19-Feb-2019 15:13:13.220 zone 9.E.F.IP6.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.220 zone 9.E.F.IP6.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.220 zone 9.E.F.IP6.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.220 zone_settimer: zone 9.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_timer: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_maintenance: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_settimer: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone 27.172.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.220 zone 27.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.220 zone 27.172.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.220 zone 27.172.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.220 zone_settimer: zone 27.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone 100.51.198.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.220 zone 100.51.198.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.220 zone 100.51.198.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.220 zone 100.51.198.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.220 zone_settimer: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_timer: zone 99.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_maintenance: zone 99.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_settimer: zone 99.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_timer: zone 82.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_maintenance: zone 82.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_settimer: zone 82.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_timer: zone A.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_maintenance: zone A.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_settimer: zone A.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_timer: zone 92.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_maintenance: zone 92.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_settimer: zone 92.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_timer: zone 19.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_maintenance: zone 19.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone_settimer: zone 19.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone 29.172.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.220 zone 29.172.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.220 zone 29.172.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.220 zone 29.172.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.220 zone_settimer: zone 29.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.220 zone D.F.IP6.ARPA/IN: starting load
+19-Feb-2019 15:13:13.220 zone D.F.IP6.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.220 zone D.F.IP6.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.221 zone D.F.IP6.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.221 zone_settimer: zone D.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_timer: zone 28.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_maintenance: zone 28.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 28.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone localhost/IN: skipping load: master file older than last load
+19-Feb-2019 15:13:13.221 zone 113.0.203.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.221 zone 113.0.203.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.221 zone 113.0.203.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.221 zone 113.0.203.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.221 zone_settimer: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone 255.255.255.255.IN-ADDR.ARPA/IN: starting load
+19-Feb-2019 15:13:13.221 zone 255.255.255.255.IN-ADDR.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.221 zone 255.255.255.255.IN-ADDR.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.221 zone 255.255.255.255.IN-ADDR.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.221 zone_settimer: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_timer: zone 16.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_maintenance: zone 16.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 16.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_timer: zone 18.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_maintenance: zone 18.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 18.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_timer: zone 26.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_maintenance: zone 26.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 26.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_timer: zone 29.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_maintenance: zone 29.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 29.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_timer: zone 17.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_maintenance: zone 17.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 17.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_timer: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_maintenance: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_timer: zone 95.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_maintenance: zone 95.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 95.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_timer: zone 20.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_maintenance: zone 20.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 20.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_timer: zone 27.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_maintenance: zone 27.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 27.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: starting load
+19-Feb-2019 15:13:13.221 zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: number of nodes in database: 0
+19-Feb-2019 15:13:13.221 zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: loaded; checking validity
+19-Feb-2019 15:13:13.221 zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: replacing zone database
+19-Feb-2019 15:13:13.221 zone_settimer: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_timer: zone 254.169.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_maintenance: zone 254.169.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 254.169.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_timer: zone D.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_maintenance: zone D.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone D.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_timer: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_maintenance: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone security-protocol.com/IN: skipping load: master file older than last load
+19-Feb-2019 15:13:13.221 all zones loaded
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 31.172.in-addr.arpa/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 31.172.in-addr.arpa/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone localhost/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone localhost/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 127.in-addr.arpa/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 127.in-addr.arpa/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 0.in-addr.arpa/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 0.in-addr.arpa/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 255.in-addr.arpa/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 255.in-addr.arpa/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: managed-keys-zone : enter
+19-Feb-2019 15:13:13.221 zone_settimer: managed-keys-zone : enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 10.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 10.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 16.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 16.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 17.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 17.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 18.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 18.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 19.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 19.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 20.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 20.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 21.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 21.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 22.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 22.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 23.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 23.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 24.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 24.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 25.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 25.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 26.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 26.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 27.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 27.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 28.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 28.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 29.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 29.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 30.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 30.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 168.192.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 168.192.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 64.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 64.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 65.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 zone_settimer: zone 65.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.221 dns_zone_maintenance: zone 66.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 66.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 67.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 67.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 68.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 68.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 69.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 69.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 70.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 70.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 71.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 71.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 72.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 72.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 73.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 73.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 74.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 74.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 75.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 75.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 76.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 76.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 77.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 77.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 78.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 78.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 79.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 79.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 80.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 80.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 81.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 81.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 82.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 82.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 83.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 83.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 84.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 84.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 85.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 85.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 86.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 86.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 87.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 87.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 88.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 88.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 89.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 89.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 90.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 90.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 91.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 91.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 92.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 92.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 93.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 93.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 94.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 94.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 95.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 95.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 96.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 96.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 97.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 97.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 98.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 98.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 99.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 99.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 100.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 100.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 101.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 101.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 102.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 102.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 103.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 103.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 104.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 104.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 105.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 105.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 106.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 106.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 107.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 107.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 108.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 108.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 109.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 109.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 110.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 110.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 111.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 111.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 112.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 112.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 113.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 113.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 114.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 114.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 115.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 115.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 116.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 116.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 117.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 117.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 118.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 118.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 119.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 119.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 120.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 120.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 121.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 121.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 122.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 122.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 123.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 123.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 124.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 124.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 125.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 125.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 126.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 126.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 127.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 127.100.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 254.169.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 254.169.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 2.0.192.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 100.51.198.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 255.255.255.255.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone D.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone D.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 8.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 8.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 9.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 9.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone A.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone A.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone B.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone B.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone EMPTY.AS112.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone EMPTY.AS112.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone version.bind/CH: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone version.bind/CH: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone hostname.bind/CH: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone hostname.bind/CH: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone authors.bind/CH: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone authors.bind/CH: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone id.server/CH: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone id.server/CH: enter
+19-Feb-2019 15:13:13.222 dns_zone_maintenance: zone security-protocol.com/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone security-protocol.com/IN: enter
+19-Feb-2019 15:13:13.222 running
+19-Feb-2019 15:13:13.222 zone_timer: zone 168.192.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_maintenance: zone 168.192.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 168.192.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_timer: zone 25.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_maintenance: zone 25.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 25.172.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_timer: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_maintenance: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 113.0.203.IN-ADDR.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_timer: zone 8.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_maintenance: zone 8.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 8.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_timer: zone 9.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_maintenance: zone 9.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 9.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_timer: zone B.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_maintenance: zone B.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone B.E.F.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_timer: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_maintenance: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.222 zone_settimer: zone 8.B.D.0.1.0.0.2.IP6.ARPA/IN: enter
+19-Feb-2019 15:13:13.237 validating ./NS: starting
+19-Feb-2019 15:13:13.237 validating ./NS: attempting positive response validation
+19-Feb-2019 15:13:13.237   validating ./DNSKEY: starting
+19-Feb-2019 15:13:13.237   validating ./DNSKEY: attempting positive response validation
+19-Feb-2019 15:13:13.237   validating ./DNSKEY: verify rdataset (keyid=20326): success
+19-Feb-2019 15:13:13.237   validating ./DNSKEY: signed by trusted key; marking as secure
+19-Feb-2019 15:13:13.237   validator @0x7fd5c00e9e30: dns_validator_destroy
+19-Feb-2019 15:13:13.237 validating ./NS: in keyvalidated
+19-Feb-2019 15:13:13.237 validating ./NS: keyset with trust secure
+19-Feb-2019 15:13:13.237 validating ./NS: resuming validate
+19-Feb-2019 15:13:13.237 validating ./NS: verify rdataset (keyid=16749): success
+19-Feb-2019 15:13:13.237 validating ./NS: marking as secure, noqname proof not needed
+19-Feb-2019 15:13:13.237 managed-keys-zone: Returned from key fetch in keyfetch_done() for '.': success
+19-Feb-2019 15:13:13.238 managed-keys-zone: Verifying DNSKEY set for zone '.' using key 20326/8: success
+19-Feb-2019 15:13:13.238 managed-keys-zone: Key 20326 for zone . acceptance timer complete: key now trusted
+19-Feb-2019 15:13:13.238 set_refreshkeytimer: managed-keys-zone : enter
+19-Feb-2019 15:13:13.238 managed-keys-zone: next key refresh: 20-Feb-2019 15:13:13.238
+19-Feb-2019 15:13:13.238 zone_settimer: managed-keys-zone : enter
+19-Feb-2019 15:13:13.238 zone_journal: managed-keys-zone : enter
+19-Feb-2019 15:13:13.238 writing to journal
+19-Feb-2019 15:13:13.248 zone_needdump: managed-keys-zone : enter
+19-Feb-2019 15:13:13.248 zone_settimer: managed-keys-zone : enter
+19-Feb-2019 15:13:13.248 validator @0x7fd5c0800ec0: dns_validator_destroy
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10be0e0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10bdbe0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10be2e0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10be1e0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10bdfe0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10bdae0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10be3e0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10bdee0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10bd9e0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10bdde0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10bd8e0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10bd7e0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10bdce0
+19-Feb-2019 15:13:13.248 resolver priming query complete
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10c33e0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10c2ee0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10bd5e0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10bd4e0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10c32e0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10c2de0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10bd6e0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10c31e0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10c2ce0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10c30e0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10c2be0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10c2ae0
+19-Feb-2019 15:13:13.248 dns_adb_destroyfind on find 0x7fd5c10c2fe0
+19-Feb-2019 15:13:33.727 client @0x7fd5c00a9fb0 172.31.36.98#56652: UDP request
+19-Feb-2019 15:13:33.727 client @0x7fd5c00a9fb0 172.31.36.98#56652: using view '_default'
+19-Feb-2019 15:13:33.727 client @0x7fd5c00a9fb0 172.31.36.98#56652: request is not signed
+19-Feb-2019 15:13:33.727 client @0x7fd5c00a9fb0 172.31.36.98#56652: recursion available
+19-Feb-2019 15:13:33.727 client @0x7fd5c00a9fb0 172.31.36.98#56652: query
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652 (security-protocol.com): query: security-protocol.com IN A + (172.31.36.98)
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652 (security-protocol.com): query 'security-protocol.com/A/IN' approved
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652 (security-protocol.com): send
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652 (security-protocol.com): sendto
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652 (security-protocol.com): senddone
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652 (security-protocol.com): next
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652 (security-protocol.com): endrequest
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 (no-peer): udprecv
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652: UDP request
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652: using view '_default'
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652: request is not signed
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652: recursion available
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652: query
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652 (security-protocol.com): query: security-protocol.com IN AAAA + (172.31.36.98)
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652 (security-protocol.com): query 'security-protocol.com/AAAA/IN' approved
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652 (security-protocol.com): send
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652 (security-protocol.com): sendto
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652 (security-protocol.com): senddone
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652 (security-protocol.com): next
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 172.31.36.98#56652 (security-protocol.com): endrequest
+19-Feb-2019 15:13:33.728 client @0x7fd5c00a9fb0 (no-peer): udprecv
+19-Feb-2019 15:13:41.248 zone_timer: managed-keys-zone : enter
+19-Feb-2019 15:13:41.248 zone_maintenance: managed-keys-zone : enter
+19-Feb-2019 15:13:41.248 zone_dump: managed-keys-zone : enter
+19-Feb-2019 15:13:41.248 zone_settimer: managed-keys-zone : enter
+19-Feb-2019 15:13:41.248 zone_gotwritehandle: managed-keys-zone : enter
+19-Feb-2019 15:13:41.251 dump_done: managed-keys-zone : enter
+19-Feb-2019 15:13:41.251 journal file managed-keys.bind.jnw does not exist, creating it
+19-Feb-2019 15:13:41.251 managed-keys-zone: dns_journal_compact: success
+19-Feb-2019 15:13:44.056 client @0x7fd5c00a9fb0 172.31.36.98#48915: UDP request
+19-Feb-2019 15:13:44.056 client @0x7fd5c00a9fb0 172.31.36.98#48915: using view '_default'
+19-Feb-2019 15:13:44.056 client @0x7fd5c00a9fb0 172.31.36.98#48915: request is not signed
+19-Feb-2019 15:13:44.056 client @0x7fd5c00a9fb0 172.31.36.98#48915: recursion available
+19-Feb-2019 15:13:44.056 client @0x7fd5c00a9fb0 172.31.36.98#48915: query
+19-Feb-2019 15:13:44.056 client @0x7fd5c00a9fb0 172.31.36.98#48915 (security-protocol.com): query: security-protocol.com IN A + (172.31.36.98)
+19-Feb-2019 15:13:44.056 client @0x7fd5c00a9fb0 172.31.36.98#48915 (security-protocol.com): query 'security-protocol.com/A/IN' approved
+19-Feb-2019 15:13:44.056 client @0x7fd5c00a9fb0 172.31.36.98#48915 (security-protocol.com): send
+19-Feb-2019 15:13:44.056 client @0x7fd5c00a9fb0 172.31.36.98#48915 (security-protocol.com): sendto
+19-Feb-2019 15:13:44.056 client @0x7fd5c00a9fb0 172.31.36.98#48915 (security-protocol.com): senddone
+19-Feb-2019 15:13:44.056 client @0x7fd5c00a9fb0 172.31.36.98#48915 (security-protocol.com): next
+19-Feb-2019 15:13:44.056 client @0x7fd5c00a9fb0 172.31.36.98#48915 (security-protocol.com): endrequest
+19-Feb-2019 15:13:44.056 client @0x7fd5c00a9fb0 (no-peer): udprecv
+19-Feb-2019 15:13:44.057 client @0x7fd5c00a9fb0 172.31.36.98#48915: UDP request
+19-Feb-2019 15:13:44.057 client @0x7fd5c00a9fb0 172.31.36.98#48915: using view '_default'
+19-Feb-2019 15:13:44.057 client @0x7fd5c00a9fb0 172.31.36.98#48915: request is not signed
+19-Feb-2019 15:13:44.057 client @0x7fd5c00a9fb0 172.31.36.98#48915: recursion available
+19-Feb-2019 15:13:44.057 client @0x7fd5c00a9fb0 172.31.36.98#48915: query
+19-Feb-2019 15:13:44.057 client @0x7fd5c00a9fb0 172.31.36.98#48915 (security-protocol.com): query: security-protocol.com IN AAAA + (172.31.36.98)
+19-Feb-2019 15:13:44.057 client @0x7fd5c00a9fb0 172.31.36.98#48915 (security-protocol.com): query 'security-protocol.com/AAAA/IN' approved
+19-Feb-2019 15:13:44.057 client @0x7fd5c00a9fb0 172.31.36.98#48915 (security-protocol.com): send
+19-Feb-2019 15:13:44.057 client @0x7fd5c00a9fb0 172.31.36.98#48915 (security-protocol.com): sendto
+19-Feb-2019 15:13:44.057 client @0x7fd5c00a9fb0 172.31.36.98#48915 (security-protocol.com): senddone
+19-Feb-2019 15:13:44.057 client @0x7fd5c00a9fb0 172.31.36.98#48915 (security-protocol.com): next
+19-Feb-2019 15:13:44.057 client @0x7fd5c00a9fb0 172.31.36.98#48915 (security-protocol.com): endrequest
+19-Feb-2019 15:13:44.057 client @0x7fd5c00a9fb0 (no-peer): udprecv
+19-Feb-2019 15:13:44.063 received control channel command 'status'
+19-Feb-2019 15:17:16.673 client @0x7fd5c00a9fb0 172.31.36.98#60874: UDP request
+19-Feb-2019 15:17:16.673 client @0x7fd5c00a9fb0 172.31.36.98#60874: using view '_default'
+19-Feb-2019 15:17:16.673 client @0x7fd5c00a9fb0 172.31.36.98#60874: request is not signed
+19-Feb-2019 15:17:16.673 client @0x7fd5c00a9fb0 172.31.36.98#60874: recursion available
+19-Feb-2019 15:17:16.673 client @0x7fd5c00a9fb0 172.31.36.98#60874: query
+19-Feb-2019 15:17:16.673 client @0x7fd5c00a9fb0 172.31.36.98#60874 (153.224.49.37.in-addr.arpa): query: 153.224.49.37.in-addr.arpa IN PTR + (172.31.36.98)
+19-Feb-2019 15:17:16.673 client @0x7fd5c00a9fb0 172.31.36.98#60874 (153.224.49.37.in-addr.arpa): query (cache) '153.224.49.37.in-addr.arpa/PTR/IN' approved
+19-Feb-2019 15:17:16.673 client @0x7fd5c00a9fb0 172.31.36.98#60874 (153.224.49.37.in-addr.arpa): replace
+19-Feb-2019 15:17:16.673 clientmgr @0x7fd5ce9e5458: get client
+19-Feb-2019 15:17:16.673 clientmgr @0x7fd5ce9e5458: recycle
+19-Feb-2019 15:17:16.673 fetch: 153.224.49.37.in-addr.arpa/PTR
+19-Feb-2019 15:17:16.673 client @0x7fd5c0130cd0 (no-peer): udprecv
+19-Feb-2019 15:17:16.673 dns_adb_createfind: found A for name a.in-addr-servers.arpa (0x7fd5c10be740) in db
+19-Feb-2019 15:17:16.673 dns_adb_createfind: found A for name b.in-addr-servers.arpa (0x7fd5c10be610) in db
+19-Feb-2019 15:17:16.673 fetch: c.in-addr-servers.arpa/A
+19-Feb-2019 15:17:16.673 dns_adb_createfind: started A fetch for name c.in-addr-servers.arpa (0x7fd5c10be4e0)
+19-Feb-2019 15:17:16.673 createfind: attaching find 0x7fd5c10c2be0 to adbname 0x7fd5c10be4e0
+19-Feb-2019 15:17:16.673 fetch: d.in-addr-servers.arpa/A
+19-Feb-2019 15:17:16.673 dns_adb_createfind: started A fetch for name d.in-addr-servers.arpa (0x7fd5c10c5ad0)
+19-Feb-2019 15:17:16.673 createfind: attaching find 0x7fd5c10c30e0 to adbname 0x7fd5c10c5ad0
+19-Feb-2019 15:17:16.673 fetch: e.in-addr-servers.arpa/A
+19-Feb-2019 15:17:16.673 dns_adb_createfind: started A fetch for name e.in-addr-servers.arpa (0x7fd5c10c59a0)
+19-Feb-2019 15:17:16.673 createfind: attaching find 0x7fd5c10c2ce0 to adbname 0x7fd5c10c59a0
+19-Feb-2019 15:17:16.673 fetch: f.in-addr-servers.arpa/A
+19-Feb-2019 15:17:16.673 dns_adb_createfind: started A fetch for name f.in-addr-servers.arpa (0x7fd5c10c5870)
+19-Feb-2019 15:17:16.673 createfind: attaching find 0x7fd5c10c31e0 to adbname 0x7fd5c10c5870
+19-Feb-2019 15:17:16.674 expiring v4 for name 0x7fd5c10bf740
+19-Feb-2019 15:17:16.674 fetch: ./NS
+19-Feb-2019 15:17:16.674 dns_adb_createfind: found A for name a.root-servers.net (0x7fd5c10bf740) in db
+19-Feb-2019 15:17:16.674 expiring v4 for name 0x7fd5c10bf610
+19-Feb-2019 15:17:16.674 dns_adb_createfind: found A for name b.root-servers.net (0x7fd5c10bf610) in db
+19-Feb-2019 15:17:16.674 expiring v4 for name 0x7fd5c10bf4e0
+19-Feb-2019 15:17:16.674 dns_adb_createfind: found A for name c.root-servers.net (0x7fd5c10bf4e0) in db
+19-Feb-2019 15:17:16.674 expiring v4 for name 0x7fd5c10bf320
+19-Feb-2019 15:17:16.674 dns_adb_createfind: found A for name d.root-servers.net (0x7fd5c10bf320) in db
+19-Feb-2019 15:17:16.674 expiring v4 for name 0x7fd5c10bf1f0
+19-Feb-2019 15:17:16.674 dns_adb_createfind: found A for name e.root-servers.net (0x7fd5c10bf1f0) in db
+19-Feb-2019 15:17:16.674 expiring v4 for name 0x7fd5c10bf0c0
+19-Feb-2019 15:17:16.674 dns_adb_createfind: found A for name f.root-servers.net (0x7fd5c10bf0c0) in db
+19-Feb-2019 15:17:16.674 expiring v4 for name 0x7fd5c10bef90
+19-Feb-2019 15:17:16.674 dns_adb_createfind: found A for name g.root-servers.net (0x7fd5c10bef90) in db
+19-Feb-2019 15:17:16.674 expiring v4 for name 0x7fd5c10bee60
+19-Feb-2019 15:17:16.674 dns_adb_createfind: found A for name h.root-servers.net (0x7fd5c10bee60) in db
+19-Feb-2019 15:17:16.674 expiring v4 for name 0x7fd5c10bed30
+19-Feb-2019 15:17:16.674 dns_adb_createfind: found A for name i.root-servers.net (0x7fd5c10bed30) in db
+19-Feb-2019 15:17:16.674 expiring v4 for name 0x7fd5c10bec00
+19-Feb-2019 15:17:16.674 dns_adb_createfind: found A for name j.root-servers.net (0x7fd5c10bec00) in db
+19-Feb-2019 15:17:16.674 expiring v4 for name 0x7fd5c10bead0
+19-Feb-2019 15:17:16.674 dns_adb_createfind: found A for name k.root-servers.net (0x7fd5c10bead0) in db
+19-Feb-2019 15:17:16.674 expiring v4 for name 0x7fd5c10be9a0
+19-Feb-2019 15:17:16.674 dns_adb_createfind: found A for name l.root-servers.net (0x7fd5c10be9a0) in db
+19-Feb-2019 15:17:16.674 expiring v4 for name 0x7fd5c10be870
+19-Feb-2019 15:17:16.674 dns_adb_createfind: found A for name m.root-servers.net (0x7fd5c10be870) in db
+19-Feb-2019 15:17:16.682 DNS_EVENT_ADBMOREADDRESSES
+19-Feb-2019 15:17:16.682 cfan: processing find 0x7fd5c10c2ce0
+19-Feb-2019 15:17:16.682 sending event 0x7fd5c10c2d68 to task 0x7fd5c5bd4718 for find 0x7fd5c10c2ce0
+19-Feb-2019 15:17:16.682 dns_adb_destroyfind on find 0x7fd5c10c80e0
+19-Feb-2019 15:17:16.682 dns_adb_destroyfind on find 0x7fd5c10c7be0
+19-Feb-2019 15:17:16.682 dns_adb_destroyfind on find 0x7fd5c10c82e0
+19-Feb-2019 15:17:16.682 dns_adb_destroyfind on find 0x7fd5c10c81e0
+19-Feb-2019 15:17:16.682 dns_adb_destroyfind on find 0x7fd5c10c7fe0
+19-Feb-2019 15:17:16.682 dns_adb_destroyfind on find 0x7fd5c10c7ae0
+19-Feb-2019 15:17:16.682 dns_adb_destroyfind on find 0x7fd5c10c83e0
+19-Feb-2019 15:17:16.682 dns_adb_destroyfind on find 0x7fd5c10c7ee0
+19-Feb-2019 15:17:16.682 dns_adb_destroyfind on find 0x7fd5c10c79e0
+19-Feb-2019 15:17:16.682 dns_adb_destroyfind on find 0x7fd5c10c7de0
+19-Feb-2019 15:17:16.682 dns_adb_destroyfind on find 0x7fd5c10c78e0
+19-Feb-2019 15:17:16.682 dns_adb_destroyfind on find 0x7fd5c10c77e0
+19-Feb-2019 15:17:16.682 dns_adb_destroyfind on find 0x7fd5c10c7ce0
+19-Feb-2019 15:17:16.682 dns_adb_destroyfind on find 0x7fd5c10c2ce0
+19-Feb-2019 15:17:16.683 DNS_EVENT_ADBMOREADDRESSES
+19-Feb-2019 15:17:16.683 cfan: processing find 0x7fd5c10c31e0
+19-Feb-2019 15:17:16.683 sending event 0x7fd5c10c3268 to task 0x7fd5c5bd4718 for find 0x7fd5c10c31e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10ca3e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c9ee0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c75e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c74e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10ca2e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c9de0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c76e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10ca1e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c9ce0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10ca0e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c9be0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c9ae0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c9fe0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c31e0
+19-Feb-2019 15:17:16.683 validating 153.224.49.37.in-addr.arpa/PTR: starting
+19-Feb-2019 15:17:16.683 validating 153.224.49.37.in-addr.arpa/PTR: attempting negative response validation
+19-Feb-2019 15:17:16.683   validating 224.49.37.in-addr.arpa/SOA: starting
+19-Feb-2019 15:17:16.683   validating 224.49.37.in-addr.arpa/SOA: attempting insecurity proof
+19-Feb-2019 15:17:16.683   validating 224.49.37.in-addr.arpa/SOA: checking existence of DS at 'arpa'
+19-Feb-2019 15:17:16.683   validating 224.49.37.in-addr.arpa/SOA: checking existence of DS at 'in-addr.arpa'
+19-Feb-2019 15:17:16.683   validating 224.49.37.in-addr.arpa/SOA: checking existence of DS at '37.in-addr.arpa'
+19-Feb-2019 15:17:16.683   validating 224.49.37.in-addr.arpa/SOA: checking existence of DS at '49.37.in-addr.arpa'
+19-Feb-2019 15:17:16.683 fetch: 49.37.in-addr.arpa/DS
+19-Feb-2019 15:17:16.683 createfind: attaching find 0x7fd5c10c9ae0 to adbname 0x7fd5c10be4e0
+19-Feb-2019 15:17:16.683 createfind: attaching find 0x7fd5c10c9be0 to adbname 0x7fd5c10c5ad0
+19-Feb-2019 15:17:16.683 DNS_EVENT_ADBMOREADDRESSES
+19-Feb-2019 15:17:16.683 cfan: processing find 0x7fd5c10c2be0
+19-Feb-2019 15:17:16.683 sending event 0x7fd5c10c2c68 to task 0x7fd5c5bd4718 for find 0x7fd5c10c2be0
+19-Feb-2019 15:17:16.683 DNS_EVENT_ADBMOREADDRESSES
+19-Feb-2019 15:17:16.683 cfan: processing find 0x7fd5c10c9ae0
+19-Feb-2019 15:17:16.683 sending event 0x7fd5c10c9b68 to task 0x7fd5c5be44c0 for find 0x7fd5c10c9ae0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10be1e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c28e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10bdae0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10bdfe0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10be2e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c27e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10be3e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10bdbe0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c26e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10be0e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c25e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c24e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c29e0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c2be0
+19-Feb-2019 15:17:16.683 dns_adb_destroyfind on find 0x7fd5c10c9ae0
+19-Feb-2019 15:17:16.690 delete_node(): 0x7fd5c5a02e80 api.snapcraft.io (bucket 5)
+19-Feb-2019 15:17:16.690 DNS_EVENT_ADBMOREADDRESSES
+19-Feb-2019 15:17:16.690 cfan: processing find 0x7fd5c10c30e0
+19-Feb-2019 15:17:16.690 sending event 0x7fd5c10c3168 to task 0x7fd5c5bd4718 for find 0x7fd5c10c30e0
+19-Feb-2019 15:17:16.690 DNS_EVENT_ADBMOREADDRESSES
+19-Feb-2019 15:17:16.690 cfan: processing find 0x7fd5c10c9be0
+19-Feb-2019 15:17:16.690 sending event 0x7fd5c10c9c68 to task 0x7fd5c5be44c0 for find 0x7fd5c10c9be0
+19-Feb-2019 15:17:16.690 dns_adb_destroyfind on find 0x7fd5c10bd4e0
+19-Feb-2019 15:17:16.690 dns_adb_destroyfind on find 0x7fd5c10bd7e0
+19-Feb-2019 15:17:16.690 dns_adb_destroyfind on find 0x7fd5c10c2de0
+19-Feb-2019 15:17:16.690 dns_adb_destroyfind on find 0x7fd5c10c32e0
+19-Feb-2019 15:17:16.690 dns_adb_destroyfind on find 0x7fd5c10bd5e0
+19-Feb-2019 15:17:16.690 dns_adb_destroyfind on find 0x7fd5c10bd8e0
+19-Feb-2019 15:17:16.690 dns_adb_destroyfind on find 0x7fd5c10bd6e0
+19-Feb-2019 15:17:16.690 dns_adb_destroyfind on find 0x7fd5c10c2ee0
+19-Feb-2019 15:17:16.690 dns_adb_destroyfind on find 0x7fd5c10bdde0
+19-Feb-2019 15:17:16.690 dns_adb_destroyfind on find 0x7fd5c10c33e0
+19-Feb-2019 15:17:16.690 dns_adb_destroyfind on find 0x7fd5c10bd9e0
+19-Feb-2019 15:17:16.690 dns_adb_destroyfind on find 0x7fd5c10bdee0
+19-Feb-2019 15:17:16.690 dns_adb_destroyfind on find 0x7fd5c10bdce0
+19-Feb-2019 15:17:16.690 dns_adb_destroyfind on find 0x7fd5c10c30e0
+19-Feb-2019 15:17:16.690 dns_adb_destroyfind on find 0x7fd5c10c9be0
+19-Feb-2019 15:17:16.700 validating ./NS: starting
+19-Feb-2019 15:17:16.700 validating ./NS: attempting positive response validation
+19-Feb-2019 15:17:16.700 validating ./NS: keyset with trust secure
+19-Feb-2019 15:17:16.700 validating ./NS: verify rdataset (keyid=16749): success
+19-Feb-2019 15:17:16.700 validating ./NS: marking as secure, noqname proof not needed
+19-Feb-2019 15:17:16.700 validator @0x7fd5c00e9e30: dns_validator_destroy
+19-Feb-2019 15:17:16.700 resolver priming query complete
+19-Feb-2019 15:17:16.700 dns_adb_destroyfind on find 0x7fd5c10c96e0
+19-Feb-2019 15:17:16.700 dns_adb_destroyfind on find 0x7fd5c10cb1e0
+19-Feb-2019 15:17:16.700 dns_adb_destroyfind on find 0x7fd5c10c98e0
+19-Feb-2019 15:17:16.700 dns_adb_destroyfind on find 0x7fd5c10c97e0
+19-Feb-2019 15:17:16.700 dns_adb_destroyfind on find 0x7fd5c10c95e0
+19-Feb-2019 15:17:16.700 dns_adb_destroyfind on find 0x7fd5c10cb0e0
+19-Feb-2019 15:17:16.700 dns_adb_destroyfind on find 0x7fd5c10c99e0
+19-Feb-2019 15:17:16.700 dns_adb_destroyfind on find 0x7fd5c10c94e0
+19-Feb-2019 15:17:16.700 dns_adb_destroyfind on find 0x7fd5c10cafe0
+19-Feb-2019 15:17:16.700 dns_adb_destroyfind on find 0x7fd5c10cb3e0
+19-Feb-2019 15:17:16.700 dns_adb_destroyfind on find 0x7fd5c10caee0
+19-Feb-2019 15:17:16.700 dns_adb_destroyfind on find 0x7fd5c10cade0
+19-Feb-2019 15:17:16.700 dns_adb_destroyfind on find 0x7fd5c10cb2e0
+19-Feb-2019 15:17:16.701 validating 49.37.in-addr.arpa/DS: starting
+19-Feb-2019 15:17:16.701 validating 49.37.in-addr.arpa/DS: attempting negative response validation
+19-Feb-2019 15:17:16.701   validating 37.in-addr.arpa/SOA: starting
+19-Feb-2019 15:17:16.701   validating 37.in-addr.arpa/SOA: attempting positive response validation
+19-Feb-2019 15:17:16.701 fetch: 37.in-addr.arpa/DNSKEY
+19-Feb-2019 15:17:16.716 validating 37.in-addr.arpa/DNSKEY: starting
+19-Feb-2019 15:17:16.716 validating 37.in-addr.arpa/DNSKEY: attempting positive response validation
+19-Feb-2019 15:17:16.716 validating 37.in-addr.arpa/DNSKEY: verify rdataset (keyid=55310): success
+19-Feb-2019 15:17:16.716 validating 37.in-addr.arpa/DNSKEY: marking as secure (DS)
+19-Feb-2019 15:17:16.716 validator @0x7fd5c0653a70: dns_validator_destroy
+19-Feb-2019 15:17:16.716   validating 37.in-addr.arpa/SOA: in fetch_callback_validator
+19-Feb-2019 15:17:16.716   validating 37.in-addr.arpa/SOA: keyset with trust secure
+19-Feb-2019 15:17:16.716   validating 37.in-addr.arpa/SOA: resuming validate
+19-Feb-2019 15:17:16.716   validating 37.in-addr.arpa/SOA: verify rdataset (keyid=49588): success
+19-Feb-2019 15:17:16.716   validating 37.in-addr.arpa/SOA: marking as secure, noqname proof not needed
+19-Feb-2019 15:17:16.716   validator @0x7fd5c0800ec0: dns_validator_destroy
+19-Feb-2019 15:17:16.716 validating 49.37.in-addr.arpa/DS: in authvalidated
+19-Feb-2019 15:17:16.716 validating 49.37.in-addr.arpa/DS: resuming nsecvalidate
+19-Feb-2019 15:17:16.716   validating 99.48.37.in-addr.arpa/NSEC: starting
+19-Feb-2019 15:17:16.716   validating 99.48.37.in-addr.arpa/NSEC: attempting positive response validation
+19-Feb-2019 15:17:16.716   validating 99.48.37.in-addr.arpa/NSEC: keyset with trust secure
+19-Feb-2019 15:17:16.716   validating 99.48.37.in-addr.arpa/NSEC: verify rdataset (keyid=49588): success
+19-Feb-2019 15:17:16.716   validating 99.48.37.in-addr.arpa/NSEC: marking as secure, noqname proof not needed
+19-Feb-2019 15:17:16.716   validator @0x7fd5c0800ec0: dns_validator_destroy
+19-Feb-2019 15:17:16.716 validating 49.37.in-addr.arpa/DS: in authvalidated
+19-Feb-2019 15:17:16.716 validating 49.37.in-addr.arpa/DS: looking for relevant NSEC
+19-Feb-2019 15:17:16.716 validating 49.37.in-addr.arpa/DS: nsec proves name exist (empty)
+19-Feb-2019 15:17:16.716 validating 49.37.in-addr.arpa/DS: resuming nsecvalidate
+19-Feb-2019 15:17:16.716 validating 49.37.in-addr.arpa/DS: nonexistence proof(s) found
+19-Feb-2019 15:17:16.716 validator @0x7fd5c00e9e30: dns_validator_destroy
+19-Feb-2019 15:17:16.716 dns_adb_destroyfind on find 0x7fd5c10c30e0
+19-Feb-2019 15:17:16.716 dns_adb_destroyfind on find 0x7fd5c10c96e0
+19-Feb-2019 15:17:16.716 dns_adb_destroyfind on find 0x7fd5c10c98e0
+19-Feb-2019 15:17:16.716 dns_adb_destroyfind on find 0x7fd5c10bdce0
+19-Feb-2019 15:17:16.716 dns_adb_destroyfind on find 0x7fd5c10c9be0
+19-Feb-2019 15:17:16.716 dns_adb_destroyfind on find 0x7fd5c10cb1e0
+19-Feb-2019 15:17:16.716   validating 224.49.37.in-addr.arpa/SOA: in dsfetched2: ncache nxrrset
+19-Feb-2019 15:17:16.716   validating 224.49.37.in-addr.arpa/SOA: resuming proveunsecure
+19-Feb-2019 15:17:16.716   validating 224.49.37.in-addr.arpa/SOA: checking existence of DS at '224.49.37.in-addr.arpa'
+19-Feb-2019 15:17:16.716 fetch: 224.49.37.in-addr.arpa/DS
+19-Feb-2019 15:17:16.717 dns_adb_destroyfind on find 0x7fd5c10ca0e0
+19-Feb-2019 15:17:16.717 dns_adb_destroyfind on find 0x7fd5c10c31e0
+19-Feb-2019 15:17:16.717 dns_adb_destroyfind on find 0x7fd5c10c9ce0
+19-Feb-2019 15:17:16.717 dns_adb_destroyfind on find 0x7fd5c10c9fe0
+19-Feb-2019 15:17:16.732 validating 224.49.37.in-addr.arpa/DS: starting
+19-Feb-2019 15:17:16.732 validating 224.49.37.in-addr.arpa/DS: attempting negative response validation
+19-Feb-2019 15:17:16.732   validating 37.in-addr.arpa/SOA: starting
+19-Feb-2019 15:17:16.732   validating 37.in-addr.arpa/SOA: attempting positive response validation
+19-Feb-2019 15:17:16.732   validating 37.in-addr.arpa/SOA: keyset with trust secure
+19-Feb-2019 15:17:16.732   validating 37.in-addr.arpa/SOA: verify rdataset (keyid=49588): success
+19-Feb-2019 15:17:16.732   validating 37.in-addr.arpa/SOA: marking as secure, noqname proof not needed
+19-Feb-2019 15:17:16.732   validator @0x7fd5c0800ec0: dns_validator_destroy
+19-Feb-2019 15:17:16.732 validating 224.49.37.in-addr.arpa/DS: in authvalidated
+19-Feb-2019 15:17:16.732 validating 224.49.37.in-addr.arpa/DS: resuming nsecvalidate
+19-Feb-2019 15:17:16.732   validating 224.49.37.in-addr.arpa/NSEC: starting
+19-Feb-2019 15:17:16.732   validating 224.49.37.in-addr.arpa/NSEC: attempting positive response validation
+19-Feb-2019 15:17:16.732   validating 224.49.37.in-addr.arpa/NSEC: keyset with trust secure
+19-Feb-2019 15:17:16.732   validating 224.49.37.in-addr.arpa/NSEC: verify rdataset (keyid=49588): success
+19-Feb-2019 15:17:16.732   validating 224.49.37.in-addr.arpa/NSEC: marking as secure, noqname proof not needed
+19-Feb-2019 15:17:16.732   validator @0x7fd5c0800ec0: dns_validator_destroy
+19-Feb-2019 15:17:16.732 validating 224.49.37.in-addr.arpa/DS: in authvalidated
+19-Feb-2019 15:17:16.732 validating 224.49.37.in-addr.arpa/DS: looking for relevant NSEC
+19-Feb-2019 15:17:16.732 validating 224.49.37.in-addr.arpa/DS: nsec proves name exists (owner) data=0
+19-Feb-2019 15:17:16.732 validating 224.49.37.in-addr.arpa/DS: resuming nsecvalidate
+19-Feb-2019 15:17:16.732 validating 224.49.37.in-addr.arpa/DS: nonexistence proof(s) found
+19-Feb-2019 15:17:16.732 validator @0x7fd5c00e9e30: dns_validator_destroy
+19-Feb-2019 15:17:16.732 delete_node(): 0x7fd5c5a029b0 ptr2.worldhostingfarm.com (bucket 13)
+19-Feb-2019 15:17:16.732   validating 224.49.37.in-addr.arpa/SOA: in dsfetched2: ncache nxrrset
+19-Feb-2019 15:17:16.732   validating 224.49.37.in-addr.arpa/SOA: marking as answer (dsfetched2)
+19-Feb-2019 15:17:16.732   validator @0x7fd5c0652db0: dns_validator_destroy
+19-Feb-2019 15:17:16.732 validating 153.224.49.37.in-addr.arpa/PTR: in authvalidated
+19-Feb-2019 15:17:16.732 validating 153.224.49.37.in-addr.arpa/PTR: resuming nsecvalidate
+19-Feb-2019 15:17:16.732 validating 153.224.49.37.in-addr.arpa/PTR: nonexistence proof(s) not found
+19-Feb-2019 15:17:16.732 validating 153.224.49.37.in-addr.arpa/PTR: checking existence of DS at 'arpa'
+19-Feb-2019 15:17:16.732 validating 153.224.49.37.in-addr.arpa/PTR: checking existence of DS at 'in-addr.arpa'
+19-Feb-2019 15:17:16.732 validating 153.224.49.37.in-addr.arpa/PTR: checking existence of DS at '37.in-addr.arpa'
+19-Feb-2019 15:17:16.732 validating 153.224.49.37.in-addr.arpa/PTR: checking existence of DS at '49.37.in-addr.arpa'
+19-Feb-2019 15:17:16.732 validating 153.224.49.37.in-addr.arpa/PTR: checking existence of DS at '224.49.37.in-addr.arpa'
+19-Feb-2019 15:17:16.732 validating 153.224.49.37.in-addr.arpa/PTR: marking as answer (proveunsecure (4))
+19-Feb-2019 15:17:16.732 validator @0x7fd5c0108940: dns_validator_destroy
+19-Feb-2019 15:17:16.732 dns_adb_destroyfind on find 0x7fd5c10c96e0
+19-Feb-2019 15:17:16.732 dns_adb_destroyfind on find 0x7fd5c10bdce0
+19-Feb-2019 15:17:16.732 dns_adb_destroyfind on find 0x7fd5c10cb1e0
+19-Feb-2019 15:17:16.732 dns_adb_destroyfind on find 0x7fd5c10c30e0
+19-Feb-2019 15:17:16.732 dns_adb_destroyfind on find 0x7fd5c10c98e0
+19-Feb-2019 15:17:16.732 dns_adb_destroyfind on find 0x7fd5c10c9be0
+19-Feb-2019 15:17:16.732 client @0x7fd5c00a9fb0 172.31.36.98#60874 (153.224.49.37.in-addr.arpa): send
+19-Feb-2019 15:17:16.732 client @0x7fd5c00a9fb0 172.31.36.98#60874 (153.224.49.37.in-addr.arpa): sendto
+19-Feb-2019 15:17:16.736 client @0x7fd5c00a9fb0 172.31.36.98#60874 (153.224.49.37.in-addr.arpa): senddone
+19-Feb-2019 15:17:16.736 client @0x7fd5c00a9fb0 172.31.36.98#60874 (153.224.49.37.in-addr.arpa): next
+19-Feb-2019 15:17:16.736 client @0x7fd5c00a9fb0 172.31.36.98#60874 (153.224.49.37.in-addr.arpa): endrequest
+19-Feb-2019 15:17:16.736 fetch completed at ../../../lib/dns/resolver.c:5197 for 153.224.49.37.in-addr.arpa/PTR in 0.059175: success/success [domain:in-addr.arpa,referral:0,restart:1,qrysent:1,timeout:0,lame:0,quota:0,neterr:0,badresp:0,adberr:0,findfail:0,valfail:0]
+19-Feb-2019 15:17:16.736 dns_adb_destroyfind on find 0x7fd5c10c2fe0
+19-Feb-2019 15:17:16.736 dns_adb_destroyfind on find 0x7fd5c10c2ae0
+19-Feb-2019 15:24:25.500 client @0x7fd5c0130cd0 172.31.36.98#56028: UDP request
+19-Feb-2019 15:24:25.500 client @0x7fd5c0130cd0 172.31.36.98#56028: using view '_default'
+19-Feb-2019 15:24:25.500 client @0x7fd5c0130cd0 172.31.36.98#56028: request is not signed
+19-Feb-2019 15:24:25.500 client @0x7fd5c0130cd0 172.31.36.98#56028: recursion available
+19-Feb-2019 15:24:25.500 client @0x7fd5c0130cd0 172.31.36.98#56028: query
+19-Feb-2019 15:24:25.500 client @0x7fd5c0130cd0 172.31.36.98#56028 (61.219.234.185.in-addr.arpa): query: 61.219.234.185.in-addr.arpa IN PTR + (172.31.36.98)
+19-Feb-2019 15:24:25.500 client @0x7fd5c0130cd0 172.31.36.98#56028 (61.219.234.185.in-addr.arpa): query (cache) '61.219.234.185.in-addr.arpa/PTR/IN' approved
+19-Feb-2019 15:24:25.500 client @0x7fd5c0130cd0 172.31.36.98#56028 (61.219.234.185.in-addr.arpa): replace
+19-Feb-2019 15:24:25.500 clientmgr @0x7fd5ce9e5458: get client
+19-Feb-2019 15:24:25.500 clientmgr @0x7fd5ce9e5458: recycle
+19-Feb-2019 15:24:25.500 fetch: 61.219.234.185.in-addr.arpa/PTR
+19-Feb-2019 15:24:25.500 client @0x7fd5c00736b0 (no-peer): udprecv
+19-Feb-2019 15:24:25.500 fetch: ptr1.worldhostingfarm.com/A
+19-Feb-2019 15:24:25.500 dns_adb_createfind: started A fetch for name ptr1.worldhostingfarm.com (0x7fd5c10c5740)
+19-Feb-2019 15:24:25.500 createfind: attaching find 0x7fd5c10bdce0 to adbname 0x7fd5c10c5740
+19-Feb-2019 15:24:25.500 fetch: ptr2.worldhostingfarm.com/A
+19-Feb-2019 15:24:25.500 dns_adb_createfind: started A fetch for name ptr2.worldhostingfarm.com (0x7fd5c10c5610)
+19-Feb-2019 15:24:25.500 createfind: attaching find 0x7fd5c10c96e0 to adbname 0x7fd5c10c5610
+19-Feb-2019 15:24:25.501 expiring v4 for name 0x7fd5c10bf740
+19-Feb-2019 15:24:25.501 fetch: ./NS
+19-Feb-2019 15:24:25.501 dns_adb_createfind: found A for name a.root-servers.net (0x7fd5c10bf740) in db
+19-Feb-2019 15:24:25.501 expiring v4 for name 0x7fd5c10bf610
+19-Feb-2019 15:24:25.501 dns_adb_createfind: found A for name b.root-servers.net (0x7fd5c10bf610) in db
+19-Feb-2019 15:24:25.501 expiring v4 for name 0x7fd5c10bf4e0
+19-Feb-2019 15:24:25.501 dns_adb_createfind: found A for name c.root-servers.net (0x7fd5c10bf4e0) in db
+19-Feb-2019 15:24:25.501 expiring v4 for name 0x7fd5c10bf320
+19-Feb-2019 15:24:25.501 dns_adb_createfind: found A for name d.root-servers.net (0x7fd5c10bf320) in db
+19-Feb-2019 15:24:25.501 expiring v4 for name 0x7fd5c10bf1f0
+19-Feb-2019 15:24:25.501 dns_adb_createfind: found A for name e.root-servers.net (0x7fd5c10bf1f0) in db
+19-Feb-2019 15:24:25.501 expiring v4 for name 0x7fd5c10bf0c0
+19-Feb-2019 15:24:25.501 dns_adb_createfind: found A for name f.root-servers.net (0x7fd5c10bf0c0) in db
+19-Feb-2019 15:24:25.501 expiring v4 for name 0x7fd5c10bef90
+19-Feb-2019 15:24:25.501 dns_adb_createfind: found A for name g.root-servers.net (0x7fd5c10bef90) in db
+19-Feb-2019 15:24:25.501 expiring v4 for name 0x7fd5c10bee60
+19-Feb-2019 15:24:25.501 dns_adb_createfind: found A for name h.root-servers.net (0x7fd5c10bee60) in db
+19-Feb-2019 15:24:25.501 expiring v4 for name 0x7fd5c10bed30
+19-Feb-2019 15:24:25.501 dns_adb_createfind: found A for name i.root-servers.net (0x7fd5c10bed30) in db
+19-Feb-2019 15:24:25.501 expiring v4 for name 0x7fd5c10bec00
+19-Feb-2019 15:24:25.501 dns_adb_createfind: found A for name j.root-servers.net (0x7fd5c10bec00) in db
+19-Feb-2019 15:24:25.501 expiring v4 for name 0x7fd5c10bead0
+19-Feb-2019 15:24:25.501 dns_adb_createfind: found A for name k.root-servers.net (0x7fd5c10bead0) in db
+19-Feb-2019 15:24:25.501 expiring v4 for name 0x7fd5c10be9a0
+19-Feb-2019 15:24:25.501 dns_adb_createfind: found A for name l.root-servers.net (0x7fd5c10be9a0) in db
+19-Feb-2019 15:24:25.501 expiring v4 for name 0x7fd5c10be870
+19-Feb-2019 15:24:25.501 dns_adb_createfind: found A for name m.root-servers.net (0x7fd5c10be870) in db
+19-Feb-2019 15:24:25.509 DNS_EVENT_ADBNOMOREADDRESSES
+19-Feb-2019 15:24:25.509 cfan: processing find 0x7fd5c10bdce0
+19-Feb-2019 15:24:25.509 sending event 0x7fd5c10bdd68 to task 0x7fd5c5be41a0 for find 0x7fd5c10bdce0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10ca0e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10c2ee0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10c9ce0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10c31e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10bdee0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10bd6e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10c9fe0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10bd9e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10bd8e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10c33e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10bd5e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10c32e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10bdde0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10bdce0
+19-Feb-2019 15:24:25.509 DNS_EVENT_ADBNOMOREADDRESSES
+19-Feb-2019 15:24:25.509 cfan: processing find 0x7fd5c10c96e0
+19-Feb-2019 15:24:25.509 sending event 0x7fd5c10c9768 to task 0x7fd5c5be41a0 for find 0x7fd5c10c96e0
+19-Feb-2019 15:24:25.509 validating ./NS: starting
+19-Feb-2019 15:24:25.509 validating ./NS: attempting positive response validation
+19-Feb-2019 15:24:25.509 validating ./NS: keyset with trust secure
+19-Feb-2019 15:24:25.509 validating ./NS: verify rdataset (keyid=16749): success
+19-Feb-2019 15:24:25.509 validating ./NS: marking as secure, noqname proof not needed
+19-Feb-2019 15:24:25.509 validator @0x7fd5c0800ec0: dns_validator_destroy
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10c9ae0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10be0e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10bd7e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10bd4e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10c2be0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10c26e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10c2de0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10c29e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10bdbe0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10c24e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10be3e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10c27e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10c25e0
+19-Feb-2019 15:24:25.509 dns_adb_destroyfind on find 0x7fd5c10c96e0
+19-Feb-2019 15:24:25.510 resolver priming query complete
+19-Feb-2019 15:24:25.510 dns_adb_destroyfind on find 0x7fd5c10c28e0
+19-Feb-2019 15:24:25.510 dns_adb_destroyfind on find 0x7fd5c10ca2e0
+19-Feb-2019 15:24:25.510 dns_adb_destroyfind on find 0x7fd5c10bdfe0
+19-Feb-2019 15:24:25.510 dns_adb_destroyfind on find 0x7fd5c10bdae0
+19-Feb-2019 15:24:25.510 dns_adb_destroyfind on find 0x7fd5c10be1e0
+19-Feb-2019 15:24:25.510 dns_adb_destroyfind on find 0x7fd5c10c74e0
+19-Feb-2019 15:24:25.510 dns_adb_destroyfind on find 0x7fd5c10be2e0
+19-Feb-2019 15:24:25.510 dns_adb_destroyfind on find 0x7fd5c10ca1e0
+19-Feb-2019 15:24:25.510 dns_adb_destroyfind on find 0x7fd5c10c75e0
+19-Feb-2019 15:24:25.510 dns_adb_destroyfind on find 0x7fd5c10c76e0
+19-Feb-2019 15:24:25.510 dns_adb_destroyfind on find 0x7fd5c10c9ee0
+19-Feb-2019 15:24:25.510 dns_adb_destroyfind on find 0x7fd5c10ca3e0
+19-Feb-2019 15:24:25.510 dns_adb_destroyfind on find 0x7fd5c10c9de0
+19-Feb-2019 15:24:25.532 dns_adb_destroyfind on find 0x7fd5c10c9de0
+19-Feb-2019 15:24:25.532 dns_adb_destroyfind on find 0x7fd5c10c9de0
+19-Feb-2019 15:24:25.532 client @0x7fd5c0130cd0 172.31.36.98#56028 (61.219.234.185.in-addr.arpa): query failed (SERVFAIL) for 61.219.234.185.in-addr.arpa/IN/PTR at ../../../bin/named/query.c:8402
+19-Feb-2019 15:24:25.533 client @0x7fd5c0130cd0 172.31.36.98#56028 (61.219.234.185.in-addr.arpa): error
+19-Feb-2019 15:24:25.533 client @0x7fd5c0130cd0 172.31.36.98#56028 (61.219.234.185.in-addr.arpa): send
+19-Feb-2019 15:24:25.533 client @0x7fd5c0130cd0 172.31.36.98#56028 (61.219.234.185.in-addr.arpa): sendto
+19-Feb-2019 15:24:25.533 client @0x7fd5c0130cd0 172.31.36.98#56028 (61.219.234.185.in-addr.arpa): senddone
+19-Feb-2019 15:24:25.533 client @0x7fd5c0130cd0 172.31.36.98#56028 (61.219.234.185.in-addr.arpa): next
+19-Feb-2019 15:24:25.533 client @0x7fd5c0130cd0 172.31.36.98#56028 (61.219.234.185.in-addr.arpa): endrequest
+19-Feb-2019 15:24:25.533 fetch completed at ../../../lib/dns/resolver.c:3756 for 61.219.234.185.in-addr.arpa/PTR in 0.032011: failure/success [domain:219.234.185.in-addr.arpa,referral:0,restart:2,qrysent:2,timeout:0,lame:0,quota:0,neterr:0,badresp:2,adberr:2,findfail:0,valfail:0]
+19-Feb-2019 15:24:25.540 client @0x7fd5c00736b0 172.31.36.98#43755: UDP request
+19-Feb-2019 15:24:25.540 client @0x7fd5c00736b0 172.31.36.98#43755: using view '_default'
+19-Feb-2019 15:24:25.540 client @0x7fd5c00736b0 172.31.36.98#43755: request is not signed
+19-Feb-2019 15:24:25.540 client @0x7fd5c00736b0 172.31.36.98#43755: recursion available
+19-Feb-2019 15:24:25.540 client @0x7fd5c00736b0 172.31.36.98#43755: query
+19-Feb-2019 15:24:25.541 client @0x7fd5c00736b0 172.31.36.98#43755 (61.219.234.185.in-addr.arpa): query: 61.219.234.185.in-addr.arpa IN PTR + (172.31.36.98)
+19-Feb-2019 15:24:25.541 client @0x7fd5c00736b0 172.31.36.98#43755 (61.219.234.185.in-addr.arpa): servfail cache hit 61.219.234.185.in-addr.arpa/PTR (CD=0)
+19-Feb-2019 15:24:25.541 client @0x7fd5c00736b0 172.31.36.98#43755 (61.219.234.185.in-addr.arpa): query failed (SERVFAIL) for 61.219.234.185.in-addr.arpa/IN/PTR at ../../../bin/named/query.c:6885
+19-Feb-2019 15:24:25.541 client @0x7fd5c00736b0 172.31.36.98#43755 (61.219.234.185.in-addr.arpa): error
+19-Feb-2019 15:24:25.541 client @0x7fd5c00736b0 172.31.36.98#43755 (61.219.234.185.in-addr.arpa): send
+19-Feb-2019 15:24:25.541 client @0x7fd5c00736b0 172.31.36.98#43755 (61.219.234.185.in-addr.arpa): sendto
+19-Feb-2019 15:24:25.541 client @0x7fd5c00736b0 172.31.36.98#43755 (61.219.234.185.in-addr.arpa): senddone
+19-Feb-2019 15:24:25.541 client @0x7fd5c00736b0 172.31.36.98#43755 (61.219.234.185.in-addr.arpa): next
+19-Feb-2019 15:24:25.541 client @0x7fd5c00736b0 172.31.36.98#43755 (61.219.234.185.in-addr.arpa): endrequest
+19-Feb-2019 15:24:25.541 client @0x7fd5c00736b0 (no-peer): udprecv
+19-Feb-2019 15:30:38.499 client @0x7fd5c00736b0 172.31.36.98#53717: UDP request
+19-Feb-2019 15:30:38.499 client @0x7fd5c00736b0 172.31.36.98#53717: using view '_default'
+19-Feb-2019 15:30:38.499 client @0x7fd5c00736b0 172.31.36.98#53717: request is not signed
+19-Feb-2019 15:30:38.499 client @0x7fd5c00736b0 172.31.36.98#53717: recursion available
+19-Feb-2019 15:30:38.499 client @0x7fd5c00736b0 172.31.36.98#53717: query
+19-Feb-2019 15:30:38.499 client @0x7fd5c00736b0 172.31.36.98#53717 (security-protocol.com): query: security-protocol.com IN A + (172.31.36.98)
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717 (security-protocol.com): query 'security-protocol.com/A/IN' approved
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717 (security-protocol.com): send
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717 (security-protocol.com): sendto
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717 (security-protocol.com): senddone
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717 (security-protocol.com): next
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717 (security-protocol.com): endrequest
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 (no-peer): udprecv
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717: UDP request
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717: using view '_default'
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717: request is not signed
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717: recursion available
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717: query
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717 (security-protocol.com): query: security-protocol.com IN AAAA + (172.31.36.98)
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717 (security-protocol.com): query 'security-protocol.com/AAAA/IN' approved
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717 (security-protocol.com): send
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717 (security-protocol.com): sendto
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717 (security-protocol.com): senddone
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717 (security-protocol.com): next
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 172.31.36.98#53717 (security-protocol.com): endrequest
+19-Feb-2019 15:30:38.500 client @0x7fd5c00736b0 (no-peer): udprecv
+19-Feb-2019 15:31:11.000 client @0x7fd5c00736b0 172.31.36.98#59702: UDP request
+19-Feb-2019 15:31:11.000 client @0x7fd5c00736b0 172.31.36.98#59702: using view '_default'
+19-Feb-2019 15:31:11.000 client @0x7fd5c00736b0 172.31.36.98#59702: request is not signed
+19-Feb-2019 15:31:11.000 client @0x7fd5c00736b0 172.31.36.98#59702: recursion available
+19-Feb-2019 15:31:11.000 client @0x7fd5c00736b0 172.31.36.98#59702: query
+19-Feb-2019 15:31:11.000 client @0x7fd5c00736b0 172.31.36.98#59702 (security-protocol.com): query: security-protocol.com IN A + (172.31.36.98)
+19-Feb-2019 15:31:11.000 client @0x7fd5c00736b0 172.31.36.98#59702 (security-protocol.com): query 'security-protocol.com/A/IN' approved
+19-Feb-2019 15:31:11.000 client @0x7fd5c00736b0 172.31.36.98#59702 (security-protocol.com): send
+19-Feb-2019 15:31:11.000 client @0x7fd5c00736b0 172.31.36.98#59702 (security-protocol.com): sendto
+19-Feb-2019 15:31:11.000 client @0x7fd5c00736b0 172.31.36.98#59702 (security-protocol.com): senddone
+19-Feb-2019 15:31:11.000 client @0x7fd5c00736b0 172.31.36.98#59702 (security-protocol.com): next
+19-Feb-2019 15:31:11.000 client @0x7fd5c00736b0 172.31.36.98#59702 (security-protocol.com): endrequest
+19-Feb-2019 15:31:11.000 client @0x7fd5c00736b0 (no-peer): udprecv
+19-Feb-2019 15:31:11.001 client @0x7fd5c00736b0 172.31.36.98#59702: UDP request
+19-Feb-2019 15:31:11.001 client @0x7fd5c00736b0 172.31.36.98#59702: using view '_default'
+19-Feb-2019 15:31:11.001 client @0x7fd5c00736b0 172.31.36.98#59702: request is not signed
+19-Feb-2019 15:31:11.001 client @0x7fd5c00736b0 172.31.36.98#59702: recursion available
+19-Feb-2019 15:31:11.001 client @0x7fd5c00736b0 172.31.36.98#59702: query
+19-Feb-2019 15:31:11.001 client @0x7fd5c00736b0 172.31.36.98#59702 (security-protocol.com): query: security-protocol.com IN AAAA + (172.31.36.98)
+19-Feb-2019 15:31:11.001 client @0x7fd5c00736b0 172.31.36.98#59702 (security-protocol.com): query 'security-protocol.com/AAAA/IN' approved
+19-Feb-2019 15:31:11.001 client @0x7fd5c00736b0 172.31.36.98#59702 (security-protocol.com): send
+19-Feb-2019 15:31:11.001 client @0x7fd5c00736b0 172.31.36.98#59702 (security-protocol.com): sendto
+19-Feb-2019 15:31:11.001 client @0x7fd5c00736b0 172.31.36.98#59702 (security-protocol.com): senddone
+19-Feb-2019 15:31:11.001 client @0x7fd5c00736b0 172.31.36.98#59702 (security-protocol.com): next
+19-Feb-2019 15:31:11.001 client @0x7fd5c00736b0 172.31.36.98#59702 (security-protocol.com): endrequest
+19-Feb-2019 15:31:11.001 client @0x7fd5c00736b0 (no-peer): udprecv
+19-Feb-2019 15:32:42.293 client @0x7fd5c00736b0 172.31.36.98#58975: UDP request
+19-Feb-2019 15:32:42.293 client @0x7fd5c00736b0 172.31.36.98#58975: using view '_default'
+19-Feb-2019 15:32:42.293 client @0x7fd5c00736b0 172.31.36.98#58975: request is not signed
+19-Feb-2019 15:32:42.293 client @0x7fd5c00736b0 172.31.36.98#58975: recursion available
+19-Feb-2019 15:32:42.293 client @0x7fd5c00736b0 172.31.36.98#58975: query
+19-Feb-2019 15:32:42.293 client @0x7fd5c00736b0 172.31.36.98#58975 (247.225.49.37.in-addr.arpa): query: 247.225.49.37.in-addr.arpa IN PTR + (172.31.36.98)
+19-Feb-2019 15:32:42.293 client @0x7fd5c00736b0 172.31.36.98#58975 (247.225.49.37.in-addr.arpa): query (cache) '247.225.49.37.in-addr.arpa/PTR/IN' approved
+19-Feb-2019 15:32:42.293 client @0x7fd5c00736b0 172.31.36.98#58975 (247.225.49.37.in-addr.arpa): replace
+19-Feb-2019 15:32:42.293 clientmgr @0x7fd5ce9e5458: get client
+19-Feb-2019 15:32:42.293 clientmgr @0x7fd5ce9e5458: recycle
+19-Feb-2019 15:32:42.293 fetch: 247.225.49.37.in-addr.arpa/PTR
+19-Feb-2019 15:32:42.293 client @0x7fd5c00b85d0 (no-peer): udprecv
+19-Feb-2019 15:32:42.293 expiring v4 for name 0x7fd5c10be740
+19-Feb-2019 15:32:42.294 dns_adb_createfind: found A for name a.in-addr-servers.arpa (0x7fd5c10be740) in db
+19-Feb-2019 15:32:42.294 expiring v4 for name 0x7fd5c10be610
+19-Feb-2019 15:32:42.294 dns_adb_createfind: found A for name b.in-addr-servers.arpa (0x7fd5c10be610) in db
+19-Feb-2019 15:32:42.309 validating 247.225.49.37.in-addr.arpa/PTR: starting
+19-Feb-2019 15:32:42.309 validating 247.225.49.37.in-addr.arpa/PTR: attempting negative response validation
+19-Feb-2019 15:32:42.309   validating 225.49.37.in-addr.arpa/SOA: starting
+19-Feb-2019 15:32:42.309   validating 225.49.37.in-addr.arpa/SOA: attempting insecurity proof
+19-Feb-2019 15:32:42.309   validating 225.49.37.in-addr.arpa/SOA: checking existence of DS at 'arpa'
+19-Feb-2019 15:32:42.309   validating 225.49.37.in-addr.arpa/SOA: checking existence of DS at 'in-addr.arpa'
+19-Feb-2019 15:32:42.309   validating 225.49.37.in-addr.arpa/SOA: checking existence of DS at '37.in-addr.arpa'
+19-Feb-2019 15:32:42.309   validating 225.49.37.in-addr.arpa/SOA: checking existence of DS at '49.37.in-addr.arpa'
+19-Feb-2019 15:32:42.309   validating 225.49.37.in-addr.arpa/SOA: checking existence of DS at '225.49.37.in-addr.arpa'
+19-Feb-2019 15:32:42.309 fetch: 225.49.37.in-addr.arpa/DS
+19-Feb-2019 15:32:42.324 validating 225.49.37.in-addr.arpa/DS: starting
+19-Feb-2019 15:32:42.324 validating 225.49.37.in-addr.arpa/DS: attempting negative response validation
+19-Feb-2019 15:32:42.324   validating 37.in-addr.arpa/SOA: starting
+19-Feb-2019 15:32:42.324   validating 37.in-addr.arpa/SOA: attempting positive response validation
+19-Feb-2019 15:32:42.324   validating 37.in-addr.arpa/SOA: keyset with trust secure
+19-Feb-2019 15:32:42.324   validating 37.in-addr.arpa/SOA: verify rdataset (keyid=49588): success
+19-Feb-2019 15:32:42.324   validating 37.in-addr.arpa/SOA: marking as secure, noqname proof not needed
+19-Feb-2019 15:32:42.324   validator @0x7fd5c0496e90: dns_validator_destroy
+19-Feb-2019 15:32:42.324 validating 225.49.37.in-addr.arpa/DS: in authvalidated
+19-Feb-2019 15:32:42.324 validating 225.49.37.in-addr.arpa/DS: resuming nsecvalidate
+19-Feb-2019 15:32:42.324   validating 225.49.37.in-addr.arpa/NSEC: starting
+19-Feb-2019 15:32:42.324   validating 225.49.37.in-addr.arpa/NSEC: attempting positive response validation
+19-Feb-2019 15:32:42.324   validating 225.49.37.in-addr.arpa/NSEC: keyset with trust secure
+19-Feb-2019 15:32:42.324   validating 225.49.37.in-addr.arpa/NSEC: verify rdataset (keyid=49588): success
+19-Feb-2019 15:32:42.324   validating 225.49.37.in-addr.arpa/NSEC: marking as secure, noqname proof not needed
+19-Feb-2019 15:32:42.324   validator @0x7fd5c0496e90: dns_validator_destroy
+19-Feb-2019 15:32:42.324 validating 225.49.37.in-addr.arpa/DS: in authvalidated
+19-Feb-2019 15:32:42.324 validating 225.49.37.in-addr.arpa/DS: looking for relevant NSEC
+19-Feb-2019 15:32:42.324 validating 225.49.37.in-addr.arpa/DS: nsec proves name exists (owner) data=0
+19-Feb-2019 15:32:42.324 validating 225.49.37.in-addr.arpa/DS: resuming nsecvalidate
+19-Feb-2019 15:32:42.324 validating 225.49.37.in-addr.arpa/DS: nonexistence proof(s) found
+19-Feb-2019 15:32:42.324 validator @0x7fd5c0108940: dns_validator_destroy
+19-Feb-2019 15:32:42.324   validating 225.49.37.in-addr.arpa/SOA: in dsfetched2: ncache nxrrset
+19-Feb-2019 15:32:42.324   validating 225.49.37.in-addr.arpa/SOA: marking as answer (dsfetched2)
+19-Feb-2019 15:32:42.324   validator @0x7fd5c0800ec0: dns_validator_destroy
+19-Feb-2019 15:32:42.325 validating 247.225.49.37.in-addr.arpa/PTR: in authvalidated
+19-Feb-2019 15:32:42.325 validating 247.225.49.37.in-addr.arpa/PTR: resuming nsecvalidate
+19-Feb-2019 15:32:42.325 validating 247.225.49.37.in-addr.arpa/PTR: nonexistence proof(s) not found
+19-Feb-2019 15:32:42.325 validating 247.225.49.37.in-addr.arpa/PTR: checking existence of DS at 'arpa'
+19-Feb-2019 15:32:42.325 validating 247.225.49.37.in-addr.arpa/PTR: checking existence of DS at 'in-addr.arpa'
+19-Feb-2019 15:32:42.325 validating 247.225.49.37.in-addr.arpa/PTR: checking existence of DS at '37.in-addr.arpa'
+19-Feb-2019 15:32:42.325 validating 247.225.49.37.in-addr.arpa/PTR: checking existence of DS at '49.37.in-addr.arpa'
+19-Feb-2019 15:32:42.325 validating 247.225.49.37.in-addr.arpa/PTR: checking existence of DS at '225.49.37.in-addr.arpa'
+19-Feb-2019 15:32:42.325 validating 247.225.49.37.in-addr.arpa/PTR: marking as answer (proveunsecure (4))
+19-Feb-2019 15:32:42.325 validator @0x7fd5c00e9e30: dns_validator_destroy
+19-Feb-2019 15:32:42.325 dns_adb_destroyfind on find 0x7fd5c10bdfe0
+19-Feb-2019 15:32:42.325 dns_adb_destroyfind on find 0x7fd5c10be1e0
+19-Feb-2019 15:32:42.325 dns_adb_destroyfind on find 0x7fd5c10be2e0
+19-Feb-2019 15:32:42.325 dns_adb_destroyfind on find 0x7fd5c10ca2e0
+19-Feb-2019 15:32:42.325 dns_adb_destroyfind on find 0x7fd5c10bdae0
+19-Feb-2019 15:32:42.325 dns_adb_destroyfind on find 0x7fd5c10c74e0
+19-Feb-2019 15:32:42.325 client @0x7fd5c00736b0 172.31.36.98#58975 (247.225.49.37.in-addr.arpa): send
+19-Feb-2019 15:32:42.325 client @0x7fd5c00736b0 172.31.36.98#58975 (247.225.49.37.in-addr.arpa): sendto
+19-Feb-2019 15:32:42.325 client @0x7fd5c00736b0 172.31.36.98#58975 (247.225.49.37.in-addr.arpa): senddone
+19-Feb-2019 15:32:42.325 client @0x7fd5c00736b0 172.31.36.98#58975 (247.225.49.37.in-addr.arpa): next
+19-Feb-2019 15:32:42.325 client @0x7fd5c00736b0 172.31.36.98#58975 (247.225.49.37.in-addr.arpa): endrequest
+19-Feb-2019 15:32:42.325 fetch completed at ../../../lib/dns/resolver.c:5197 for 247.225.49.37.in-addr.arpa/PTR in 0.031169: success/success [domain:in-addr.arpa,referral:0,restart:1,qrysent:1,timeout:0,lame:0,quota:0,neterr:0,badresp:0,adberr:0,findfail:0,valfail:0]
+19-Feb-2019 15:32:42.325 dns_adb_destroyfind on find 0x7fd5c10c75e0
+19-Feb-2019 15:32:42.325 dns_adb_destroyfind on find 0x7fd5c10c9ee0
+19-Feb-2019 15:32:42.325 dns_adb_destroyfind on find 0x7fd5c10c9de0
+19-Feb-2019 15:32:42.325 dns_adb_destroyfind on find 0x7fd5c10ca1e0
+19-Feb-2019 15:32:42.325 dns_adb_destroyfind on find 0x7fd5c10c76e0
+19-Feb-2019 15:32:42.325 dns_adb_destroyfind on find 0x7fd5c10ca3e0
+19-Feb-2019 15:37:25.222 automatic interface rescan
+19-Feb-2019 15:46:21.795 client @0x7fd5c00b85d0 172.31.36.98#53419: UDP request
+19-Feb-2019 15:46:21.795 client @0x7fd5c00b85d0 172.31.36.98#53419: using view '_default'
+19-Feb-2019 15:46:21.795 client @0x7fd5c00b85d0 172.31.36.98#53419: request is not signed
+19-Feb-2019 15:46:21.795 client @0x7fd5c00b85d0 172.31.36.98#53419: recursion available
+19-Feb-2019 15:46:21.795 client @0x7fd5c00b85d0 172.31.36.98#53419: query
+19-Feb-2019 15:46:21.795 client @0x7fd5c00b85d0 172.31.36.98#53419 (security-protocol.com): query: security-protocol.com IN A + (172.31.36.98)
+19-Feb-2019 15:46:21.795 client @0x7fd5c00b85d0 172.31.36.98#53419 (security-protocol.com): query 'security-protocol.com/A/IN' approved
+19-Feb-2019 15:46:21.795 client @0x7fd5c00b85d0 172.31.36.98#53419 (security-protocol.com): send
+19-Feb-2019 15:46:21.795 client @0x7fd5c00b85d0 172.31.36.98#53419 (security-protocol.com): sendto
+19-Feb-2019 15:46:21.795 client @0x7fd5c00b85d0 172.31.36.98#53419 (security-protocol.com): senddone
+19-Feb-2019 15:46:21.795 client @0x7fd5c00b85d0 172.31.36.98#53419 (security-protocol.com): next
+19-Feb-2019 15:46:21.795 client @0x7fd5c00b85d0 172.31.36.98#53419 (security-protocol.com): endrequest
+19-Feb-2019 15:46:21.795 client @0x7fd5c00b85d0 (no-peer): udprecv
+19-Feb-2019 15:46:21.796 client @0x7fd5c00b85d0 172.31.36.98#53419: UDP request
+19-Feb-2019 15:46:21.796 client @0x7fd5c00b85d0 172.31.36.98#53419: using view '_default'
+19-Feb-2019 15:46:21.796 client @0x7fd5c00b85d0 172.31.36.98#53419: request is not signed
+19-Feb-2019 15:46:21.796 client @0x7fd5c00b85d0 172.31.36.98#53419: recursion available
+19-Feb-2019 15:46:21.796 client @0x7fd5c00b85d0 172.31.36.98#53419: query
+19-Feb-2019 15:46:21.796 client @0x7fd5c00b85d0 172.31.36.98#53419 (security-protocol.com): query: security-protocol.com IN AAAA + (172.31.36.98)
+19-Feb-2019 15:46:21.796 client @0x7fd5c00b85d0 172.31.36.98#53419 (security-protocol.com): query 'security-protocol.com/AAAA/IN' approved
+19-Feb-2019 15:46:21.796 client @0x7fd5c00b85d0 172.31.36.98#53419 (security-protocol.com): send
+19-Feb-2019 15:46:21.796 client @0x7fd5c00b85d0 172.31.36.98#53419 (security-protocol.com): sendto
+19-Feb-2019 15:46:21.796 client @0x7fd5c00b85d0 172.31.36.98#53419 (security-protocol.com): senddone
+19-Feb-2019 15:46:21.796 client @0x7fd5c00b85d0 172.31.36.98#53419 (security-protocol.com): next
+19-Feb-2019 15:46:21.796 client @0x7fd5c00b85d0 172.31.36.98#53419 (security-protocol.com): endrequest
+19-Feb-2019 15:46:21.796 client @0x7fd5c00b85d0 (no-peer): udprecv
+19-Feb-2019 15:46:21.803 received control channel command 'reload'
+19-Feb-2019 15:46:21.803 loading configuration from '/etc/bind/named.conf'
+19-Feb-2019 15:46:21.803 reading built-in trust anchors from file '/etc/bind/bind.keys'
+19-Feb-2019 15:46:21.803 set maximum stack size to 18446744073709551615: success
+19-Feb-2019 15:46:21.803 set maximum data size to 18446744073709551615: success
+19-Feb-2019 15:46:21.803 set maximum core size to 18446744073709551615: success
+19-Feb-2019 15:46:21.803 set maximum open files to 18446744073709551615: success
+19-Feb-2019 15:46:21.803 initializing GeoIP Country (IPv4) (type 1) DB
+19-Feb-2019 15:46:21.803 GEO-106FREE 20180315 Build
+19-Feb-2019 15:46:21.804 initializing GeoIP Country (IPv6) (type 12) DB
+19-Feb-2019 15:46:21.804 GEO-106FREE 20180315 Build
+19-Feb-2019 15:46:21.804 GeoIP City (IPv4) (type 2) DB not available
+19-Feb-2019 15:46:21.804 GeoIP City (IPv4) (type 6) DB not available
+19-Feb-2019 15:46:21.804 GeoIP City (IPv6) (type 30) DB not available
+19-Feb-2019 15:46:21.804 GeoIP City (IPv6) (type 31) DB not available
+19-Feb-2019 15:46:21.804 GeoIP Region (type 3) DB not available
+19-Feb-2019 15:46:21.804 GeoIP Region (type 7) DB not available
+19-Feb-2019 15:46:21.804 GeoIP ISP (type 4) DB not available
+19-Feb-2019 15:46:21.804 GeoIP Org (type 5) DB not available
+19-Feb-2019 15:46:21.804 GeoIP AS (type 9) DB not available
+19-Feb-2019 15:46:21.804 GeoIP Domain (type 11) DB not available
+19-Feb-2019 15:46:21.804 GeoIP NetSpeed (type 10) DB not available
+19-Feb-2019 15:46:21.804 using default UDP/IPv4 port range: [32768, 60999]
+19-Feb-2019 15:46:21.804 sizing zone task pool based on 7 zones
+19-Feb-2019 15:46:21.805 zone_settimer: zone security-protocol.com/IN: enter
+19-Feb-2019 15:46:21.805 zone_settimer: zone 31.172.in-addr.arpa/IN: enter
+19-Feb-2019 15:46:21.805 zone_settimer: zone localhost/IN: enter
+19-Feb-2019 15:46:21.805 zone_settimer: zone 127.in-addr.arpa/IN: enter
+19-Feb-2019 15:46:21.805 zone_settimer: zone 0.in-addr.arpa/IN: enter
+19-Feb-2019 15:46:21.805 zone_settimer: zone 255.in-addr.arpa/IN: enter
+19-Feb-2019 15:46:21.805 none:103: 'max-cache-size 90%' - setting to 885MB (out of 983MB)
+19-Feb-2019 15:46:21.805 reusing existing cache
+19-Feb-2019 15:46:21.805 dns_requestmgr_create
+19-Feb-2019 15:46:21.805 dns_requestmgr_create: 0x7fd5ce9bf6f0
+19-Feb-2019 15:46:21.805 dns_requestmgr_whenshutdown
+19-Feb-2019 15:46:21.806 obtaining root key for view _default from '/etc/bind/bind.keys'
+19-Feb-2019 15:46:21.808 managed-keys-zone: synchronizing trusted keys
+19-Feb-2019 15:46:21.808 set_refreshkeytimer: managed-keys-zone : enter
+19-Feb-2019 15:46:21.808 managed-keys-zone: next key refresh: 19-Feb-2019 15:46:21.808
+19-Feb-2019 15:46:21.808 zone_settimer: managed-keys-zone : enter
+19-Feb-2019 15:46:21.808 automatic empty zone: 10.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 16.172.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 17.172.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 18.172.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 19.172.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 20.172.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 21.172.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 22.172.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 23.172.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 24.172.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 25.172.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 26.172.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 27.172.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 28.172.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 29.172.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 30.172.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 168.192.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 64.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 65.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 66.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 67.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 68.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 69.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 70.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 71.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 72.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 73.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 74.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 75.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 76.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 77.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 78.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 79.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 80.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 81.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 82.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 83.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 84.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 85.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 86.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 87.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 88.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 89.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 90.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 91.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 92.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 93.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 94.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.808 automatic empty zone: 95.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 96.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 97.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 98.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 99.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 100.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 101.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 102.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 103.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 104.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 105.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 106.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 107.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 108.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 109.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 110.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 111.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 112.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 113.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 114.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 115.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 116.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 117.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 118.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 119.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 120.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 121.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 122.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 123.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 124.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 125.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 126.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 127.100.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 254.169.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 2.0.192.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 100.51.198.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 113.0.203.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: D.F.IP6.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 8.E.F.IP6.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 9.E.F.IP6.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: A.E.F.IP6.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: B.E.F.IP6.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: 8.B.D.0.1.0.0.2.IP6.ARPA
+19-Feb-2019 15:46:21.809 automatic empty zone: EMPTY.AS112.ARPA
+19-Feb-2019 15:46:21.809 zone_settimer: zone version.bind/CH: enter
+19-Feb-2019 15:46:21.809 zone_settimer: zone hostname.bind/CH: enter
+19-Feb-2019 15:46:21.809 zone_settimer: zone authors.bind/CH: enter
+19-Feb-2019 15:46:21.809 zone_settimer: zone id.server/CH: enter
+19-Feb-2019 15:46:21.809 none:103: 'max-cache-size 90%' - setting to 885MB (out of 983MB)
+19-Feb-2019 15:46:21.809 reusing existing cache
+19-Feb-2019 15:46:21.814 dns_requestmgr_create
+19-Feb-2019 15:46:21.814 dns_requestmgr_create: 0x7fd5ce9bf8a8
+19-Feb-2019 15:46:21.814 dns_requestmgr_whenshutdown
+19-Feb-2019 15:46:21.814 configuring command channel from '/etc/bind/rndc.key'

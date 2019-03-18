@@ -1,0 +1,109 @@
+; File written on Fri Mar  8 14:43:32 2019
+; dnssec_signzone version 9.11.3-1ubuntu1.5-Ubuntu
+security-protocol.com.	1	IN SOA	ns01.security-protocol.com. admin.security-protocol.com. (
+					5          ; serial
+					604800     ; refresh (1 week)
+					86400      ; retry (1 day)
+					2419200    ; expire (4 weeks)
+					604800     ; minimum (1 week)
+					)
+			1	RRSIG	SOA 13 2 1 (
+					20190407134332 20190308134332 35999 security-protocol.com.
+					CVjzfjK6YycqS0DWFIfSY9+bIeouHfN/dPHy
+					R/SRzyG+7BzVxCgO0csr+lLepH4R3PKGXcoZ
+					0WroYkjZmozOXw== )
+			1	NS	ns01.security-protocol.com.
+			1	NS	ns02.security-protocol.com.
+			1	RRSIG	NS 13 2 1 (
+					20190407134332 20190308134332 35999 security-protocol.com.
+					A5pqhAJiLjgmbJFrZgVjv3EslWFWWKTVi9uM
+					Mynd1hMM/mSGTyKdNw0I7DxaRg4hiFXRXn9S
+					fzQRjjskspR1QQ== )
+			1	A	34.221.70.48
+			1	RRSIG	A 13 2 1 (
+					20190407134332 20190308134332 35999 security-protocol.com.
+					JCnWuSAGXrnHzbxARrhfnevEhUTOTC3KMoDM
+					MKdA0xCZDF1vKKYee3qGz0V+Oa8EmNzj77jt
+					46SezLtvAxoNVw== )
+			1	MX	10 mail.security-protocol.com.
+			1	RRSIG	MX 13 2 1 (
+					20190407134332 20190308134332 35999 security-protocol.com.
+					UaGW7u5n7RL4TI5HDi7roWXyNRsksVHMj14x
+					QME4Vr9K9OnJh5clwOn4BDcyFtkPCxFoGwVB
+					qpduxorShHm4hA== )
+			604800	NSEC	mail.security-protocol.com. A NS SOA MX RRSIG NSEC DNSKEY
+			604800	RRSIG	NSEC 13 2 604800 (
+					20190407134332 20190308134332 35999 security-protocol.com.
+					1pXfH0BKPekKTSPR1A4fzUl5IwxwrA0Ashva
+					z2dKkT0uVpebTF2uxISqEw5pqylMjcuHRg7F
+					XHDGJHPRW5z8aQ== )
+			1	DNSKEY	256 3 13 (
+					VLxOQOs4pe3y9mH2U81RcvKV6XQQjsEDG9xr
+					yig+zFtVbhwC5y4CRZVwXi2AFis05RJvcoL5
+					22nO4dyTMlGl6A==
+					) ; ZSK; alg = ECDSAP256SHA256 ; key id = 35999
+			1	DNSKEY	257 3 13 (
+					wmVDFIxNnlz+uCzgiqXOT4MgczleUJLK/Ifu
+					/AtcOmoee/XZxxry4Ay7l9Ke0x4mWRteVFOc
+					3XC287hhRlTR1A==
+					) ; KSK; alg = ECDSAP256SHA256 ; key id = 29012
+			1	RRSIG	DNSKEY 13 2 1 (
+					20190407134332 20190308134332 29012 security-protocol.com.
+					Xv7KKJQ5WvxUcLgaCBNOS4nXHA0foG1Lz5lh
+					fe5VrCpnPcvaznBtwg3LzgE1rbZ31HWX+vfi
+					W/XIjD5k+QeznQ== )
+			1	RRSIG	DNSKEY 13 2 1 (
+					20190407134332 20190308134332 35999 security-protocol.com.
+					0/qyCJgCLa46JAOarNauhSoKYtkSrpM73C+Q
+					3oWvHiDnOZO8PHsgofpVcDZlhClbuovkYIip
+					PRe1KA44zWnE8Q== )
+mail.security-protocol.com. 1	IN A	34.221.70.48
+			1	RRSIG	A 13 3 1 (
+					20190407134332 20190308134332 35999 security-protocol.com.
+					ToRnHxa6cyUD2e8QcbLcADhQ3b+/JGBkPU9a
+					ttaQ9UAl0QYO6euj1uwLfsq7cFSsiUFOCCLo
+					KU7KZZ0A+uaKDw== )
+			604800	NSEC	_25._tcp.mail.security-protocol.com. A RRSIG NSEC
+			604800	RRSIG	NSEC 13 3 604800 (
+					20190407134332 20190308134332 35999 security-protocol.com.
+					q+oEp+p/xgbaaLSevmZpeATgCGZ2ktiADYlw
+					elPb6atI760MAD8zSOc+vzHOyONqHx8QXaVv
+					87zvSFGBH6dH9A== )
+_25._tcp.mail.security-protocol.com. 604800 IN NSEC ns01.security-protocol.com. RRSIG NSEC TLSA
+			604800	RRSIG	NSEC 13 5 604800 (
+					20190407134332 20190308134332 35999 security-protocol.com.
+					QFh5/XJrYKL3PeIMOQlUFWHgTKtgxOItEqwf
+					LzkhBQ9rI9V/qllOv51/dOAW5puheFIfK8wm
+					UjRtuUoiHj5V9A== )
+			1	TLSA	3 1 1 (
+					38717199DAF95D9D58A5004CC6FCC3FA89AB
+					E696CB57100E5FA018C4BAB5543C )
+			1	RRSIG	TLSA 13 5 1 (
+					20190407134332 20190308134332 35999 security-protocol.com.
+					O89TzDT7Vt89HJEYyyzy9GhKuQ+ieun/+DZW
+					MAkSiyeKU+mJLyj+Qv/IfY/6XID4lMSp9XNe
+					SINJzPhRgZt8hg== )
+ns02.security-protocol.com. 1	IN A	34.221.70.48
+			1	RRSIG	A 13 3 1 (
+					20190407134332 20190308134332 35999 security-protocol.com.
+					m3KgeECkfvOqTDE8x8Ty0FWLNbwIZrEDHn+A
+					2N1Vqxw93ZPitb2axX3QaG/JlVKYb2Xs99gS
+					uwPZVqX4x4VVzg== )
+			604800	NSEC	security-protocol.com. A RRSIG NSEC
+			604800	RRSIG	NSEC 13 3 604800 (
+					20190407134332 20190308134332 35999 security-protocol.com.
+					B/W80GLVFt4fksoiqqDh1JyFlN/3TczMqvVh
+					CzOlMZ7ngmEZ9sZNfzTKYLTCBr6KWwsNcv1J
+					eCnFPU/kXRWVeQ== )
+ns01.security-protocol.com. 1	IN A	34.221.70.48
+			1	RRSIG	A 13 3 1 (
+					20190407134332 20190308134332 35999 security-protocol.com.
+					a5y0xMrrkRDlVjiztDhy1X0HaxuPkjiNdAUW
+					zWIdaa2tVzOUOcigBbLQlWapIOpoEnKh5sLy
+					5hQysdEj9GsdnQ== )
+			604800	NSEC	ns02.security-protocol.com. A RRSIG NSEC
+			604800	RRSIG	NSEC 13 3 604800 (
+					20190407134332 20190308134332 35999 security-protocol.com.
+					gLAIwnrj6ncCCN92j4LIC8rbBKA8A9CIK7t9
+					hOi+dR9+jD/blJcGGGi6ZlYmq+BumjsUacF0
+					AT2sD/+go84RxQ== )

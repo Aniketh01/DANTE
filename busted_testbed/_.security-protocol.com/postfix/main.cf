@@ -1,0 +1,70 @@
+# See /usr/share/postfix/main.cf.dist for a commented, more complete version
+
+
+# Debian specific:  Specifying a file name will cause the first
+# line of that file to be used as the name.  The Debian default
+# is /etc/mailname.
+#myorigin = /etc/mailname
+
+smtpd_banner = $myhostname ESMTP $mail_name (Ubuntu)
+biff = no
+
+# appending .domain is the MUA's job.
+append_dot_mydomain = no
+
+# Uncomment the next line to generate "delayed mail" warnings
+#delay_warning_time = 4h
+
+readme_directory = /usr/share/doc/postfix-3.4.5/readme
+
+# See http://www.postfix.org/COMPATIBILITY_README.html -- default to 2 on
+# fresh installs.
+compatibility_level = 2
+
+# TLS parameters
+smtpd_use_tls = yes
+smtpd_tls_session_cache_database = btree:${data_directory}/smtpd_scache
+smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache
+
+#smtpd_tls_key_file = /etc/postfix/auto/security-protocol.com/mail.security-protocol.com.key
+#smtpd_tls_cert_file = /etc/postfix/auto/security-protocol.com/mail.security-protocol.com.pem
+
+smtpd_tls_chain_files = /etc/letsencrypt/live/security-protocol.com/privkey.pem, /etc/letsencrypt/live/security-protocol.com/cert.pem
+
+#indexed = ${default_database_type}:${config_directory}/
+#tls_server_sni_maps = ${indexed}sni-chains 
+tls_server_sni_maps = hash:/etc/postfix/sni-chains
+
+# See /usr/share/doc/postfix/TLS_README.gz in the postfix-doc package for
+# information on enabling SSL in the smtp client.
+
+smtpd_relay_restrictions = permit_mynetworks permit_sasl_authenticated defer_unauth_destination
+myhostname = mail.security-protocol.com
+alias_maps = hash:/etc/aliases
+alias_database = hash:/etc/aliases
+myorigin = /etc/mailname
+mydestination = $myhostname, security-protocol.com, localhost.com, , localhost
+relayhost = 
+mynetworks = 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+mailbox_size_limit = 0
+recipient_delimiter = +
+inet_interfaces = all
+inet_protocols = all
+home_mailbox = Maildir/
+virtual_alias_maps = hash:/etc/postfix/virtual
+queue_directory = /var/spool/postfix
+meta_directory = /etc/postfix
+setgid_group = postdrop
+command_directory = /usr/sbin
+sample_directory = /etc/postfix
+newaliases_path = /usr/bin/newaliases
+mailq_path = /usr/bin/mailq
+sendmail_path = /usr/sbin/sendmail
+mail_owner = postfix
+daemon_directory = /usr/lib/postfix
+manpage_directory = /usr/share/man
+html_directory = /usr/share/doc/postfix-3.4.5/html
+data_directory = /var/lib/postfix
+shlib_directory = no
+smtpd_tls_auth_only = no
+tls_random_source = dev:/dev/urandom

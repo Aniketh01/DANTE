@@ -1,0 +1,57 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "security-protocol.com" {
+	type master;
+	file "/etc/bind/zones/db.security-protocol.com.signed";
+};
+
+zone "31.172.in-addr.arpa" {
+	type master;
+	file "/etc/bind/zones/db.31.172";
+};
+
+zone "valid.security-protocol.com" {
+        type master;
+        file "/etc/bind/zones/db.valid.security-protocol.com.signed";
+};
+
+zone "different-cert.security-protocol.com" {
+	type master;
+	file "/etc/bind/zones/db.different-cert.security-protocol.com.signed";
+};
+
+zone "missing-signature.security-protocol.com" {
+        type master;
+        file "/etc/bind/zones/db.missing-signature.security-protocol.com.signed";
+};
+
+zone "wrong-signature.security-protocol.com" {
+        type master;
+        file "/etc/bind/zones/db.wrong-signature.security-protocol.com.signed";
+};
+
+zone "dane-diff-usage.security-protocol.com" {
+        type master;
+        file "/etc/bind/zones/db.dane-diff-usage.security-protocol.com.signed";
+};
+
+zone "dane-diff-selector.security-protocol.com" {
+        type master;
+        file "/etc/bind/zones/db.dane-diff-selector.security-protocol.com.signed";
+};
+
+zone "no-cert-starttls.security-protocol.com" {
+        type master;
+        file "/etc/bind/zones/db.no-cert-starttls.security-protocol.com.signed";
+};
+
+zone "missing-ds.security-protocol.com" {
+        type master;
+        file "/etc/bind/zones/db.missing-ds.security-protocol.com.signed";
+};

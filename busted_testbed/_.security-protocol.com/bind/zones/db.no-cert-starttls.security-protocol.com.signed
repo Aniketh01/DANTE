@@ -1,0 +1,428 @@
+; File written on Thu Apr 25 13:45:36 2019
+; dnssec_signzone version 9.11.3-1ubuntu1.5-Ubuntu
+no-cert-starttls.security-protocol.com.	1 IN SOA ns01.no-cert-starttls.security-protocol.com. admin.no-cert-starttls.security-protocol.com. (
+					18         ; serial
+					604800     ; refresh (1 week)
+					86400      ; retry (1 day)
+					2419200    ; expire (4 weeks)
+					604800     ; minimum (1 week)
+					)
+			1	RRSIG	SOA 10 3 1 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					Ufs++CcMOo+5wx40PmNZnJWFYLhhzYYiOdko
+					QlsbR523/6clpJxP4gGTkJ3eoyD7Iy5CrK1o
+					1nED7MOvfwyjzW+oyX5BGg7fcMVf9/UKit5X
+					4A/gJG/duPNb9pG7Xz13ApJZU+UqosHUTLPl
+					Eydi+RdHAA+Tcd3JZwM9teWdhOt1evAdfhMv
+					qFNBT7TBPNAAhXfrkU8TIuoLS2EzBI64CPku
+					ZNcJDMFvheacfnXRhvvnTUsVWLeUbEYHUtCk
+					4JgcCKu0CzUdgrWtLf527tHGmkZEnwOdap/G
+					PJxsBSZp0CSq0ZEFX6+8L9feGHPS95onNf4F
+					XnPR2ePr6mudnR0MGhSyNYGkaI2W10xjkYW1
+					sS9VIZwkEotK0+4mm627UlodSMaaUaN4Fftw
+					MAEu4ctKpLizo1lvQGiFLDp8uREQax/p4cFY
+					Ys/scLiqVWMYKDni3/781YcIEvZrOXXJqm+g
+					Yvm1ss1XUNWVbJOL0keI36WZ2mmwXAVpV2VY
+					3WOhIdOQ4b0UKMF/offaWlp411IWTv7Sh2UV
+					ObNARYAQn6qgQfk81AVFH/tPg1xLW8nJOkro
+					e1ToKNlw4OXHnXsU2tjmu29X1lbMOELpVQUV
+					5TZdop/pfCvKiebazE4kj9jjX4LwtPtlwlbT
+					fKVHpHLB7UsPQNJKT6p8jwem1i5nHEmuIek= )
+			1	NS	ns01.security-protocol.com.
+			1	NS	ns02.security-protocol.com.
+			1	RRSIG	NS 10 3 1 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					CWW9OlWhAV11HOYeGpbCWOIVa/cshIO0b3YO
+					7AJHvyuNfpxH+uNUC2AiBMyii94C0jitxvF0
+					B+FgyKmd0pcc27bu+0R5vlDlkNPIc5v6p7n4
+					nkahvDXmB/OUF8JDHFm8tlbRMHGvCwkJ0bTm
+					VfCLIW6ZFk7tnGaVg/W7Pd1JmI4j3codZm0i
+					A+tRyvYTs1hRYf5KP0pMC2GZB6sCZeDR5zN2
+					XN5SJaXq62dngd5H2GpcjoESphqnMFRzIaGC
+					GJTfYpBtIfPv/L1Wa3OwToNTpE9xbM3TModK
+					RwhvhobThB2EwHs6kOIfB5cJdybmGBuN3Hrz
+					CKOv+ZHkC1BxCwRAzCKqXRWgYTC3if2YCGEn
+					ferOaZdWszp4qHLamhPNZomAWFKfollFlYlj
+					U49S8b8E3nlUCFHCkAApCLEBQxciS/pzdk87
+					AGMoBEU4H1/ngtCN//AiYyNEj9sBhTnQf71Y
+					eQxPPodc2DBIjGBNHE6yivEVJC752up7FBuN
+					lmAHJK+j3Q85owRdotl66JjxVvoFRLHsj1Pg
+					hf5jlB2MzZlEmWcPQbH7bLF42PHzklJeqtzQ
+					2mXwgaSlJPhfmEdPGbXSUBp2TnhiJeE3ZiFp
+					EDBvzm5FmTby/uUTHM6WnRhAnw1UBNrFxWpC
+					j5HQRuyN/nA5QTdNXPrR1707/vubO40e1fw= )
+			1	A	34.219.137.44
+			1	RRSIG	A 10 3 1 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					NP/oq/2gUhp82t56hoZqPKLaLihDR6Lf774Z
+					VHFQDftkeNsq5bgAgks0/HOZwu642h1g75WW
+					Vm1x8uCt9xRbFQF3O7wVZOLqNbFFtovMckps
+					2j4fREXzIrTgvqexQSNo30geRZDmVZIQo2VC
+					LCar8vyF5ut64nU2yLevvnadq2nX2FneS8I/
+					BUwGtJM69ysuf95KoV8Xxr9LLI2OfHBibT63
+					tKoRDJVPJ96WKyAlsuGi0yCm619rlFi2WKsJ
+					qdgkIxuvltCZM4ZLzRK/eN+zXQ06U24dx6Xd
+					mqKfBGYHyIqbTPXmzBMc91dErhiNbJtVk7vb
+					Q/U/fL3zCBgVAr7fABHM46ekF6JWxrBanvI8
+					Ec+FzjLOZtt+B2OWqZ9XXu+0W1RaKkiTSnrf
+					psWlMSxZAIHzi5SEHWLNFVZJqJoeye85/C8l
+					5wOXCckTQ/sd6joodDJgzhRU63sx0NZOjtZs
+					J+ilzgFwe+9dspwy7eSWMhpI0UXU+o0svlDl
+					CHHJ1Xc/5+nlpKTO6DfZYlaT3lUFvm9JC7Gf
+					RCnLXzkkb5qBlcRHvbPs1Qgu+E+SpNcFay2Y
+					3yi2M67KGD2tlAxV9nI6wEvXIvfeAwb9ahvh
+					9BvYOhwoPRE+AkqPDk+j8mD40+1OG4JUMkbS
+					S1efONlq0jUVI3Bj3H7t1RXa9upQuhO2ze0= )
+			1	MX	10 mail.no-cert-starttls.security-protocol.com.
+			1	RRSIG	MX 10 3 1 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					2c09fZf5ZmpUD0onM/RAdCtkS1ov6uyDR9X3
+					gfvxoVO/rvbUw69eypbon6YnN+IwqfLJrZ0E
+					7s5sF1TaRyaBzW28X4nXeVQ9wl1aXARGS5UF
+					0l+tAi1YOkuHPuX6tHzto28o8Y5VcrQ0YhrO
+					f+PwTqnp8LiJWSB9rdgK707lyGMymS9Vlnvy
+					nx/3Z0NxqfJlxRG4zTg02nke0AxBoF43AJtA
+					Avfe3heDOptTcgV/HT1z3Q68nYnUPnp2rASP
+					v7Jp2rIDTWU2KW58q6WfljOK/ien0cg8JKBO
+					+LvfYpUQ5/GVf2LKdJKiw0H8kmTWWLeHZXDD
+					Sivzjnje59i9dpzOd3ZCTP7pQXPd4tVSwSxP
+					ziGD7vBoiWJpFzKmvhjPFH3XOwL5sGe6AwMT
+					XbF0UEs7NqVd/vggMUluAyqwH3vacaNRF5Fa
+					8DStLUjIOj+y72j5vizWyF/AfzzAT+oFar9H
+					tHKLLkQighOsRmNmv7xqO6mOwK4wVsqrAzqO
+					DbMVjF74q54Rxm9pzuzKUIfA3dkRaWjR37OE
+					gBnMp4Il5CkodP3y5WA2uVE8utgPWKQXuX4C
+					4+s3f7h3fntDm5ip8bqdtyHVUTm/0v1deWq2
+					Iq/Bz/R9CXh7Wb31dPOoiS9+KffZ/aZDylr8
+					G9D1hQ3VVwtRLnu30hGqfAI36HdHnKKJ11k= )
+			604800	NSEC	_acme-challenge.no-cert-starttls.security-protocol.com. A NS SOA MX RRSIG NSEC DNSKEY
+			604800	RRSIG	NSEC 10 3 604800 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					nLT+DtKKIzqBRCIalyuSqn4fZ+mxr4o1NG5F
+					Lalr4M/kVOfSEoRvoeeAmOpLkQGJ4CUjjVbP
+					o87jiZpvd9v6QUEbZGo5ojt3mB25XpxNUzSf
+					egQXyOFImlI5FLn9yzvODSkZfTCJW46uR15U
+					y7pAqoRXgEJP41le2JxeBPKhWdlNDlVbjg5w
+					W2C395RQUUGtqWx5pxtU0Xq05BINDjCHSyV/
+					7Rajh0awVIUynzDwhAiLQSQ0QeNCihqay+dc
+					eS3pVlFKaOWQYrL4ZifsjOuItol3NR4WnklB
+					OIN+sWYqtUYd+rg8UzKfa+68pArQstWTFEmq
+					pg0Khe99QsUmV/nNWK2/clMFa3NVHvEhDJn+
+					Q2IyPiupAEB9zwS+VYW21UsG1xyc0431LYL4
+					T4Bj+k9VSOb9cGa3vzumcAe/qx9EfxKaxJ2d
+					5AR2v3m7A8RCCTRPwpyTiG5/XeqQN6n0b+hs
+					RR+BywJT3iFSNeObDYPva+8aqocx50Kgn5y5
+					SpGKpzMQSEQYw5Qtc0Hnbn5qTnsAnuanlisZ
+					kBvmshNNSA9GPAw3RLQDeisB09MrgtYosYvV
+					3z1jHKbTZB4PySHoP2WpJCBIkXUPVnUbWgTJ
+					G3eDdUfIMz/Lcq+2c0C2dOqg26Akw61oFmyC
+					xPwZS2x9IK+ZLK0XANauSFKmd8Kr+FI5TWU= )
+			1	DNSKEY	256 3 10 (
+					AwEAAeVYcqTZLtnPpHosXm1jIVIU2jNI44aw
+					Oih01hKKRklGKPsKZ5NoY9IiL40VROOiAglV
+					LaitHpQPrft8/KVke+8C9R5J47ZAAtjQ21P+
+					gSWwui8HI7fabkRcHDPnjjR+GpcHStE+GVh8
+					V1J6LqPbITiUgt2lx+2oSeBFud4Z/JU/fSI2
+					NLc9rglSVOInm8aX3qVW8XGL+z2rIppIW9Gj
+					EF67/RR+Wm7YjEhRr6Yw/wO62QEelOD5mUuS
+					uq3Va1kfRRkTcSrd4ySuSKGegF5iES5Alb12
+					L0x3d5oEBeklLvWRs6g5/Z3efF4Bakf6/MqW
+					7Zh52IteW3tr8J+gIP5bQGIs5DGrDfjZh1NH
+					jbQllLFEhs5PJpyAY6OMtHRCOomgzAMQsRMG
+					dotnSL4T+jIBC2FHB469nc5fvdqba9rQfpEZ
+					tAvxdQPv2/MV4HsaZgkYfhu7ViBRxREao5Mf
+					8P/w6QW/np2J8wCM9WcQkOuSbgquN/TUT1+4
+					zr9IgWQrqKHQU3o5JE2EwKhthzSqCGGrf2Xz
+					O6DE3xIYh/AZTGBWPPNiTUHcPsPaOH8UVVgu
+					S4Y3sU4eA8qB5QfrYdgTghbZ6SBIgPg5QSzd
+					ipOXyk6nrfSl9U20oLKLEagPxSizqPcFDGYf
+					i0we9efZlJoRbcSOZomwMSh0ct1uH0jYWZ+i
+					MVZb
+					) ; ZSK; alg = RSASHA512 ; key id = 30050
+			1	DNSKEY	257 3 10 (
+					AwEAAdg4pT9PvoI1/pid8J/iGkAEgTa0SicS
+					u5W5UWDfjLZU4jPVeZKg+djk6nx+sjXRBITz
+					cbT9SbVCZx9QN00H8NgM29KUYH4sOg8vVygG
+					vjMoRuvSmcJGEdaa0fKQaal/zc6I+z3WBV+T
+					BsHBK+eh6Vz1SH3d0x0+p4Mhrrr2mlqSVgIv
+					EgWZfLIFUJQCBtK22JSEIR2e1BDd1FqXHtJo
+					NAJgmcktQ38lwx0KpCtLfHcYSVJ9EJtbt5An
+					r+75wyVjCUPIZpGkxxkzZKinXQ8hdyQfkfGE
+					+ftFJp9RjCq2wMIz5X5CEYCfhWuOV3Kn7+DL
+					dIIy1mx0GySN3R5hMkmjC5rK6EdGWD2kPFFO
+					Jo1mOJOuvTs8TZKUXbFhEfpj4yHwGTFFhyzs
+					Bvx/tyZXcsAq9HmmDEq4q3wE638TlhgubEEK
+					q59jimOkvFgplMgfhSUblyNbI8oZVExNB7hV
+					JXYScilHJc3bWkD+v3RNUdehGDivUM+fmgE3
+					BDaYwh60szm/iZLAyFy6JjgZRc+2OM2+C/2G
+					qofOvRyXOPTUaa/ThIFuFPYhtKy4eNZxac1S
+					Xi1m5TwTG/XkD/jqbJvWvlpKJrZD9tUK6SsI
+					2hkE89pxnqiDIucNlcSroOa+uyOonQYsmDBP
+					l1fOwzyFJkVQOon28syEx0JMyfQOiBj1QTUg
+					peqD
+					) ; KSK; alg = RSASHA512 ; key id = 29079
+			1	RRSIG	DNSKEY 10 3 1 (
+					20190525124536 20190425124536 29079 no-cert-starttls.security-protocol.com.
+					ZhKvxTnZ6dCl1n5dTtIY4cC65XhxG+kTtk7o
+					KHx7s4hBhGUzcuNhlHp40e0YLRfKla6B2w6l
+					BbtFS8hT6vgsilXP5mQ96CYxzhjuGUVE2M4d
+					9A8SNiqCQn5CfRYYNf9EYbLTNUDC+SCXSxZ4
+					n87UaLn+0MyeLOnv9polQTucT2liOzNl1Oim
+					2WbqvoDNAq04FU3zhOnUyteYe3nBfg3yUwkE
+					HByDRjJvKx/EsWV1ZFj1pTjFnypAW5VvPow2
+					CxSYmYzyiuhmknoElqrYZP3hnkTladl/4atr
+					XsPUOZRKp05hzAkAGGN+0h6uoxk8pMcVJzAh
+					3d7UBwQpvbPFfNz2t6QsBRlVQ4S+OO1HrGuh
+					nHkdxGdzgk2zQI04sESx8CC2tM7xLWpb9fz9
+					HhjNlNPCs2pB00gDs97dxMSrWP9wHJliU5gR
+					1QR6wZg0mcKBnl/Kah9Ev1Htt5aoQwZtgTWo
+					1vXW0bca6NF4iC/iA9KCevPmXatn7tMOcZBe
+					HmFQiaMbAqBXEHKC1MG9UzU5EcUqUVnE587T
+					XgcCsc9BbHQ+B+bs9NDOotiS7enIXSvUj2X3
+					RF4h9zIsBPllOrwuEknLLzhy5gmUQmVl54fH
+					mSDOltGyN7LxxtBgCDB7e+N9EKmvvBXmBY9G
+					pmSKKaYql6VKc3h2p8EfduTsByUqQIBxkYc= )
+			1	RRSIG	DNSKEY 10 3 1 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					oDkmWA++M4urnMR8cQ194coeaSP3ulz5T5A+
+					NMMjCCrTr7YCENp5FgqERHU/OUf3pBW6oFZu
+					KEvYHevTwoAFAxUWWyoHtPvJAjDMnH9rHE0W
+					ZKtHEFnlb//ny26oZ4VbgKqWgSaghPyIhB4v
+					rhrjqQErkzCZMu9PnUVKTrhYxLK6xJPidDhn
+					EPdh0ZLRvqdXhcsZ/b1D8ALWpzyCXjShqjjO
+					sZMUfyCny9W+Kb4QsF2gg6BH4zrIdOcZ2RsP
+					bIwx8XPNwkg9UcuvhllJXchm/odLO2bfQCPC
+					m6cIxhYNfNoiEj86PCNs/b/upqKYS5mxxEJa
+					J2k9Yymm5mUX+9uATFn2jRgxb8gK9JDguGBw
+					Icmxw5F5JgxWVsSn07kQ3Jk9MacGXbCZOYz2
+					erVUbT1t2vyuGQXgsPlgPMplsCbd8dNrb5y6
+					9Gv/Tno3uValDwt7kywk06jmCWQdVsgZQuHR
+					ih/93UIls9ZTo8uTtpgFLRox6fo3rIzgSZAt
+					qUxzOOAg0l04AmXB9jjdfI+wjhq5w4LD9dl1
+					sv3RtvIaL04ZHTbHsBboIxKwii8DJ8DBSVnZ
+					XcAL68qyg9fxiDZyt5nOlSGyJSGt3mWTqZFq
+					AtiNF4dHxkzD8OAKQ0YgMBje4hyx3q4tNFnC
+					fB0iShXkzeuWZcAQlfrUeAFfAwsg/cBgtho= )
+mail.no-cert-starttls.security-protocol.com. 1 IN A 34.219.137.44
+			1	RRSIG	A 10 4 1 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					sxrndMlyxxSEWIUU0vTVnl1uKm02J6cEm6MZ
+					khrU6niY9IWUKwaVQsNNgPWeaJZbxT7zpRPI
+					u5ixCawnV+F2tuB3K5zOYX88DmS022BuqtgB
+					qBKO8DhE3SUrHnPdJxDbdICK8LEo7WFGHEJU
+					KUqsD6qJAOgYFIPznJvOOSXA3jOq4HB5thX3
+					gzzMgoDKPhUZ2hU5rk9/fOI331+j81VZYbel
+					iaY6sF1yotZ8I7/WNKd6uWClddNtxt4asNeR
+					BD6z4ibsskr1/bbgJSt7eyjiPHsQv1pttSIZ
+					ekxF0tG+Kq1wCc6eRMRjB4U2KxsnN+FNA2H1
+					IZwjAO5t9/gZMz6Lx6/kLR2qxcI2ptNItI1I
+					/GpN4pT1CDU0Z44WlLPMYLHyOK3Xy3oJBZbk
+					vTyCubOjvYnfnJn/WSj5SKxJvjwDIjS4Jmtv
+					4M3YvM6wPNWv8wbSQVVpTGvM+ksHjiSV4MT6
+					BLNYVgtLa1HC4389KVxNJT3c94AjgA82oFHs
+					Ut5t6lgCAveiLpJgOf+QBrET6G8Zbo0OxkbW
+					UkqcYFAxNfLrtYI2JcURtPN0ADIw1kNpzbIx
+					Q7rlUosBLrbxldgQEXA2ulV8eduAz2QTSD4n
+					3DPCTahinQNJS3ijt8OnaAnpWFoHB7kmFfFk
+					uuuRu4tpDXDJfO2kYnEJwTx+zgc+eJX7Og4= )
+			604800	NSEC	_25._tcp.mail.no-cert-starttls.security-protocol.com. A RRSIG NSEC
+			604800	RRSIG	NSEC 10 4 604800 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					NHtTLhssr+rMEMep8mhsUPd+Px81MK9nam8G
+					BiaYqNkuBH0itrsARkm/aLKmSIPL7/Nkrxqk
+					wB9AcSJ5rzxwdO4TKdWQSkAu4Js3Qw9j6+3J
+					bOw2ttRHEsJmSI6+/H236BDiJf9eu0TQUYrD
+					D3GXRO5C3+/0OTy/tF8YE24M/VsIeX0yoNad
+					BCyRf+dihILbXFPdHqrc/sg2cG7LUvakAiEB
+					iZQwIOy9VNohHOcqVAD7gh7kce6ehDYi6ECi
+					lJjrFoVqpZvgkR0by+xA0qz5jYY5UVFdcClu
+					6NQJC/puBUB2yCM+cNHwsZtHIYENSOqqE0k6
+					BxyWv6g073//3Syfp8Jk3Y6W/P6gRdWncQAB
+					wY0ApkIXV+fE72iPW21cDov/3cs2lRHFC/Ha
+					ZyRqI+N8pQd5t3lnb2eEg7sRtlxR8bUZg/QZ
+					CMaVFdMovdch6+w2evktzYTotYFg00pKntjd
+					rfRDmXbRXZ3DMuPS697HbxKhpq6Cla5zrP/t
+					PupPJJLHo7RvM5GfO0r7lEeIk5HxL1PCPAj1
+					KeHIUFoywsUDocTNZPrhBQH8Q1UOHoKT6F9u
+					8MuOuUdeq1ArIaf/z5cGlcNTxD66JRlba2/9
+					+OHWiBZFYP3EX3krubGpSsudQwsWEvWzChOX
+					pSAMEbcpgbfpKJtknyRrUk5wbPm61rjxlGI= )
+_acme-challenge.no-cert-starttls.security-protocol.com.	1 IN TXT "NVB-3IOa3Va8smV2C7zRxRqYMXFloaSz_0vsyiHGAjk"
+			1	IN TXT	"swFXc0dyaqpWwYwbjz25tLgZR7C8MNvTc6C1lfkDN8Y"
+			1	RRSIG	TXT 10 4 1 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					3jx/des6k1kKPbrR9wj+KP9UuFKQMlz/USU+
+					9nlHnvYD6gn1UK4eN4GhICAizlrbeaH2UwWA
+					dbKvRbby4BTxudinNTS/ntJrV9aKTMllLA66
+					Ufq3Lf/S3GJ16eV2kkbiGQAcIo46U7IdYAIJ
+					2d2lbothK1e1WYz2l1258m3dmZn3uZB5Y6yV
+					EblcYvto8Hyae8hw6Z4o3dXhff2o3o19UOSq
+					rifNOD4ouaTsJLHTJWQf9np2TLoJkuWuY+cs
+					k8kc2BQCC2ftJCp8VDptmuyttTpdafLfrzji
+					gt9Sf9NqRyJku6g/May2qJDIEZ7VgteX2XyM
+					f5AXEtaxg4RxdcOXUV+gI7QAu8L1rz+Wgn8V
+					g1XSKKy+j/zkLSNDqi9xTGc6bLC4XvnsW6Fj
+					5dJyrU5EqYpy92zx+w9y2+CjMo5gM3XGM5w+
+					MwlI/JKeBrTawuSgJlVO3Ahu2JZAs+AiRzxT
+					cFiQApZI6K+Kuo8YcO/HmfwB4GeSj5/1AJP6
+					3xUqhKfGGzHj4BVTZPVpAQIjZC0/EEzKwTsD
+					wGJxDKN63IPKRxefIYOpceaUrg2aR+GccyHY
+					HKc+igYuGEe5JtVo45+lnamo/IAM+/87hbfX
+					wxUbulWo4GzQYY/sa8zgKbBIf/vk8Gt5HXTg
+					DutgueWhLgTBG3T1nf8dGo+3fPkdCOROXRs= )
+			604800	NSEC	mail.no-cert-starttls.security-protocol.com. TXT RRSIG NSEC
+			604800	RRSIG	NSEC 10 4 604800 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					rZeze7EuZIncH+cUaGWoOoBQnXK6A5GAnnTp
+					XOQ0DwsRlhgl+C9BDfy1unX8uVKKWHgbWdCP
+					irwbEAwQp9bKKpNOp5K+Uihj35bHO6xSvbG5
+					7UZAz3QGESGNjrBz5cz2PUJBpoSIYGvJAmFK
+					xdHAYXXJtnIua7j31LckX7y/Je500IYfoh0m
+					MLgOQZOhKk/2p/aqCqBwN+bKrTHolFhebNAr
+					KG+zbsZRFid1Pd76FYskb4RHmADZBvVALwOW
+					NgwbtERt8CkmEPY1ib7I4FaFXwdn3NU7F31J
+					uAU6wMxJSY5X5gLJ59co+QwU7RUaq40k5c1s
+					o7KXEdf8zTqkyXECT+L6KBYs75CIhSGjblIG
+					RSeTGO5EbHbJsnRI6g+syIVXhlCb+iNvr4Ek
+					VT39J9u/DiGQpZV4OuUbozXqmGtY55EwdT0m
+					5PscBheMhErgPUkI1l3JjnCxOEs0qVyZ0IIP
+					xT+P1kVzieoTtSslQxj0lpiSZXwDPGSltFuw
+					J95gM6tcjcavxR2Vhz6d+cv4O1geq7hnl4f+
+					p7iHeW/Ypj6W4oYVl240gWu8mRVQcSOhs1tr
+					HgsRsJ9eSpC0J1UnxhylKCOE3s1iyzIn2j9D
+					lQCnd6gQ3edrXEdvRIVHCa2Rz8Yx4s2wWFKX
+					bFPFO1IRdrKCx58nbnRlSuAOEp1owxhNUOU= )
+_25._tcp.mail.no-cert-starttls.security-protocol.com. 604800 IN	NSEC ns01.no-cert-starttls.security-protocol.com. RRSIG NSEC TLSA
+			604800	RRSIG	NSEC 10 6 604800 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					IY/WsV8IfMr7BiK9FlxhripZY35oJhNXuHAt
+					8ztsJasa/ixd1fx6KwNZky5lspxio6cIN15+
+					GeU1EbGZBJEjRpp/tfSLO2SWbeRjE7qeBEJy
+					uNs0p3leJA7gheErAqeypRbKqWkEVMLJybLA
+					0bro1gJQqsbCLJngFRiHpw29bNZZoSLWluAS
+					3kELe6O8BlqIntaeiJFu6WtvlnftOv9HEV7g
+					ZX/17yoIWbNXZvUQrOL4wdWF47slMIyuGri7
+					rP3IOVwyb5xAiTc1uaIXUT+ttRPWK/P+0KCM
+					BjjX/WBc2y0lB2iAvcyEacnISajXdlhtJGOM
+					soglILGrARM/GbtVGYRIFMrxKfpIalDXgoqi
+					J2sGKCro8CHNFYikGaX3NQbxmu7FOFiN+jZH
+					wrIe2iJa9NWNea+7pBRVTkLtkK7a655QODXv
+					+wix1KY2hEi/8KjVUkPZ8nFTr44Gs5LiT9jC
+					9vFxY1icXPlJP5cnbGCY1y4QOckM2UvfoHc/
+					ullIrtJ4jnmaGbmqOEvh7FJ44RtsrMw7F3D+
+					hfRCbYfstUO+QXdAuGePGb1Wj62gQHRHCr6N
+					3Rc5POU6jE8Vi98juzztdxV9NBGRG+h8kv7p
+					8sLZxe9OWDIvuLqOysgpdbFIazqOXxFuR0fu
+					6hK9HH0Iy6vKy+v6qYLskFkE36JUN8an5uA= )
+			1	TLSA	3 1 1 (
+					980D27BB6A3EE2F6B3F10A0CAE5B096D8C9B
+					1F9F21C5123BE9DEBBDAB83F0C27 )
+			1	RRSIG	TLSA 10 6 1 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					VKtlGMCLitBdKygeSQF9a0H/A192dC7nlLYh
+					IvXtoxjRocNoj9VSvaRaCKb/SkTeYrG5TbcL
+					IZkQ+dizb/hHLs52ZpTzleCBtMzUrPh5D0DP
+					qqnCZx8l0BPCisN+VuqojV6lrh82uOEuRZlh
+					AMSMKP7gH9OfXjuN/7YhkBy6xvgORzVVMpry
+					HMQwWldOjCYjY05gGBgd3Ttvr5Ce7x5SRkD7
+					Ufyqnnw35Qyzqk3FUIDkCjx+X42JKt5UqWH0
+					0m82Zb5PT3/gj9ORPNvwym8E/m13NSxXQWP7
+					tt/P4Xg+91U4j3jUKzvVel8gGruXRZcxATl9
+					Trp0WBUxf/OunWHfgLWQ8uAzqrj8NzgSIfaX
+					SVT9Jc2upKgnNpyOJzVfa7e5SDFuin7Y6Q1b
+					QSFgV+4swxYQyrNms8MbYr1odQZrba8fql7G
+					plawovcvzM6t0G8canM6InXG/msa8wvssAZG
+					JRwGoVfVkuFVY6UfX/j8PtB6QIEbhrTJyWNb
+					Bua701AEXAZP/jKUfVGAE+EMw6xLglaSboGV
+					bAhdZ36zTfJAULYTmSkqZenuUVzxVTQ7+Ouv
+					lqSeg/80QQBs7ElQgmWDSSW2Fua6KAN4WG5X
+					GM5OjRsEKFcLRsU6Tp2N91XGFBbojZQo8Kwf
+					iNMw+8+y0+a6qkqwAvt1YtJa7hGlZ2V0sbY= )
+ns01.no-cert-starttls.security-protocol.com. 1 IN A 34.219.137.44
+			1	RRSIG	A 10 4 1 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					eK30odZ7V3HBSau0ID2LULNPwU0vjmA4P4Ij
+					f/fDcjeHohKI6eG9jt0reUBiir4PjQm5SE0k
+					tM9hE9sUjEGm1/QczN8ZsipWFiXe+6P0RO4h
+					ZeNzXtObJICap13nRKksQhK75Ja9dM4feqzu
+					Zrlxwnfmt3ciEC2GPPgTU39fzUXE8+DXi9k3
+					UxeVQNpIS0cR1VdZ7CB3Z7AAyTk5CcY0Ibz/
+					hmOVbStMDQ0g03vX5b/PoYGOt+JCg5WsWqa1
+					bvPf0MwViSdbs8Qw35ZYTOdEMG0KbtMpTvY+
+					n9kkDjTr5kpBCQ0nZI6hxxjsC6X8pXDowC5u
+					9xMmFnFDO8m028NxjVpbyc/LXj11BH+SHMVu
+					/zjtiAaUOx02r+luqC+XDFLs55B0+g3i+hzT
+					rhklV9trXVsTV2Im6vbs/Gs22jrRCZt313nE
+					4oZB98HV4Kt1YfpQ8+1lyuBnYysBpV44B1Tl
+					l+AjV0ts36qvLUO/WrTEhjiXWfNJh0PqMk/f
+					mf7f64j28i1jwDvj+9bLs56TiGmi3j/zVzO5
+					oGwHP634geWfSaNKbCXR4J2fXuihs5kG9xfk
+					x7ayGd3PQj4Aqy+N76KYKadylhZuD0JWTZVC
+					UWTLVA7PWeemnQ0lGPDWnSpcX/Gcq5t8XTeH
+					tXvjqvDT/O4vCz9BWnsq+XVfucCBGJmEmbk= )
+			604800	NSEC	ns02.no-cert-starttls.security-protocol.com. A RRSIG NSEC
+			604800	RRSIG	NSEC 10 4 604800 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					D8NXgDwNl3qZBeBESMfvswuddLZf0JWcOHv2
+					eT7HQ1sOSaAOnhCyLSmujWv6/WbZLXL87NSI
+					KQOqmrHtt3qXoeqcZIUtNUKkMoiVIzbu7khf
+					MCd5TITR44Ni4kjGJhBooDNqHKmxOmjxxR17
+					YP4wtc7Sp7hpmiJaMX9UsD1WE3zhfI/yxdsS
+					iB30PEq2gCcyQ10DAA2GA0uVcgsXlc0by6/E
+					2HGSn3V1Q19j1JKMHx3jCgIs/QQ9sQmpzbaG
+					5VNgStCgu8fOXZtx+/g4xAmV1hFDzHwfANCg
+					NTcW0lxpnrlJGbqLCNI6d+CaetQWXCv6ac5c
+					TJrfd8dxb5bMVeVDhdwo477mL58CX+PgFX+Z
+					pFGGvz3WAjIViK09wSefiPy+lJNLzUENAMN3
+					sio4YrHQ+4nGwGg5JHYxtD4+GWiLT/+ceiRx
+					p/dLx83lhZLbJ3RFIwY+0eWDW7upl58yPIrv
+					FvZpaQ97AAflWgouiohFA8lOOBlVaw/gOZly
+					3KyTFfqQ06qiHMjFkreef5BVVY15AfeRJ9aZ
+					KsMYcTRN5MUc3HJOlCFC+NzjZ7DVor16JPIU
+					z94eUyUJTD6612+ISfVx4POrZJ76YpAVtadE
+					DO7XlZ+0fAI2pNUYQvxGP2upaeKLGT7AyLMO
+					Q71jQ0UY0UcyzXMtnqN5w57jw7v1FR8MCys= )
+ns02.no-cert-starttls.security-protocol.com. 1 IN A 34.219.137.44
+			1	RRSIG	A 10 4 1 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					OAqsNtdFfIdhoEIeMaj3HCk8bvIkdmUgfPZk
+					PJhIQLw/c8BcNurjcmOOveoX+n5NaO1fqsii
+					asqDUwOEOJWzUfQOvgfqtB0xzid/HTvCMXSG
+					N0YmuC4oiDKszEu2ilk+12vnjjoLIehu/GRd
+					wDu0878Kg8QiTRZvoKA806xqSDzKf3FpzU2q
+					cCoNfyWkmQ/jeaBCm2qMQsLXrclKjW7yCcKn
+					45FueC3ZGediB1/VYkTJM95OALQWO2FYDCHo
+					TZqNVKuq4OaMFmz6j57A8vnCFEYrzUeObc+x
+					gMuFsOhRT8oZWomfJd87hsL67qqDm9/m0Lf9
+					RogEJ8vOJ+R07jvpE1C87bRGC0W9sa1cAMaq
+					kWZ+NkYT2oXnY/2JfGu9cQ75TPTdhl6wUpRS
+					YrNyM32O0PPJR6oDnXs74AGMfdT96rAGtvVg
+					RwAkzUsv/n7yc2P8vlLKVNPkNZ8GiQVcYDqy
+					kYdmUtaUvdY+KeMq5HoC20hvUBI9TsY3rFBB
+					pncWCGmJoHrhiKfbVC0XEBiKqjSXShqvGgM7
+					W3MFtB+QnJ1LQ5v5xb8LB3NFgiTx/Im9f2vS
+					CkiXxtXoz6NBFELoKR8frz6SQKfMlyNPSchX
+					wVJAkOZ85ULq1l5iiP1jjdYX/UNgA6aWUcEf
+					gW9j4QzePM+Yu6nl8x9AM7tjNJuh7W2nmyE= )
+			604800	NSEC	no-cert-starttls.security-protocol.com. A RRSIG NSEC
+			604800	RRSIG	NSEC 10 4 604800 (
+					20190525124536 20190425124536 30050 no-cert-starttls.security-protocol.com.
+					r/gDuvwBStbybI0brgbgfQ+JGhPx9SXZ0DyC
+					gqdsVEDb08nnY+NQsH1WpR9RPwiAieE4Bvln
+					BHqECopneeUrkmtoMMzk8xVjrxSQRYa6LjBX
+					WOjmLu40oylEnFu5WKnrRcZ+2XDlbNvl9XXy
+					LSiL8LksN+5C6WfFWsXhjdmsNncV+RDsimDS
+					NAu08QvzZcwj/bFzvhRK/PkOJLC9pDqMt21i
+					jUrNiMJbv11O3oyLnvb2gpIV4dZeIOAg/WmH
+					Vrjf9NXmNzajaiPqooV/o3nDXX1e5DTp3lyW
+					uu4Ykx/rSnHTLEo2P4q1LyN734RNzPW9+8BW
+					+bXBTln2BVvfZDI92Z4nG+xHSh3MAZ7v843G
+					h2oukQ7mcoA2PwmZRu6m5KiJevT3Qpt29zK1
+					4RqHSZgYBx86o/6aItKTCPJqhcvoOaNq8oiM
+					X99NH3o/ofj+AXA+G8ukabWUv0iytatSVmET
+					IaAfWi3iC8JwbOXK1PumhWUHj6Yn/6ZVLl74
+					1dzFDosGJQyhd5sNgVGiNlOBwif36p/jJl95
+					ZiXHy9bD0oPEbCjhEVDV2GWE7cZFKXSwL1QP
+					XdLrsfiHrRAlhALok/8QsNsHrBp/xpBWsNt4
+					awGbLK3Ozv6p5CYGm0xaMyg6L1eOYdoVVUAS
+					UDi9ZxqzCzmGXlw1SzU3LKUkqYrwQ4UaAms= )

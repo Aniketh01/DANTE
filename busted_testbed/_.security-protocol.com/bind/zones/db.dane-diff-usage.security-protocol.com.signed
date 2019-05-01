@@ -1,0 +1,428 @@
+; File written on Thu Apr 25 10:53:55 2019
+; dnssec_signzone version 9.11.3-1ubuntu1.5-Ubuntu
+dane-diff-usage.security-protocol.com. 1 IN SOA	ns01.dane-diff-usage.security-protocol.com. admin.dane-diff-usage.security-protocol.com. (
+					22         ; serial
+					604800     ; refresh (1 week)
+					86400      ; retry (1 day)
+					2419200    ; expire (4 weeks)
+					604800     ; minimum (1 week)
+					)
+			1	RRSIG	SOA 10 3 1 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					SZXbIkpdFWcAvaBZcUvud2cNS8Jh0ukG7AGM
+					vIGBIgWvxA5bUkzo4fu3evx5fY2D/1xROyYI
+					dmpuhdXoZYhlgaI3ur0FOYNV8+VYbudP6Oqs
+					0V+2yv60AkVCzHMk4In5CIEmafMP78xryYzi
+					CcDrnqsSnGXxlWH0zCp8+nI6jh27widp8IcL
+					uDSUQnh62Xq+ze65UXk9VGlRgxzhkRu4GO98
+					YC8O4tHDhp5s8hggZwuwmdBE9pFWkBIT6dez
+					miQxc78D23eTfK9KAocQ/4pSjuZrjMZSXD2w
+					3biDmNc+LtjJSB1EsmFthtqnPB1XSNjiswXh
+					oBBiITpFuQ4uRVGhQd4YVtR44kwp3w3xq8qA
+					FXTzq61jHIqkrD6k+KHHUE0M05V+ia+ZKbLt
+					FadAXgY2jzwm3gwqwTfaVdCfiGNQUlW0DUGr
+					BxxI7do7hTfOmV6Lv4n8dUqmJAD4OGdfdnAN
+					Ysn6RGKPcXD4Mw6dj2A5gclK4tM2GEV7LPHm
+					vlS2mNXq0ew7nJmCkGFz+gbW6aZd9/Du3kvT
+					Vmi+/91aQ1evNjZTZIzH8WyRWQQksYYgY7R1
+					yIWbtuPn9/Lkv8z7VooJqEsZBfG2a6leyn+a
+					Af6p8pG+QHMHpmfWkWeCRWKJLqIWp2Kir4s8
+					ftTfdPZFXXIcTppsmjRSxmDSCkKPuMB7Lx0= )
+			1	NS	ns01.security-protocol.com.
+			1	NS	ns02.security-protocol.com.
+			1	RRSIG	NS 10 3 1 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					RHEiXT9k1meRMadZHu29TcECevfpjhGIjg04
+					v80pp9hAiSgdOWH+ffwrqCsJqjm1IxFsmOJX
+					8Kpr/gdEcTRnUsjPz+oukw8CgbPuKjTlL2dP
+					QYuriOq4E7QCVcoi6cBw8aNuaHJ4eChgEfIJ
+					u4ahCYPBE9F66V/VTs01Gufz6Gd/CVLysBFN
+					vHuDhWhtlJokHa2kjA9NaatfkGMQPz5tp+T6
+					/LyKIeMN5CfaiXKJTOe46Q6B48t1jVXyc+nY
+					POG8RCCCSO+EtjjEGKh1DAO65tNP9nfILUPA
+					qtUZKekXM9zUaibXHGbtmSjAP5TyPfIcd++v
+					hUMBufxG+4ldhoji4OIUORPycUWraSJBXYXa
+					j+sSHE6R1W7dp0WOMwSvKmJIKqZfhdBX1qU0
+					1qALq4yNlM/BhqeFyR74zLEH/OhR4iPQ2GLC
+					wRsqZj2ku9hoz21CM7FHexzmAsqAO/7xSo4j
+					sGWzhBksSrXpmfDTKZlGQp8sdx+gyjiVnT2U
+					uqyZYfuO7X8yK7tXH4n4oftOYrzTaOQu+Ous
+					KMAMbLpx3r7hTSSUG5CGfexCFZKpu6BJf7Zk
+					658I6MRze44sQtie6LhGCQoVtMVQB0vT4W6S
+					vKGhyEdX4DmYfBM6wUDGIohTWmXe8egKE3j9
+					471YQZSGJb7hFMeXdJcAM/fWCWRJwPOJUik= )
+			1	A	34.219.137.44
+			1	RRSIG	A 10 3 1 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					SowRWl9MrAyuViRo0Y9EiW4rcSisBWgslEv4
+					8rz/j6B1BFm/rAvTxFhl0cv60c25RBFU+yLk
+					tMs7oHFralotmKTIu926QlJWTFUmUPPZtMS+
+					2N2ZjCuOHTl3wJPgc5pYFSvJcAsfGUoU1i0N
+					PsG5wWABMbalt1RfGhT6FyN3+Ll/pEoEGDBv
+					z6fTcTb4du7StO19dipOzdIyTZxc5GR9A7R7
+					W3hVkA2NU+TMqlNKo9tjTdRqBey8q14aWoGW
+					f/aPAjogk1iVgaX9GgWpm0HXCi0K3/RKp80Z
+					DvA+lKy0DUk15LvyFROXV+BqW56eS/DdkTVq
+					7bXVGkHbSKs3yZNzEbCY/re6XE7nz/cngoYC
+					Xz/R2itifTRNvdz19Itx1dCCTnXtQLMNDR64
+					xzmyTKlMleG+cba97eoGIvftzgDWt94pTnEM
+					XAIRsIFVYYOBEafZiZnvgpQ89Mo210Kh0zFr
+					YsDZjRwdf1zU63gbyL9uIh/TcQUjmzGrUsOp
+					CelDcB5svDw3vAkf7IFCRnsfT2WIDTOqQ0Sq
+					L42lOI3LWZ6nwCByfQeePVfGW/YfylJYfcrk
+					FDmM3tpkSa9E3VWuELsK62iKFdiikpFlFNbb
+					PnUyRBdCiTmApD8FjS8D6+s4MLWA9/oJEiJw
+					Bu0ZAgV6A978qqoTf4Pa9scPfliKbAWOctY= )
+			1	MX	10 mail.dane-diff-usage.security-protocol.com.
+			1	RRSIG	MX 10 3 1 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					kGKJ9jZ9JlUyS6p5UgShJ68hlofslAEZtgb2
+					1fROQEL69fp0BcL2c2ArsrZX770kHYLhVTsB
+					UtYBSlGlOC237gCFjE7IQlENvtFdS1aa4Iqh
+					+QopsU1h0e7X7T9jfqIeT+C/vnzRMUl0QNYc
+					v4vj+5pjEVlPKFijVPIRR5rlzZTXs6LRz6N5
+					/Om0YD7kboOekUo4/MAMz4n6GP5OXu5gINlI
+					K4fpAbitl2P/FKU3JFnX6Rz8dsVZkspXI2xM
+					boPDFgzxvWSYryro5GLe3hSmu+XoF1hM3ghV
+					gHHPbFrf+/Yc+9Yih7zlU5jt8wTYjPh1fakA
+					YXNk09RA/RUk7G0645BJJibfFUC0TY4+m6gM
+					Ts3p0i4vl82tegyqbjOTeZzXV7EFVp1YXCGD
+					888ySK+oQWzLWkhjBnGtV4fkAImImWUkaB8O
+					HNYfpZ1NgIaKxbvtb0jmxnwgp/X9RWdatMnt
+					+wCOOyz7myBOFQaQRiG5qO9IIzAFesYqMAg8
+					Ws/Zjz15hwnosW1rSNK34FIz3q8XMyrPgq2z
+					+lCn+Mss7b7PT6N5x6lJA/EuOr4NWYWRzB50
+					w5MrKcwocxLE1qR+yVAbvthDEs/qfAA0P+WX
+					Qt21c+LQOHUPjbqH3b8TQXj36eOE9Yx8RI/+
+					fSCMPrvlUPSOQutVI9gMjAVNX/RDk/jPjw4= )
+			604800	NSEC	_acme-challenge.dane-diff-usage.security-protocol.com. A NS SOA MX RRSIG NSEC DNSKEY
+			604800	RRSIG	NSEC 10 3 604800 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					SMP9bmqiBOHj31JTH3SB1XzF75UtQgD5thHU
+					FmfYtMJ/OHNgN4sjHa+Yj8O56emA6pq6v/Gi
+					ss65J+UqlfKBHyEOlOq4peRk91F8vd1chEsV
+					kpMOh9inWxpZ4RmdXjQWDSEG3sOFy+ElcYiw
+					0Eq5mGHwYOyXPaF5iZFIAmtUsVCbFpnTXErg
+					EQDt/vWkoXgWNHLHnC5/7miN1kAbauecLsH3
+					iuVa0y0l5P14yPkfixspyEJUadGQgzDXDF9T
+					JPkAmhvhlQ07xU/tK5GDrEzetlLNAprWrgne
+					88O9S07p8TDdaGGchx87AhfyHHjLGAqG+NZo
+					CXhNWi6Fi3sF82BFH4JHPkdiYvnNSaNPIbZN
+					Ma9DHAq/ibVNVxlEmXwEDYKCw5J412sTbXUX
+					FaNJH6cJJ6K3FoRHVUw9CEG8f1nrv+EqWtiR
+					BQPMC4+5hFoeLqT1r2+c7dWKNSkK5CtKNSVb
+					taLHDXzyxNQ1dMdyfWFugoXIEZ6gopeVmxwx
+					VFFxMDk656g3TOxcTWSkKECCUZZe5pic6rk9
+					YnqefdjkcTg+7J+xd3b7MMK6uE+BP7fQJNlT
+					wfQ2lEGYP0UdVzkjSZWHk4ljCpV3KU7XCjj2
+					eklRknEhwnaJ61/VXNB9bz1VoLhJ/eW8TE/p
+					M1yKfQFpA8+tqNzpap4XsF1QI55mSoH8XUM= )
+			1	DNSKEY	256 3 10 (
+					AwEAAbAJzwC5DBvFu7GgAhqXYS0Pnc+Mo/jS
+					2TpfXOcj3jGfbG3mW20UXKCyi9USNl3ENbnn
+					dGt8sP0TdUMTMFrisF07J/nGeVt043yq7Uvb
+					DKQJwa3GP4rbLioz/Pdhjun2qSgO6WuGJT9J
+					ANJqQaHRBr1IUjkMSugtoVjYf76MbcCMvI6C
+					tcLkTmCVU5GCQ5EzPfESvCK3fcCn5mli2SXW
+					J0tUW7+gVZZy2wUZrdooWxU2dSr3V/VHgkgR
+					0qWwrsv68X+l72wPQ6CzysOSxfLCiUbFyl4G
+					B44p202wRvOr5ZgOCWAt+Gnkf/Bl5Xn4w0JS
+					gmkJoCGuI96g6GlWnWRiWqTkfBFQhuUT9Mty
+					o1YoCswwOFWRFOJhWa9S9oI5vwbn+DsgceOB
+					OFhPpRep7M4CA2laud0o/jNix6WePS5oNcTK
+					XvSHahvCJUPfjXeGq9o+QgcmGmyjOMPWfPfQ
+					6gYPAnE2QER0s0m6rX3wVLXmXW3PWtv5k3YC
+					NEUTCGIFd1m1ZsbRz8RqGTU0R2e15RC11Mhp
+					4ORRt/tp8jOlhpMP32G/Z/l8edJY9WVWTTVo
+					MvZ4TlR2QtoegGlPKmX6CzrOI1ckx/giJJEZ
+					M91IU85AmmuPW5ADOsfeN8wGC0OynLR98WB4
+					xyPSD1pEnmPDFCFLqp3XiG3HpxV3mypoE9Om
+					VKWx
+					) ; ZSK; alg = RSASHA512 ; key id = 17837
+			1	DNSKEY	257 3 10 (
+					AwEAAePC2uKSKiL5h6asaljIQVBK054WugLs
+					afHr7HFDla0la4V+B2EEF9bX/qYXtefBb8hi
+					eENymyBZEIUO82LgnCzXJwYHS/s7V7HRzQ2U
+					qTbVLEplKTGLapN5+qW2rbycWyfqCr33NQqZ
+					bmf3FS/wvsbtVgF6cZ8GHuJLkBemAjNS4FIq
+					nLTsyBAiW6qAC45ECeNaz4C1WKZ7VHBgaJGR
+					1xZz6QePSCIg24x/fZe5ru5gzoK+nAhdV5nc
+					e2PgtPsjvOdeCFhVRVNAh5wq2yJ/rBkp2gbk
+					v/AF29VY0Wc7LKSs9TvFRehl7wPGcETOmUPt
+					AwdFVsI+DLP8GcwjB7W/FuYktzIoFhupuRZK
+					SPMxFWWl4ja08WS89BEc94b76paqEahA5RHm
+					FS1FGfP0Dlg2D4Jb5wYmOgVlk821Fu+Hnlrh
+					w1aG4z7HFYJ1dks32nKuIM96jvVTwOGc3xUZ
+					7ZuxbzpEIQ120HwlcKtWfiTZFfwS1aV8EJ1t
+					R4oM6rIie9PERPa8Cta//f7CTyV5JIqxkp+1
+					KUo6GlvOZQi7V5YGaDaevv4QvR7VkfnV2v+k
+					GDcv5slcywrVKX076P3hmRM0dp6/wVyKbW/m
+					74yMQNt+VY+eRMs235qE3dD51t8ftL6c1ucv
+					HocBe1An+y8iKpnPwEqzzsKUte9Ia/1MWO7z
+					/P/B
+					) ; KSK; alg = RSASHA512 ; key id = 38
+			1	RRSIG	DNSKEY 10 3 1 (
+					20190525095355 20190425095355 38 dane-diff-usage.security-protocol.com.
+					JIZhXdqR+BWunOlGz0GDaMiVKVs2derF4QRu
+					lmOd7B8JxgQB2d44072F5RFBcVoqhqVSsucd
+					3Ah0VPWjIW9WLVlh39sF2clYswQfw1N9R6fZ
+					zWW+odWkaSMyJWeqQiLppSJnJI5kSMLQk76Q
+					93qIPdhN6Mv/oT/kW7xMgqUr7aPYr89e1OeD
+					YQYFDX+10iEC7GIosw1i+VN4auNYd0iGqxdp
+					HDbMvzsq//QqwgUMSGmGcewVTjFbwRYdsEzf
+					BGJCTTXF8c+tLB25azfmrKPd7C+5v7QaG1ok
+					v2NiI2qyOM9HgGH+9OAK/DjKyDbFZG3plYv7
+					oo0MZTu4itEpqyWGf6DAEt1gYF0A2RzQL97O
+					Q78qFrm0riZ7Y9UW4R/gMCE+x6cjU6kVXDPL
+					qaPycoXhmmlhfUd5xP2IV4KSjF/vpi+F7vM1
+					JYEKmG9Is0rCCYyLeTPsetWzoF/pK40dIg4Y
+					TCim1yBG0T84LoSlNgk8+/+5hOSfbn4V89Bb
+					NpYDMlWjJ2sHAVux7US3ewpwdLNl6SI2fva9
+					Aae1PtqdyV5dH0PMgIe8me2ye6cKnP2b4aMV
+					vrwUDhSPR9h6xwNNVByfbsiK1dFduVQhh3IC
+					SBnqtmpJvGSivu1VKoJfZESOlCQDc35nTFhf
+					1U377Cj+mj8F5+zQ9wTKfc66Z5LE0kkKq5A= )
+			1	RRSIG	DNSKEY 10 3 1 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					GFxfrOMmerNQNlgPdmPCEIQiQ0PPSRCzyWpo
+					mQgGfJKpqS0gG7hX0fFE6D1iNYaNBhFYhqvw
+					CYZ1pA4FabdYMieyJFJElSX4r/ENNJ/HC8AD
+					dblttfmyK1u5FMYOpzGbwlnp2hsbAZmTPhp9
+					kCzZBOSP8Gjwp4Y/nEa1+CX4t5Hhi0miSnAI
+					KY7ljNmQDLVE3sjcFpcEbLSWOEWRiUzz9tWh
+					UYp+6gAGyhy3MQdk0yoOm+woC38NIVDS5XwU
+					7o1FVVFs62t0dtt0QSf8ZClV6abSbZKRiwbC
+					nlyhR+aCz2REcRHLCovOqjZ4VgLk5PGSjERG
+					GrNfK/eNrnC/t/SAM1l1vdyqKbiLDjBbDXbT
+					CAjsFN+OZkS2pT3smOmhewhHla2Yv7+mh2Zl
+					Jw8T4G1wz3sr1QhN7Xw/tQJ7CyvTnP5WQEnL
+					2DZnyYpN0lv1Br0TmY5e5D2DzdXmKUldcUwJ
+					0FQaSdycvTs4d4D55J56SAWs8+6E0REBecSf
+					puCQ4QuZdtTN8L8yJdvt+G9x1XrAuDFscxWY
+					oJGYD8iO0vIV3nhGbvD6z1KDUDiZJbP6lhWz
+					O3E9GtMvsetV0XTl8bjq+4unzBSO5b1uSSD7
+					xYPHFIBlCmhnQKjDXMnRAXYGYDu0nYc+1nXA
+					2hqtNXWJav8f2Pb3gQuVR0rQ8MH5JSvyqis= )
+mail.dane-diff-usage.security-protocol.com. 1 IN A 34.219.137.44
+			1	RRSIG	A 10 4 1 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					edtsUielNP1mBPt7tswH3G/2ign2LKHeOJzf
+					VQ7L3Li9/pKsgceDsx5YHOKrK29eEGe3YYMP
+					qzHgIAhrXnTd+iGWU3QFqrgTBw/I3IPlrbZQ
+					fTgmi+s53EDNPowesu24PCgfsVXMLImnAVHn
+					YuZapd80GHG//dg1+3Qvz2mAMbx3GXLiAaM5
+					C5eJnmT92L08KLS3pDCLGWye6NP5K/er0McM
+					Ie2Wt2aTycixJ6HghdahNnmgzqCRhEzgWsmB
+					LpY4bBhXC7hc160ZzUl+wITAUp4MMigsM+Mn
+					1R40zctnr18O/7TYOCE1o3gOnwkaWENtv/No
+					3P1yuuDxDO/anpdg2az9KFzwKCbG/XfyMhbn
+					0G+dXjqbEYbQu8IvpIoWHm1i6pzVHXyL+zFg
+					YBR8iZvYpRI1P9dmnGEWLyoPGNH3EoCdLZii
+					P4iRhaxJ2tK3xHiS5TOycGJ/KodlDsckATrJ
+					Ayr5QdM6+O8rNsigXG7nz48K0k2tVPVXPNW3
+					m+zGXURu/oqJxBT3aK8AATUkvSbbXCsrm53L
+					xw/xcdWRBITdwP0k0wNkjijyG1pcyvvs5z8l
+					S1L5KmQehf0FsYKyzma0BF6+4ajeQTagl8nA
+					Benv0yD9O0Y+C965Wvut7hBsOCtFEzTfbV9H
+					IgYFhjBtwlltDDThRB3N6hWQ++Ep2UUoP6A= )
+			604800	NSEC	_25._tcp.mail.dane-diff-usage.security-protocol.com. A RRSIG NSEC
+			604800	RRSIG	NSEC 10 4 604800 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					kgXjd6n5SIp6MwsXzpD0N3buTsP/jdJLf9Jd
+					qFCcDulJlHeHRZUw6yT+MUlQRKOnVP4EsHfM
+					XL61c2BbWOAuchbtmDv7JJqr/+rsefpl5Hs9
+					KdW2HhvVuqIsmNpzD8HyadPcmYnVPoiJ1HOM
+					Manyzo1qjo/RfDk6KLSexprMPN5STc1zbR83
+					u86jwOMQ1erelhA0zBQxs/bkaBkyrWnXWJe9
+					Ys0u4JkNu5ZRv+p+XZMnD8Jm1VeMto2hq/LN
+					TjgfwCLB5/yrD4WLhA9PP6AqlmxQyoo3/nj+
+					ZBaP9xWr3mBCzTuN+wOIw3JBuOZky7f4/Nkf
+					Kl+duhcMGklxEuZ0PWDrLGLCSTovZQT/r4ZD
+					GEW/L7NWzJNJ/V8nUxYnEm33yIYLcjnMRRO4
+					W9kPMLAz7I8ARiAXz33m7F5vTdqy4mmvMpmp
+					i/+mIEDoGvRI/gZ2YJAEWYFFSi7v7noorhwm
+					EoGoXNT2SjUbISNPmfu6WkRANeab8xKws8kx
+					bzlMV7TggWd8Dl2RGiDgFjh+/M15D5XpLOPe
+					62HLi1lhDsfPW/pZA8IAxrdxX/g6KEDLPcI/
+					642nrg9XS91bWw92dTTDuzzpDaPs2cIQXf7g
+					NhbNd1kuDZrDkXqpATx2/B5ERIKsAdaWjVhz
+					UyUc4XQ4MEUTPkz4/izsFN8g6jhMTP39XIs= )
+_acme-challenge.dane-diff-usage.security-protocol.com. 1 IN TXT	"-XrTI8px1dvyVjOOHXIJbdqHYsEut4HPJQao3pwqPNM"
+			1	IN TXT	"l-VMsONzvQvSfgvmIPUaffEfoV6NiY7QCh5mJQ0TfJU"
+			1	RRSIG	TXT 10 4 1 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					q5UG8goSmO9CozRq/6jiA/Nwtqdk0eGScOP+
+					T5S2jUKNOLNjLN6ZPZQCqmoDecvTGqCf99RF
+					zVldq0+s6ebjlUFjHvtaKA8aJkFVNdCBfPqv
+					6hoEFt53PXkY3iFFTHtyeUMnUnMiuZJT8D89
+					FPSOLwZLJ6+6HKUt6GmhVtkAHE0+ell4DWBw
+					r2WRkwtPdzlqnDUr3yvehDVGnAQGce2x5GjN
+					Zt/rCWb96YZSspPOF0U+aF7oWjZjn0JFI1ej
+					yWj95+O0m5CsoRen85fvFKoQmF0ui2Cjyq78
+					VLkx1E4ImDKq63JcuQB+4/qRt+PNdWnuShzY
+					TivGVvCr8+mD13S18AcN7/C08cgkaZhzzplE
+					cZTl1ENyb49Sfxg2TWrzHZgaIc3j3jH+rfWM
+					HZMON6v9zGD6BIEKdoTQdh7Frj8UBmrBEORt
+					it+x2XUAOYhzwITujebklleBn/8mvhkFoS6I
+					P7e/0plpDS8jzBpb3ASFPQgzqVdkllzRWSCV
+					KtnMcm8B52u6IRC3hVae0Qy7oE4XiY8dfO86
+					QXC70yz7++xNS9O5vnK15Rnu0lwXEi2xmtXa
+					0L89KDUn7L2BrqSHX68XyAyDOxafB0/OiAwH
+					qyOGn608ovB3muG6i7GKCWdRSaHHedRGNalp
+					ayfF7CnHl57vvd9BgkzT1kDRq5kqtRnl4FM= )
+			604800	NSEC	mail.dane-diff-usage.security-protocol.com. TXT RRSIG NSEC
+			604800	RRSIG	NSEC 10 4 604800 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					X8Ognl04AcUd6g6njzo90A+0kBHmkqp3Uhmf
+					InCLa5xpzsuLF7Ndu1AvfEyBNOsVj6CLwX48
+					4s+tqYwvg8WR7KWhpA7E/TAn8kOIFctmMHXu
+					02xXmQEk0W/eL7HCIaJ8ggGN/3YoBrZFv2uG
+					ol7p3JAEKSP6dHkhcaaiSakRKrqDJ0Bm4W3b
+					b5oSIQsHR2J0HkpHdxdXTOEbntuOp3oUYNXV
+					4CpQlA5fxaJ9Z0Oh/dYy0oi2SdRCV4Bz8vy7
+					qdYDie+w9uYeWPzcUbkA75WwoXA9duIym2Nf
+					T0Gu/xB4Qx4ZGV9sL+Elt36v6/rPwfEo1zIj
+					8fTyuqhLU+lutyXeVI8espIP8RUFzIzVYG3x
+					xkY4LWO40aNbXr7HyW/pAQvG8tMjDHEB54jz
+					RrS8/HiXTZBQWOfdtghaSygaatnhO9PKbKbt
+					ifRb57bt2JjS8t7VkAFER4FcP/mVVJCavt7e
+					GyGgsCosv4Rad29wDM414KGPELUQQFqcw+Bc
+					xuyphLEPbby5Pp/FeZdldYgUvIIdnh86QYZy
+					E5pNK5vRVb0FtuCN4OoJN+imcjbyq+1/VbLS
+					lqQHPuwSjg4mIpI0NBPlgKXVV/kZn0xzPNu0
+					QXFG/WowMAtBIdfL9QM6Y/X2rySWVQPnoGPC
+					mAkmi50nqV6VL538OiolvaU7vWZh/bHmFcY= )
+ns01.dane-diff-usage.security-protocol.com. 1 IN A 34.219.137.44
+			1	RRSIG	A 10 4 1 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					iisXxpu2k64u+fSVV6appSlEvR2wC24QKtUa
+					ht+Y3RqJiXg4ukL3QPjv2VghrIOekKFDeqT2
+					kubnU0ZR+eqYCrRqm0LgKYOyhgLX5/eG6LIb
+					5oH/73CdW+3nzyJT64rxAri281h5RJKVxrbe
+					TaKhbOdILUD7i9g426p95t5ZOb+D8BKRb/0W
+					j6jIMnDlmHtVHyHm0zavRDlPMB5UDr1C2lXP
+					I9Mxq50k1EGM7VoOkLI4R1sJPrW2ETGXxgR9
+					0LVkOrbBLu1+eQI19oqHG8aaxXDSPY5yDiL5
+					92Cd7a0kc8Mv6aWWi/5MWv+H4FINqI0YB3B/
+					Dxg6r4nHgGiOubvsagAgxovP0Kt6Cg/h7y5a
+					iqPhvpvAB7T4ai1XC9RKcPS7vqwWw820SvFC
+					8/LmgXSd/a1ULpuBYnqW95PWMYTu7gWKO/pq
+					kVsa+k/eqXty+HIigHRutYiqiB98AtVjSAr7
+					92AJORomoKhwjr7fb5VPrGAZ/MvHaCsDpCxg
+					wGi6vGRp+S/jFgDSrx0s8/b9qAc4yD1x6nP8
+					vXupDkFOSTOFhKj5ocm6dgl+/kmAaABHzjHC
+					CU0+m/aURMTE1+Gktf7st+gRO3adrD9Di983
+					8CRHH2siJjA3bieOG3UbfULbrTxLeBdYdm/Q
+					6lJljXIHb2iNxHUJ7RRq8YfWmPTKJPrXkvg= )
+			604800	NSEC	ns02.dane-diff-usage.security-protocol.com. A RRSIG NSEC
+			604800	RRSIG	NSEC 10 4 604800 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					JgJzSpdv6iwVofSPLpgA/3iMlHobFwGT+ohm
+					q8ZxGHRO+AJopgrr4kxJ76e+otnvBV22p4p9
+					fOQ6tUpO5Lpjpr3h6IgnLfzB9cEo80xzd4ZV
+					hFeixbGhPuWUCXDdzB9WukE8ZGUYV4GsGUOU
+					LY6F7mCsOrSDTytEniV84VfLm2bsIy26lu/6
+					mQCCyYOvuTWDnbm5hzjaFzfYrFmkNxeThKqS
+					MrvygO3rfiOtNpo6QOJ7uNaABNEXCOP59gDX
+					1mv889izImMClVM1r7QSqu9uCHL+krcc3j1c
+					uLTy4tV/aJMoopcI0CyREQuqoGxvqjbDCJ8O
+					CCmLEpLJTtQrWtodNN9yaH4vdGl8CGJSQo+1
+					5E7mSEt/lp0tqkQ/PW2abvex4m9yNdedI4rW
+					Lb2o/ZhX/ZChrZksKzvLLa0Y9zgPtXm8ppnA
+					TXeFAvVDuPbtuQHRaNt/rw7wN0toU+fxZxb+
+					a38mLRSF5VvuxFRglSJNbaJnx5csG/g019Ur
+					Nu27n99U40jJf8TFpih8WGssL5drDrS+/ONc
+					fmAocus4vtMRX2VGEYfjn6Iuu6XZCtSA9eaN
+					XLfcAHKnQxYwkuruOfsogM4NaixI8oZWM8iV
+					eD5G18I8/fsG6DJdUDZ8EttIqzklAgWi4rxX
+					dDYbNfzjYB1+ERkW4L8aj7GeWBsH1gUeFSI= )
+_25._tcp.mail.dane-diff-usage.security-protocol.com. 604800 IN NSEC ns01.dane-diff-usage.security-protocol.com. RRSIG NSEC TLSA
+			604800	RRSIG	NSEC 10 6 604800 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					O15NF/cGo6kVJWaRKotLjKpROFD5COPiOg+T
+					bGxm2MZ3tNU15qQaXpvTDL9tTOWhjgOEUuED
+					NX7Cc9PyKOxreGZEW5g2lb+8vY2JUdAkAQyT
+					s7fHImAxg9rRVPxp6I4vUWq7mlpx/Mqlpqc4
+					cWQliudkZts7v4p0D5GKIx5HY5f6xAz3zTGU
+					mX7d6BuFHnCQYdKZz7SZnS3ct5BvPq73/lTj
+					LeD3N2p0KLRoH3NkWkg4u2CuQosr9uvkFhxR
+					bfxDmpgx9xlLJzvpAyqv1TmxBawYIneTZLhm
+					dUC9wPKvrtCOkjEBCqovI+/q2oTLkUAuAbhH
+					Y6GYZG6iStusClXV5azfLpco/4lAqG+tpuGX
+					bJ0ac3DBCYV4KlkktjFcZYzFL55ugz7iQhLb
+					BUxMHUEOnJveNoXAVclZoPOZSsa/ECUoyLUF
+					0adh7NS4py/jI97V9Fdlw+BNBTwrVlT0FkBp
+					HiGf7rFdlfLJ7IQwDkUR3T/rW32Jiy6oCPdq
+					4n2qPJ+xeyK2tq0A0zQWXo3Q1avvkQOVBEhB
+					2KUdzdHR7x2uA2l3p3P2mfRrY0H16N34Pnzw
+					gX+5zy1sT/IOxC4EHV71adjYsnmoW8kkXXyh
+					o7PDkXPJ4AvtOFnkrShEGHXHSVp15mD4doL5
+					jbtShDTUQckd0yvPBPsDczG+BB4uUQJl/CA= )
+			1	TLSA	1 1 1 (
+					A67D2C834A4CA84270E6E63C91EFE8C0D80F
+					587DD54EE7B3961D91A0ED8F8012 )
+			1	RRSIG	TLSA 10 6 1 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					hz4Gl6TnnmpJkc4eu2m0bi8/6lnzMl3+ieV/
+					3Z0WIV+TeLjbUOlXM49y4MGuTHbzsdnB5qCo
+					hatmTFIanoyDgn90/ylwTO7HoJxeKz0Acyq5
+					0zpSjmu13fQkkR8YqeL+39mOuqV0dRR/jPl3
+					84dj2kbCT0/rIxEmnpfkUvbecYNKR0OczBdc
+					UqRXM818HLyN7NtZU0e/Nl543/hTYpGSc9ZF
+					vLq3BTW3j8OohpjJtiufTNyWTspe+uikOOCv
+					E9S93Sn5uMljgjPnMlFbpM3bzhn7mojRoDCf
+					/TtoPJQPX9TYse7A3NBm0LVPuEKsA48f8VKs
+					0UxZdbEB9HWRUf/I1pj6FtB3p/BgnLZsWjKU
+					jRFoxwA0+ht6BS9N8kLjzb+hALzyIldr6z4U
+					uZOMy0zkenFiedwB10eSZSYLUDMI5j2yPHbM
+					se8qDlPKYWpvP2uUrrGGafWi5fCpHyEl6ddR
+					u+Vrmwl7ObkQ5AX4rhl4PBjyGLBVp4aYI7+v
+					qP6qXmgx2auIsR4CGsR5lM70U/7hJlV9umuE
+					slzLKrc9PWkgZlorOTHoQhaS6v4u+PKiABCm
+					8pbyiFeLQBl/q5SMJCc+oer2KMdlGC3kMaDT
+					+Uv/AOthNT6wB3xbNVfeIcUsZ/4tBLYuEvvh
+					dArw6TU5AwSN8FMJhzd7xiEodDh1MmpIh5c= )
+ns02.dane-diff-usage.security-protocol.com. 1 IN A 34.219.137.44
+			1	RRSIG	A 10 4 1 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					R8qhUQV26YIUh35mU3ec2EjnihGsXEBPpkCB
+					K0XyAqF09DtV6R2bV8YRxnO5fW9e+XZSBAGu
+					4Bp7xz+0HzTzjKBh8XmL+bmnBRIgUdVP72hh
+					AoijtnklozorpRCfCHMFFYMtY8x14BLJlq/p
+					VzYtT0efn1qoYWDp30o5f2LG/r4UdLDhHR7B
+					0DqUTuL7LUx/R7Kj4+nQM0k1oiUnr15b5D8r
+					Qzqr+e49vzMkQM50MCAZhge+JyvuL73j0FC8
+					2Xis+FxiyGkDbqhWpdIWkdbbpmE255rw56aW
+					CjP5XRv+QlRl7TMeRGop1DjmNsTWc4f6xqEJ
+					dYixrId6kMSmQr7G+Mt/eqlohpkQR7Q+a9uy
+					GLl8TOJTq+aVpwcRvdQiQ/111+yZkOP1y5Ch
+					b+V+4/pVZtnx9N5SaFv5bmHaG7NnjNDQIugp
+					LPWE3Yk/COSnJY0GGo/+SQj60nxE5tbBfRcq
+					nqCMQucQvCPvUEY0m9gHO24Zkw8ihS+HEbtE
+					cndvqEmVjiHyWqybWmuD6e8L7EM3aReo9r/c
+					6yyhXNzytJDqxy5ayumwI9PLT/7DTu1qEXFB
+					BwR3i7oTUQ6z4l6N1wgEgv8SpmuoZUHaYxd+
+					TPgIQqvJj3c7QWpMPi5ilAO4asBmqAvKEFdR
+					IIAl8q6g9FD56Cn+BtjjhT4QpX46HMnemck= )
+			604800	NSEC	dane-diff-usage.security-protocol.com. A RRSIG NSEC
+			604800	RRSIG	NSEC 10 4 604800 (
+					20190525095355 20190425095355 17837 dane-diff-usage.security-protocol.com.
+					XD3YMeAFDFAKMLxjckETZGD47jhiTdCC/WYj
+					7ylQ20ajfbR7jc7rjebvrSEIS4OSZgVQ0v6A
+					X1NpHZ3E43/8JncfPig2xyGbtdqJhfs4+86v
+					ifnYV9xb/mLYc5TQZftzcshHfdN1QW+ofS0e
+					rGHuaSZtUTrrehFHBGS4NS8LCSsVgfeusuGT
+					2ZJNZz5VHFpd106kAg8+6AHRsMYBPlnljPT8
+					ToNsA1elgWObLxuElCH+3EPdb9vn59jBsgEk
+					ZwySv+zSPRIuXQFxa2/1tAwNJkte1P4JNCn5
+					t8AbTrBXxYwdfRHl4nRwiEGbS060VfwJWgHP
+					VN7odz8PpeXtdVe/y4egPd91O+DgTBCNWngF
+					DK1HDNKe57PziT4/RYTx/3/gnc5eXWQLXswy
+					cz8Q4bYv2GWu4Up5On5qwHY6jFw0q1bIth9K
+					nhSo76ZwX6zF+RxRKJiDwU7xTg05p3n5GKg+
+					WCzCdiOlHiuMrhgTkR9XW52BjMS1HJWUUU1z
+					Aesm71UvyCw2YeZQJ3VmLdMs8MWVVo5ttTPd
+					VTpVd2A5WYxNwhEP56DsZhrZ5skUiax3Thrn
+					8UeqX7sHWX1ka/blJv2Ovvt0d1mFQ1glnkW4
+					ZSjKw0fgnNlmLeheuFk8LJ0eaQ151ZfuXHqk
+					YpS+czjcaCwtbOMZjosEGyt+EAwRf6vPOgA= )

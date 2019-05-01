@@ -1,0 +1,8 @@
+mail.security-protocol.com /etc/letsencrypt/live/security-protocol.com/privkey.pem /etc/letsencrypt/live/security-protocol.com/fullchain.pem
+mail.valid.security-protocol.com /etc/letsencrypt/live/valid.security-protocol.com/privkey.pem /etc/letsencrypt/live/valid.security-protocol.com/fullchain.pem
+mail.different-cert.security-protocol.com /etc/letsencrypt/live/security-protocol.com/privkey.pem /etc/letsencrypt/live/security-protocol.com/fullchain.pem
+mail.missing-ds.security-protocol.com /etc/letsencrypt/live/missing-ds.security-protocol.com/privkey.pem /etc/letsencrypt/live/missing-ds.security-protocol.com/fullchain.pem
+mail.wrong-signature.security-protocol.com /etc/letsencrypt/live/wrong-signature.security-protocol.com/privkey.pem /etc/letsencrypt/live/wrong-signature.security-protocol.com/fullchain.pem
+mail.missing-signature.security-protocol.com /etc/letsencrypt/live/missing-signature.security-protocol.com/privkey.pem /etc/letsencrypt/live/missing-signature.security-protocol.com/fullchain.pem
+mail.dane-diff-usage.security-protocol.com /etc/letsencrypt/live/dane-diff-usage.security-protocol.com/privkey.pem /etc/letsencrypt/live/dane-diff-usage.security-protocol.com/fullchain.pem
+mail.dane-diff-selector.security-protocol.com /etc/letsencrypt/live/dane-diff-selector.security-protocol.com/privkey.pem /etc/letsencrypt/live/dane-diff-selector.security-protocol.com/fullchain.pem

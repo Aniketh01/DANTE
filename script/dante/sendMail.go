@@ -38,7 +38,6 @@ func getAuth() (username, password string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-
 	var sender Sender
 	decoder := json.NewDecoder(file)
 	if err := decoder.Decode(&sender); err != nil {
@@ -49,8 +48,7 @@ func getAuth() (username, password string) {
 }
 
 //sendMail iterates through each SMTPServer and sends the email to the Reciever.
-func sendMail(Recv []string, Subject, bodyMessage string) {
-	var sender Sender
+func (sender Sender) sendMail(Recv []string, Subject, bodyMessage string) {
 	msg := "From: " + sender.UserEmail + "\n" +
 		"To: " + strings.Join(Recv, ",") + "\n" +
 		"Subject: " + Subject + "\n" + bodyMessage

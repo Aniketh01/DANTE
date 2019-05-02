@@ -29,7 +29,7 @@ func newSender(username, password string) Sender {
 
 // getAuth takes the user email and password from the config.json
 func getAuth() (username, password string) {
-	file, err := os.Open("/home/aniketh/go/src/github.com/Aniketh01/DANTE/script/config.json")
+	file, err := os.Open("config.json")
 
 	if err != nil {
 		log.Fatal(err)

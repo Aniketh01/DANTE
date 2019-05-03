@@ -4,15 +4,15 @@ func main() {
 
 	//The receiver needs to be in slice as the receive is our multiple servers
 	Receiver := []string{
-		"security-protocol.com",
-		"valid.security-protocol.com",
-		"wrong-signature.security-protocol.com",
-		"missing-signature.security-protocol.com",
-		"different-cert.security-protocol.com",
-		"no-cert-starttls.security-protocol.com",
-		"missing-ds.security-protocol.com",
-		"dane-diff-usage.security-protocol.com",
-		"dane-diff-selector.security-protocol.com",
+		"ubuntu@security-protocol.com",
+		"ubuntu@valid.security-protocol.com",
+		"ubuntu@wrong-signature.security-protocol.com",
+		"ubuntu@missing-signature.security-protocol.com",
+		"ubuntu@different-cert.security-protocol.com",
+		"ubuntu@no-cert-starttls.security-protocol.com",
+		"ubuntu@missing-ds.security-protocol.com",
+		"ubuntu@dane-diff-usage.security-protocol.com",
+		"ubuntu@dane-diff-selector.security-protocol.com",
 	}
 
 	user, pass := getAuth()

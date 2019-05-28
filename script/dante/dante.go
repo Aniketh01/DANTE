@@ -1,7 +1,27 @@
 package main
 
-func main() {
+import flag "github.com/spf13/pflag"
 
+type danteOpts struct {
+	emailaddr  string
+	password   string
+	SMTPServer string
+	port       string
+}
+
+func initFlags() *danteOpts {
+	opts := new(danteOpts)
+
+	flag.StringVar(&opts.emailaddr, "email", "email address", "Client email address")
+	flag.StringVar(&opts.password, "password", "password", "client password")
+	flag.StringVar(&opts.SMTPServer, "server", "server", "client server that we are trying to connect")
+	flag.StringVar(&opts.port, "port", "465", "port number of the client server that we wish to connect")
+	flag.Parse()
+
+	return opts
+}
+
+func main() {
 	//The receiver needs to be in slice as the receive is our multiple servers
 	Receiver := []string{
 		"ubuntu@security-protocol.com",
@@ -14,9 +34,6 @@ func main() {
 		"ubuntu@dane-diff-usage.security-protocol.com",
 		"ubuntu@dane-diff-selector.security-protocol.com",
 	}
-
-	user, pass := getAuth()
-	sender := newSender(user, pass)
 
 	Subject := "Busted environment testing mail"
 
@@ -35,6 +52,6 @@ func main() {
 	</body>
 	</html> `
 
-	bodyMessage := sender.WriteHTMLEmail(Receiver, Subject, Message)
-	sender.sendMail(Receiver, Subject, bodyMessage)
+	bodyMessage := WriteHTMLEmail(Receiver, Subject, Message)
+	sendMail(Receiver, Subject, bodyMessage)
 }

@@ -11,14 +11,14 @@ import (
 var opt = initFlags()
 
 //sendMail iterates through each SMTPServer and sends the email to the Reciever.
-func sendMail(Recv []string, Subject, bodyMessage string) {
+func sendMail(Subject, bodyMessage string) {
 	msg := "From: " + opt.emailaddr + "\n" +
-		"To: " + strings.Join(Recv, ",") + "\n" +
+		"To: " + strings.Join([]string{opt.Receiver}, ",") + "\n" +
 		"Subject: " + Subject + "\n" + bodyMessage
 
 	err := smtp.SendMail(opt.SMTPServer+":"+opt.port,
 		smtp.PlainAuth("", opt.emailaddr, opt.password, opt.SMTPServer),
-		opt.emailaddr, Recv, []byte(msg))
+		opt.emailaddr, []string{opt.Receiver}, []byte(msg))
 
 	if err != nil {
 		fmt.Printf("smtp error: %s%s%s", err, opt.SMTPServer, opt.port)
@@ -29,15 +29,13 @@ func sendMail(Recv []string, Subject, bodyMessage string) {
 }
 
 //WriteEmail writes the entire Email to be send
-func WriteEmail(dest []string, contentType, subject, bodyMessage string) string {
+func WriteEmail(contentType, subject, bodyMessage string) string {
 	header := make(map[string]string)
 	header["From"] = opt.emailaddr
 
 	receipient := ""
 
-	for _, user := range dest {
-		receipient = receipient + user
-	}
+	receipient = receipient + opt.Receiver
 
 	header["To"] = receipient
 	header["Subject"] = subject
@@ -64,13 +62,13 @@ func WriteEmail(dest []string, contentType, subject, bodyMessage string) string 
 }
 
 //WriteHTMLEmail writes the email in text/html format
-func WriteHTMLEmail(dest []string, subject, bodyMessage string) string {
+func WriteHTMLEmail(subject, bodyMessage string) string {
 
-	return WriteEmail(dest, "text/html", subject, bodyMessage)
+	return WriteEmail("text/html", subject, bodyMessage)
 }
 
 //WritePlainEmail writes the email in text/plain format
-func WritePlainEmail(dest []string, subject, bodyMessage string) string {
+func WritePlainEmail(subject, bodyMessage string) string {
 
-	return WriteEmail(dest, "text/plain", subject, bodyMessage)
+	return WriteEmail("text/plain", subject, bodyMessage)
 }

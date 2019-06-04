@@ -30,6 +30,7 @@ func initFlags() *danteOpts {
 func main() {
 	//The receiver needs to be in slice as the receive is our multiple servers
 
+	getLog()
 	Subject := "Busted environment testing mail"
 
 	Message := `

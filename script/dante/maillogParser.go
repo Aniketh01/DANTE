@@ -4,27 +4,50 @@ import (
 	"fmt"
 	"io"
 	"os"
+	// "github.com/k0kubun/pp"
+	// postfixlog "github.com/youyo/postfix-log-parser"
 )
 
 var (
 	//DEFINE FLAG DEFAULTS
-	filename = "/var/log/mail.log"
-	numLines = 10
+	filename = "mail.log"
+	numLines = 25
 )
 
-func getLog() {
-	text, err := GoTail(filename, numLines)
+// writes the log to a new file
+func writeLog() {
+	f, err := os.Create(opt.Receiver + "_log.txt")
 	if err != nil {
 		fmt.Println(err)
 		return
 	}
+	text := getLog()
+	l, err := f.WriteString(text)
+	if err != nil {
+		fmt.Println(err)
+		f.Close()
+		return
+	}
+	fmt.Println(l, "bytes written successfully")
+	err = f.Close()
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+}
 
-	//DONE
-	fmt.Print(text)
-	return
+func getLog() string {
+	text, err := GoTail(filename, numLines)
+	if err != nil {
+		fmt.Println(err)
+	}
+	return text
 }
 
 // func parsePostfixLog() {
+// 	fmt.Println(getLog())
+// 	textByte := []byte("Jun  5 02:48:58 security-protocol postfix/smtpd[16035]: connect from mail-wm1-f54.google.com[209.85.128.54]")
+
 // 	p := postfixlog.NewPostfixLog()
 // 	logFormat, _ := p.Parse(textByte)
 // 	pp.Println(logFormat)

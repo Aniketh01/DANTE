@@ -11,7 +11,7 @@ import (
 var opt = initFlags()
 
 //sendMail iterates through each SMTPServer and sends the email to the Reciever.
-func sendMail(Subject, bodyMessage string) {
+func sendMail(Subject, bodyMessage string) error {
 	msg := "From: " + opt.emailaddr + "\n" +
 		"To: " + strings.Join([]string{opt.Receiver}, ",") + "\n" +
 		"Subject: " + Subject + "\n" + bodyMessage
@@ -21,11 +21,12 @@ func sendMail(Subject, bodyMessage string) {
 		opt.emailaddr, []string{opt.Receiver}, []byte(msg))
 
 	if err != nil {
-		fmt.Printf("smtp error: %s%s%s", err, opt.SMTPServer, opt.port)
-		return
+		fmt.Printf("An smtp error: %s %s: %s\n", err, opt.SMTPServer, opt.port)
+		return err
 	}
 
 	fmt.Printf("Mail sent successfully from %s:\n", opt.SMTPServer)
+	return err
 }
 
 //WriteEmail writes the entire Email to be send

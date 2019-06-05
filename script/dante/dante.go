@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"time"
 
 	flag "github.com/spf13/pflag"
 )
@@ -30,7 +31,6 @@ func initFlags() *danteOpts {
 func main() {
 	//The receiver needs to be in slice as the receive is our multiple servers
 
-	getLog()
 	Subject := "Busted environment testing mail"
 
 	Message := `
@@ -50,5 +50,11 @@ func main() {
 
 	fmt.Println(opt.Receiver)
 	bodyMessage := WriteHTMLEmail(Subject, Message)
-	sendMail(Subject, bodyMessage)
+	err := sendMail(Subject, bodyMessage)
+
+	if err == nil {
+		time.Sleep(100)
+		fmt.Println("writting the log...!")
+		writeLog()
+	}
 }

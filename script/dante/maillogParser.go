@@ -4,12 +4,14 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"time"
 	// "github.com/k0kubun/pp"
 	// postfixlog "github.com/youyo/postfix-log-parser"
 )
 
 var (
 	//DEFINE FLAG DEFAULTS
+	//filename = "/var/log/mail.log"
 	filename = "mail.log"
 	numLines = 25
 )
@@ -37,6 +39,8 @@ func writeLog() {
 }
 
 func getLog() string {
+	fmt.Printf("Before getting the log parsed, wait for 100 seconds")
+	time.Sleep(100 * time.Second)
 	text, err := GoTail(filename, numLines)
 	if err != nil {
 		fmt.Println(err)

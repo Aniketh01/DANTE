@@ -53,5 +53,6 @@ func main() {
 	if err == nil {
 		fmt.Println("writting the log...!")
 		writeLog()
+		initLogParse(filewritten)
 	}
 }

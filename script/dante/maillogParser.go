@@ -5,20 +5,18 @@ import (
 	"io"
 	"os"
 	"time"
-	// "github.com/k0kubun/pp"
-	// postfixlog "github.com/youyo/postfix-log-parser"
 )
 
 var (
-	//DEFINE FLAG DEFAULTS
-	//filename = "/var/log/mail.log"
-	filename = "mail.log"
-	numLines = 25
+	filename = "/var/log/mail.log"
+	//filename    = "mail.log"
+	numLines    = 25
+	filewritten = opt.Receiver + "_log.txt"
 )
 
 // writes the log to a new file
 func writeLog() {
-	f, err := os.Create(opt.Receiver + "_log.txt")
+	f, err := os.Create(filewritten)
 	if err != nil {
 		fmt.Println(err)
 		return
@@ -40,22 +38,13 @@ func writeLog() {
 
 func getLog() string {
 	fmt.Printf("Before getting the log parsed, wait for 100 seconds")
-	time.Sleep(100 * time.Second)
+	time.Sleep(10 * time.Second)
 	text, err := GoTail(filename, numLines)
 	if err != nil {
 		fmt.Println(err)
 	}
 	return text
 }
-
-// func parsePostfixLog() {
-// 	fmt.Println(getLog())
-// 	textByte := []byte("Jun  5 02:48:58 security-protocol postfix/smtpd[16035]: connect from mail-wm1-f54.google.com[209.85.128.54]")
-
-// 	p := postfixlog.NewPostfixLog()
-// 	logFormat, _ := p.Parse(textByte)
-// 	pp.Println(logFormat)
-// }
 
 // GoTail function reads from the last line of the file that is parsed.
 // Thanks to: https://stackoverflow.com/questions/52247755/remove-first-n-lines-of-file

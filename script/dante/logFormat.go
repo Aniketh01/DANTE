@@ -1,67 +1,95 @@
 package main
 
 import (
+	"bytes"
+	"encoding/json"
+	"fmt"
+	"io/ioutil"
+	"log"
+	"os"
 	"regexp"
-	"time"
 )
 
 const (
 	TimeFormat                 = "Jan  2 15:04:05"
 	TimeRegexpFormat           = `([A-Za-z]{3}\s*[0-9]{1,2} [0-9]{2}:[0-9]{2}:[0-9]{2})`
-	HostRegexpFormat           = `([0-9A-Za-z\.]*)`
-	ProcessRegexpFormat        = `(postfix/[a-z]*\[[0-9]{1,5}\])?`
-	QueueIdRegexpFormat        = `([0-9A-Z]*)`
-	MessageDetailsRegexpFormat = `((?:client=(.+)\[(.+)\])?(?:message-id=<(.+)>)?(?:from=<(.+@.+)>)?(?:to=<(.+@.+)>.*status=([a-z]+))?.*)`
-	RegexpFormat               = TimeRegexpFormat + ` ` + HostRegexpFormat + ` ` + ProcessRegexpFormat + `: ` + QueueIdRegexpFormat + `(?:\: )?` + MessageDetailsRegexpFormat
+	HostRegexpFormat           = `(\w+)-(\w+)`
+	senderRegexpFormat         = `(from=<)([\w\.-]+@[\w\.-]+)(>)`
+	receiveRegexpFormat        = `(to=<)([\w\.-]+@[\w\.-]+)(>)`
+	clientHostnameRegexpFormat = `client=(?:[-\w.]|(?:%[\da-fA-F]{2}))+`
+	ipaddrRegexpFormat         = `\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b`
+	messageRegexpFormat        = `(message-id=<)([\w\.-]+@[\w\.-]+)(>)`
+	statusRegexpFormat         = `status=(\w+)`
+	elhoRegexpFormat           = `ehlo=(\w+)`
+	starttlsRegexpFormat       = `starttls=(\w+)`
+	rcptRegexpFormat           = `rcpt=(\w+)`
+	dataRegexpFormat           = `data=(\w+)`
+	quitRegexpFormat           = `quit=(\w+)`
+	commandRegexpFormat        = `commands=(\w+)`
 )
 
 type (
-	PostfixLog struct {
-		LogFormat LogFormat
-		Regexp    *regexp.Regexp
-	}
-
 	LogFormat struct {
-		Time           *time.Time `json:"time"`
-		Hostname       string     `json:"hostname"`
-		Process        string     `json:"process"`
-		QueueId        string     `json:"queue_id"`
-		Messages       string     `json:"messages"`
-		ClientHostname string     `json:"client_hostname"`
-		ClinetIp       string     `json:"client_ip"`
-		MessageId      string     `json:"message_id"`
-		From           string     `json:"from"`
-		To             string     `json:"to"`
-		Status         string     `json:"status"`
+		Time     string `json:"time"`
+		Hostname string `json:"hostname"`
+		From     string `json:"from"`
+
+		ClientHostname string `json:"client_hostname"`
+		ClinetIP       string `json:"client_ip"`
+		MessageID      string `json:"message_id"`
+		To             string `json:"to"`
+		Status         string `json:"status"`
+		Ehlo           string `json:"ehlo"`
+		Starttls       string `json:"starttls"`
+		Rcpt           string `json:"rcpt"`
+		Data           string `json:"data"`
+		Quit           string `json:"quit"`
+		Commands       string `json:"commands"`
 	}
 )
 
-func NewPostfixLog() *PostfixLog {
-	return &PostfixLog{
-		Regexp: regexp.MustCompile(RegexpFormat),
-	}
+func JSONMarshal(t interface{}) ([]byte, error) {
+	buffer := &bytes.Buffer{}
+	encoder := json.NewEncoder(buffer)
+	encoder.SetIndent("", "    ")
+	encoder.SetEscapeHTML(false)
+	err := encoder.Encode(t)
+	return buffer.Bytes(), err
 }
 
-func (p *PostfixLog) Parse(text []byte) (LogFormat, error) {
-	re := p.Regexp.Copy()
-	group := re.FindSubmatch(text)
-	t, err := time.ParseInLocation(TimeFormat, string(group[1]), time.Local)
+func initLogParse(filename string) {
+
+	bytes, err := ioutil.ReadFile(filename)
 	if err != nil {
-		return LogFormat{}, err
+		log.Fatal(err)
+	}
+	logFormat, err := Parse(bytes)
+	if err != nil {
+		fmt.Errorf("parse error")
+		os.Exit(1)
 	}
 
+	data, _ := JSONMarshal(logFormat)
+
+	fmt.Print(string(data))
+}
+
+func Parse(text []byte) (LogFormat, error) {
 	logFormat := LogFormat{
-		Time:           &t,
-		Hostname:       string(group[2]),
-		Process:        string(group[3]),
-		QueueId:        string(group[4]),
-		Messages:       string(group[5]),
-		ClientHostname: string(group[6]),
-		ClinetIp:       string(group[7]),
-		MessageId:      string(group[8]),
-		From:           string(group[9]),
-		To:             string(group[10]),
-		Status:         string(group[11]),
+		Time:           string(regexp.MustCompile(TimeRegexpFormat).Find(text)),
+		Hostname:       string(regexp.MustCompile(HostRegexpFormat).Find(text)),
+		ClientHostname: string(regexp.MustCompile(clientHostnameRegexpFormat).Find(text)),
+		ClinetIP:       string(regexp.MustCompile(ipaddrRegexpFormat).Find(text)),
+		From:           string(regexp.MustCompile(senderRegexpFormat).Find(text)),
+		To:             string(regexp.MustCompile(receiveRegexpFormat).Find(text)),
+		MessageID:      string(regexp.MustCompile(messageRegexpFormat).Find(text)),
+		Status:         string(regexp.MustCompile(statusRegexpFormat).Find(text)),
+		Ehlo:           string(regexp.MustCompile(elhoRegexpFormat).Find(text)),
+		Starttls:       string(regexp.MustCompile(starttlsRegexpFormat).Find(text)),
+		Rcpt:           string(regexp.MustCompile(rcptRegexpFormat).Find(text)),
+		Data:           string(regexp.MustCompile(dataRegexpFormat).Find(text)),
+		Quit:           string(regexp.MustCompile(quitRegexpFormat).Find(text)),
+		Commands:       string(regexp.MustCompile(commandRegexpFormat).Find(text)),
 	}
 
 	return logFormat, nil
